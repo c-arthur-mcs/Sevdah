@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../Sevdah/Schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<poem uid="Emina">
+    <meta>
+        <title>Емина</title>
+        <author type="poet"></author>
+    </meta>
+    <body><stanza>
+        <verse><origin language="slavic">Синоћ</origin> кад се <origin language="slavic"
+                >враћах</origin> из <origin language="slavic">топла</origin>
+            <origin language="turkic">хамама</origin>,</verse>
+        <verse><origin language="slavic">Прођох</origin>
+            <origin language="slavic">покрај</origin>
+            <origin language="turkic">башче</origin>
+            <origin language="slavic">старога</origin>
+            <origin language="turkic">имама</origin>. </verse>
+        <verse>Кад таму у <origin language="turkic">башчи</origin>, у <origin langauge="slavic"
+                >хладу</origin>
+            <origin language="turkic">јасмина</origin>
+        </verse>
+        <verse>С <origin language="turkic">ибриком</origin> у <origin language="slavic"
+                >руци</origin>
+            <origin language="slavic">стајаше</origin> Емина.</verse>
+    </stanza>
+    <stanza>
+        <verse>Ја каква је <origin language="unknown">пуста</origin>! Таки ми <origin
+                language="unknown">имана</origin>,</verse>
+        <verse><origin language="slavic">Стид</origin> је не би било да је код <origin
+                language="turkic">султана</origin>.</verse>
+        <verse>Па још када <origin language="slavic">шеће</origin> и <origin language="slavic"
+                >плећима</origin>
+            <origin language="slavic">креће</origin>,</verse>
+        <verse>Ни <origin language="turkic">хоџин</origin> ми <origin language="slavic"
+                >запис</origin> више <origin language="slavic">помоћ</origin>' неће!</verse>
+    </stanza>
+    <stanza>
+        <verse>Ја јој <origin language="slavic">назвах</origin>
+            <origin language="turkic">селам</origin>. Ал' мога ми <origin language="turkic"
+                >дина</origin>,</verse>
+        <verse>Не <origin language="unknown">шће</origin> ни да <origin language="slavic"
+                >чује</origin>
+            <origin language="slavic">лијепа</origin> Емина,</verse>
+        <verse>Већ у <origin language="slavic">сребрн</origin>
+            <origin language="turkic">ибрик</origin>
+            <origin language="slavic">захватила</origin>
+            <origin language="slavic">воде</origin>,</verse>
+        <verse>Па низ <origin language="turkic">башчу</origin>
+            <origin language="turkic">ђуле</origin>
+            <origin language="slavic">заљевати</origin>
+            <origin language="slavic">оде</origin>.</verse>
+    </stanza>
+    <stanza>
+        <verse>С <origin language="slavic">грана</origin>
+            <origin language="slavic">вјетар</origin>
+            <origin language="slavic">пухну</origin>, па низ <origin language="slavic"
+                >плећи</origin>
+            <origin language="slavic">пусте</origin></verse>
+        <verse><origin language="slavic">Расплете</origin> јој њене <origin language="slavic"
+                >плетенице</origin>
+            <origin language="slavic">густе</origin>.</verse>
+        <verse><origin language="greek">Замириса</origin>
+            <origin language="slavic">коса</origin>, к'о <origin language="turkic">зумбули</origin>
+            <origin language="slavic">плави</origin>,</verse>
+        <verse>А мени се <origin language="slavic">крену</origin>
+            <origin language="turkic">бурурет</origin> у <origin language="slavic"
+            >глави</origin>!</verse>
+    </stanza>
+    <stanza>
+        <verse><origin language="slavic">Мало</origin> не <origin language="slavic"
+            >посрнух</origin>, мојега ми <origin language="turkic">дина</origin>,</verse>
+        <verse>Ал' мени не <origin language="slavic">дође</origin>
+            <origin language="slavic">лијепа</origin> Емина.</verse>
+        <verse><origin language="slavic">Само</origin> ме је <origin language="slavic"
+                >једном</origin>
+            <origin language="slavic">погледала</origin>
+            <origin language="slavic">мрко</origin>,</verse>
+        <verse>Нити <origin language="hungarian">хаје</origin>, <origin langugae="turkic"
+                >алчак</origin>, што за њоме <origin language="unknown">црко'</origin>!</verse>
+    </stanza></body>
+    <!-- I was interested to see how xml works with cyrillic, so I took a Bosnian poem which is part of the Sevdah genre, a Bosnian genre which takes some elements from Turkish language and tradition, and some from Slavic sources. I wanted to see how many words (excluding names and simple words, such as pronouns and prepositions) come from Slavic or Turkish sources.-->
+</poem>

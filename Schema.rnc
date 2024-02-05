@@ -1,0 +1,9 @@
+start = poem
+
+poem = element poem {meta, body}
+
+meta = element meta {title, author+}
+    title = element title {text}
+    # All sevdah has a title.
+    author = element author {type, text}
+        type = attribute type {"poet"|"performer"|"unknown"}
