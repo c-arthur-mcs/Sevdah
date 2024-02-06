@@ -1,9 +1,18 @@
 start = poem
 
-poem = element poem {meta, body}
+poem = element poem {uid, meta, body}
+    uid = attribute uid {text}
 
-meta = element meta {title, author+}
+meta = element meta {title, author+, year, url?}
     title = element title {text}
     # All sevdah has a title.
     author = element author {type, text}
         type = attribute type {"poet"|"performer"|"unknown"}
+    year = element year {xsd:int}
+    url = element url {text}
+
+body = element body {lg+}
+    lg = element lg {l+}
+        l = element l {origin+}
+            origin = element origin {language, text}
+                language = attribute language {"turkic"|"slavic"}
