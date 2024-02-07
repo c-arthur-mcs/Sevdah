@@ -3,18 +3,23 @@ start = poem
 poem = element poem {uid, meta, body}
     uid = attribute uid {text}
 
-meta = element meta {title, author+, year, url?}
+meta = element meta {title, author+, year, desc, url?}
     title = element title {title_bs, title_en}
     # All sevdah has a title. For ease of use of English speakers, this title should appear in two languages.
         title_bs = element title_bs {text}
         title_en = element title_en {text}
-    author = element author {type, text}
+    author = element author {type, lat, text}
         type = attribute type {"poet"|"performer"|"unknown"}
+        lat = attribute lat {text}
+        # This is the latinization of the name. This should be written in Bosnian Latin.
     year = element year {xsd:int}
+    desc = element desc {text}
+    # This element must contain which alphabet the work was written in, if any, and how the transcription was performed.
     url = element url {text}
 
 body = element body {lg+}
     lg = element lg {l+}
         l = element l {origin+}
-            origin = element origin {language, text}
-                language = attribute language {"turkic"|"slavic"}
+            origin = element origin {lang, text}
+                lang = attribute lang {"turkic"|"slavic"|"n/a"}
+                # "n/a" may reference anything which is not a word, or which does not have a valid word origin Ex."-"

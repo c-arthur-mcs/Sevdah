@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="">
+    <meta>
+        <title>
+            <title_bs>Емини</title_bs>
+            <title_en>Emini</title_en>
+        </title>
+        <author type="poet" lat="Osman Đikić">Осман Ђикић</author>
+        <year> </year>
+        <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971.</desc>
+        <url>https://archive.org/details/dikic-osman-sabrana-djela-pjesme-i-drame-1971./page/77/mode/2up</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="">Витка</origin>
+                <origin lang="">стаса,</origin>
+                <origin lang="">као</origin>
+                <origin lang="">јела</origin>
+            </l>
+            <l>
+                <origin lang="">У</origin>
+                <origin lang="">облаке</origin>
+                <origin lang="">што</origin>
+                <origin lang="">се</origin>
+                <origin lang="">вије,</origin>
+            </l>
+            <l>
+                <origin lang="">Обрашчића,</origin>
+                <origin lang="">на</origin>
+                <origin lang="">којима</origin>
+            </l>
+            <l>
+                <origin lang="">Расцвале</origin>
+                <origin lang="">се</origin>
+                <origin lang="">руже</origin>
+                <origin lang="">двије.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Очи</origin>
+                <origin lang="">твоје,</origin>
+                <origin lang="">очи</origin>
+                <origin lang="">чарне,</origin>
+            </l>
+            <l>
+                <origin lang="">Као</origin>
+                <origin lang="">јасне</origin>
+                <origin lang="">зв'језде</origin>
+                <origin lang="">сјају,</origin>
+            </l>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">сам</origin>
+                <origin lang="">срећа</origin>
+                <origin lang="">по</origin>
+                <origin lang="">сто</origin>
+                <origin lang="">пута</origin>
+            </l>
+            <l>
+                <origin lang="">Кад</origin>
+                <origin lang="">ме</origin>
+                <origin lang="">мило</origin>
+                <origin lang="">погледају.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Та</origin>
+                <origin lang="">дивна</origin>
+                <origin lang="">си</origin>
+                <origin lang="">ко</origin>
+                <origin lang="">хурија</origin>
+            </l>
+            <l>
+                <origin lang="">Понајљепша</origin>
+                <origin lang="">из</origin>
+                <origin lang="">џенета,</origin>
+            </l>
+            <l>
+                <origin lang="">Ти</origin>
+                <origin lang="">си</origin>
+                <origin lang="">мени</origin>
+                <origin lang="">Емо</origin>
+                <origin lang="">мила,</origin>
+            </l>
+            <l>
+                <origin lang="">Ц'јело</origin>
+                <origin lang="">благо</origin>
+                <origin lang="">овог</origin>
+                <origin lang="">св'јета.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Па</origin>
+                <origin lang="">још</origin>
+                <origin lang="">само</origin>
+                <origin lang="">кад</origin>
+                <origin lang="">помислим,</origin>
+            </l>
+            <l>
+                <origin lang="">Да</origin>
+                <origin lang="">си</origin>
+                <origin lang="">ћерка</origin>
+                <origin lang="">рода</origin>
+                <origin lang="">славна,</origin>
+            </l>
+            <l>
+                <origin lang="">Што</origin>
+                <origin lang="">се</origin>
+                <origin lang="">није</origin>
+                <origin lang="">препадао</origin>
+            </l>
+            <l>
+                <origin lang="">Најжешћијех</origin>
+                <origin lang="">од</origin>
+                <origin lang="">душмана.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">О,</origin>
+                <origin lang="">ја</origin>
+                <origin lang="">задем</origin>
+                <origin lang="">да</origin>
+                <origin lang="">ти</origin>
+                <origin lang="">срце</origin>
+            </l>
+            <l>
+                <origin lang="">За</origin>
+                <origin lang="">дом</origin>
+                <origin lang="">мили</origin>
+                <origin lang="">ув'јек</origin>
+                <origin lang="">бије,</origin>
+            </l>
+            <l>
+                <origin lang="">Да</origin>
+                <origin lang="">ти</origin>
+                <origin lang="">око</origin>
+                <origin lang="">због</origin>
+                <origin lang="">невоља</origin>
+            </l>
+            <l>
+                <origin lang="">Његовијех</origin>
+                <origin lang="">сузе</origin>
+                <origin lang="">лије.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Па</origin>
+                <origin lang="">зар</origin>
+                <origin lang="">има</origin>
+                <origin lang="">на</origin>
+                <origin lang="">свијету</origin>
+            </l>
+            <l>
+                <origin lang="">Срећнијега</origin>
+                <origin lang="">Аллах</origin>
+                <origin lang="">роба,</origin>
+            </l>
+            <l>
+                <origin lang="">Од</origin>
+                <origin lang="">Османа</origin>
+                <origin lang="">–</origin>
+                <origin lang="">усне</origin>
+                <origin lang="">твоје</origin>
+            </l>
+            <l>
+                <origin lang="">Што</origin>
+                <origin lang="">у</origin>
+                <origin lang="">свако</origin>
+                <origin lang="">људи</origin>
+                <origin lang="">доба!</origin>
+            </l>
+        </lg>
+    </body>
+
+</poem>
