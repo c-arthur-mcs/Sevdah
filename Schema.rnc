@@ -4,8 +4,10 @@ poem = element poem {uid, meta, body}
     uid = attribute uid {text}
 
 meta = element meta {title, author+, year, url?}
-    title = element title {text}
-    # All sevdah has a title.
+    title = element title {title_bs, title_en}
+    # All sevdah has a title. For ease of use of English speakers, this title should appear in two languages.
+        title_bs = element title_bs {text}
+        title_en = element title_en {text}
     author = element author {type, text}
         type = attribute type {"poet"|"performer"|"unknown"}
     year = element year {xsd:int}
