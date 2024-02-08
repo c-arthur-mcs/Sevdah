@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="">
+    <meta>
+        <title>
+            <title_bs>На Освитку Зоре</title_bs>
+            <title_en>At the Little Sunrise of the Star</title_en>
+        </title>
+        <author type="poet" lat="Osman Đikić">Осман Ђикић</author>
+        <year> </year>
+        <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971.</desc>
+        <url>https://archive.org/details/dikic-osman-sabrana-djela-pjesme-i-drame-1971./page/83/mode/2up</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">На</origin>
+                <origin lang="slavic">освитку</origin>
+                <origin lang="slavic">зоре</origin>
+                <origin lang="slavic">рујне,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">рујем</origin>
+                <origin lang="slavic">исток</origin>
+                <origin lang="slavic">лије,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Слушао</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">пјесму</origin>
+                <origin lang="slavic">слатку,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Што</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">мали</origin>
+                <origin lang="turkic">булбул</origin>
+                <origin lang="slavic">вије.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Слушао</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">опчаран</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Често</origin>
+                <origin lang="slavic">пута</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="">сио</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">мекану</origin>
+                <origin lang="slavic">дјетелину,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Те</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">пјесмом</origin>
+                <origin lang="slavic">заносио.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Али</origin>
+                <origin lang="slavic">јутро,</origin>
+                <origin lang="slavic">кад</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">чуо</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Твоје</origin>
+                <origin lang="">гласе,</origin>
+                <origin lang="slavic">чедо</origin>
+                <origin lang="slavic">моје,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Од</origin>
+                <origin lang="slavic">млађаних,</origin>
+                <origin lang="slavic">врелих</origin>
+                <origin lang="slavic">груди</origin>
+            </l>
+            <l>
+                <origin lang="">Отргло</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">срце</origin>
+                <origin lang="slavic">моје.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Отргло</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">отишло</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Са</origin>
+                <origin lang="slavic">рајскијем</origin>
+                <origin lang="slavic">гласом</origin>
+                <origin lang="slavic">твојим,</origin>
+            </l>
+            <l>
+                <origin lang="">И</origin>
+                <origin lang="">пред</origin>
+                <origin lang="">тобом</origin>
+                <origin lang="">ја</origin>
+                <origin lang="">без</origin>
+                <origin lang="">срца</origin>
+            </l>
+            <l>
+                <origin lang="">Ево,</origin>
+                <origin lang="">мила,</origin>
+                <origin lang="">сада</origin>
+                <origin lang="">стојим!</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Ох,</origin>
+                <origin lang="">врати</origin>
+                <origin lang="">ми</origin>
+                <origin lang="">срце</origin>
+                <origin lang="">моје,</origin>
+            </l>
+            <l>
+                <origin lang="">Ил'</origin>
+                <origin lang="">му</origin>
+                <origin lang="">гдјегод</origin>
+                <origin lang="">кутак</origin>
+                <origin lang="">пружи</origin>
+            </l>
+            <l>
+                <origin lang="">У</origin>
+                <origin lang="">анђелским</origin>
+                <origin lang="">твојим</origin>
+                <origin lang="">груд'ма!</origin>
+            </l>
+            <l>
+                <origin lang="n/a">-</origin>
+                <origin lang="">Б'једни</origin>
+                <origin lang="">Осман,</origin>
+                <origin lang="">да</origin>
+                <origin lang="">не</origin>
+                <origin lang="">тужи</origin>
+                <origin lang="n/a">-</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

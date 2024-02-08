@@ -21,5 +21,5 @@ body = element body {lg+}
     lg = element lg {l+}
         l = element l {origin+}
             origin = element origin {lang, text}
-                lang = attribute lang {"turkic"|"slavic"|"n/a"}
+                lang = attribute lang {"turkic"|"slavic"|"n/a"|"latin"}
                 # "n/a" may reference anything which is not a word, or which does not have a valid word origin Ex."-"
