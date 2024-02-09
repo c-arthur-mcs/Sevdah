@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="">
+    <meta>
+        <title>
+            <title_bs>Da sam ptica</title_bs>
+            <title_en>If I Were a Bird</title_en>
+        </title>
+        <author type="performer" lat="Silvana Armenulić">Silvana Armenulić</author>
+        <author type="poet" lat="Mustafa Mujezinović">Mustafa Mujezinović</author>
+        <year>1975</year>
+        <desc>Transcribed from Recording released in 1975, copyright Jugoton-Croatia Records.
+            Composer: Jovica Petković</desc>
+        <url>https://www.youtube.com/watch?v=Ww7GgXsyufE</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Da</origin>
+                <origin lang="slavic">sam</origin>
+                <origin lang="">ptica</origin>
+                <origin lang="">i</origin>
+                <origin lang="">da</origin>
+                <origin lang="">imam</origin>
+                <origin lang="">krila</origin>
+            </l>
+            <l>
+                <origin lang="">Ja</origin>
+                <origin lang="">bih</origin>
+                <origin lang="">cijelu</origin>
+                <origin lang="">Bosnu</origin>
+                <origin lang="">preletila</origin>
+            </l>
+            <l>
+                <origin lang="">Letila</origin>
+                <origin lang="">bih,</origin>
+                <origin lang="">nikad</origin>
+                <origin lang="">ne</origin>
+                <origin lang="">bih</origin>
+                <origin lang="">stala</origin>
+            </l>
+            <l>
+                <origin lang="">Dok</origin>
+                <origin lang="">se</origin>
+                <origin lang="">Bosne</origin>
+                <origin lang="">ne</origin>
+                <origin lang="">bih</origin>
+                <origin lang="">nagledala</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Nad</origin>
+                <origin lang="">Bosnom</origin>
+                <origin lang="">se</origin>
+                <origin lang="">planine</origin>
+                <origin lang="">izvile</origin>
+            </l>
+            <l>
+                <origin lang="">Zelenilom</origin>
+                <origin lang="">svu</origin>
+                <origin lang="">je</origin>
+                <origin lang="">otkitile</origin>
+            </l>
+            <l>
+                <origin lang="">Cvjetaj</origin>
+                <origin lang="">Bosno,</origin>
+                <origin lang="">u</origin>
+                <origin lang="">mirisu</origin>
+                <origin lang="">rudi</origin>
+            </l>
+            <l>
+                <origin lang="">Iz</origin>
+                <origin lang="">teb'</origin>
+                <origin lang="">i</origin>
+                <origin lang="">ja</origin>
+                <origin lang="">da</origin>
+                <origin lang="">napajam</origin>
+                <origin lang="">grudi</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Uvijek</origin>
+                <origin lang="">si</origin>
+                <origin lang="">mi</origin>
+                <origin lang="">kao</origin>
+                <origin lang="">što</origin>
+                <origin lang="">si</origin>
+                <origin lang="">bila</origin>
+            </l>
+            <l>
+                <origin lang="">Sva</origin>
+                <origin lang="">zelena,</origin>
+                <origin lang="">vesela</origin>
+                <origin lang="">i</origin>
+                <origin lang="">mila</origin>
+            </l>
+            <l>
+                <origin lang="">Tvoja</origin>
+                <origin lang="">pjesma</origin>
+                <origin lang="">nek'</origin>
+                <origin lang="">te</origin>
+                <origin lang="">uvijek</origin>
+                <origin lang="">krasi</origin>
+            </l>
+            <l>
+                <origin lang="">Zdravo</origin>
+                <origin lang="">Bosno,</origin>
+                <origin lang="">uvijek</origin>
+                <origin lang="">zdravo</origin>
+                <origin lang="">da</origin>
+                <origin lang="">si</origin>
+            </l>
+        </lg>
+    </body>
+</poem>
