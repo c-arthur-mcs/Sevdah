@@ -6,7 +6,7 @@ body {
 
 nav {
     width: 20%;
-    height: 750px;
+    height: 725px;
     background-color: #0174BE;
     position: sticky;
     top: 0px;
@@ -30,16 +30,25 @@ ul.navig {
     list-style-type: none;
     height: 65%;
     padding: 10px;
+    justify-content: space-around;
 }
 
-li {
+li.nav_button {
     max-width: 100%;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #0C356A;
+}
+
+li.nav_button:hover {
+    background-color: #0174BE;
 }
 
 a.nav_link {
     list-style-type: none;
     text-decoration: none;
-    color: black;
+    color: #FFC436;
     text-align: center;
 }
 
