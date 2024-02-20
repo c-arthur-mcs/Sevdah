@@ -19,10 +19,11 @@ nav {
 
 h1.website_title {
     background-color: #FFC436;
-    color: black;
+    color: #0C356A;
     padding: 10px;
     text-align: center;
     font-size: xx-large;
+    border: solid #0C356A 5px;
 }
 
 ul.navig {
@@ -69,6 +70,18 @@ ul.languages {
     background-color: #0C356A;
 }
 
+li.languages {
+    padding: 5px;
+}
+
+li.languages:hover {
+    background-color: #0174BE;
+}
+
+a.languages {
+    text-decoration: none;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -99,4 +112,26 @@ p {
 
 a {
     color: #FFC436;
+}
+
+li.directory {
+    max-width: 100%;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #0C356A;
+}
+
+a.directory {
+    list-style-type: none;
+    text-decoration: none;
+    color: #FFC436;
+    text-align: center;
+    padding: 5px;
+    background-color: #0174BE;
+}
+
+a.directory:hover {
+    background-color: #FFC436;
+    color: #0174BE;
 }
