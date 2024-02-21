@@ -21,5 +21,6 @@ body = element body {lg+}
     lg = element lg {l+}
         l = element l {origin+}
             origin = element origin {lang, text}
-                lang = attribute lang {"turkic"|"slavic"|"n/a"|"latin"}
+                lang = attribute lang {"turkic"|"slavic"|"n/a"|"latin"|"greek"|"hungarian"}
                 # "n/a" may reference anything which is not a word, or which does not have a valid word origin Ex."-"
+                # If the word is at all filtered through Old Church Slavonic, it is marked as "slavic", as this is how it entered Bosnian.
