@@ -135,3 +135,55 @@ a.directory:hover {
     background-color: #FFC436;
     color: #0174BE;
 }
+
+p.text_desc {
+    font-size: small;
+    padding: 0px;
+}
+
+div.options {
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    justify-content: center;
+    padding: 0px;
+}
+
+section.options {
+    display: flex;
+    justify-content: center;
+}
+
+h3.options {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul.options {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+li.options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section.text_window {
+    height: 450px;
+    overflow: auto;
+    padding: 10px;
+}
+
+h1.poem_title {
+    
+}
+
+ul.poem {
+    list-style-type: none;
+}
