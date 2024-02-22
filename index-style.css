@@ -94,6 +94,8 @@ h1.main_title {
 
 hr {
     background-color: #FFC436;
+    padding: 0px;
+    margin: 10px;
 }
 
 div.info {
@@ -166,12 +168,13 @@ ul.options {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 
 li.options {
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: justify;
 }
 
 section.text_window {
@@ -186,4 +189,8 @@ h1.poem_title {
 
 ul.poem {
     list-style-type: none;
+}
+
+li.space_line {
+    color: #0C356A;
 }
