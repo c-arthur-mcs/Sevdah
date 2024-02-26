@@ -159,6 +159,8 @@ div.options {
 section.options {
     display: flex;
     justify-content: center;
+    text-align: center;
+    top: 0px;
 }
 
 h3.options {
@@ -166,6 +168,7 @@ h3.options {
     padding: 0px;
     margin: 0px;
     text-align: center;
+    top: 0px;
 }
 
 ul.options {
