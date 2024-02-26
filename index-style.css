@@ -108,6 +108,11 @@ h2 {
     font-variant: small-caps;
 }
 
+p.subtitle {
+    font-variant: small-caps;
+    font-size: larger;
+}
+
 p {
     text-align: justify
 }
