@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="">
+    <meta>
+        <title>
+            <title_bs>Емина</title_bs>
+            <title_en>Emina</title_en>
+        </title>
+        <author type="poet" lat="Aleksa Šantič">Алекса Шантић</author>
+        <year/>
+        <desc>Text originally written in Bosnian Cyrillic. Published in Kolo, 1901.</desc>
+        <url>https://archive.org/details/kolo00ivgoog/page/134/mode/2up</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Синоћ,</origin>
+                <origin lang="slavic">кад</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">вратих</origin>
+                <origin lang="slavic">из</origin>
+                <origin lang="slavic">топла</origin>
+                <origin lang="slavic">амама,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Прођох</origin>
+                <origin lang="slavic">покрај</origin>
+                <origin lang="turkic">баште</origin>
+                <origin lang="turkic">Абдула</origin>
+                <origin lang="turkic">имама;</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="turkic">башти,</origin>
+                <origin lang="slavic">тамо,</origin>
+                <origin lang="slavic">гдје</origin>
+                <origin lang="greek">мирипе</origin>
+                <origin lang="turkic">игда,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Гдје</origin>
+                <origin lang="">'но</origin>
+                <origin lang="">булбул-пјесма</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">престаја</origin>
+                <origin lang="slavic">нигда,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Гдје</origin>
+                <origin lang="">шедрван</origin>
+                <origin lang="">прска</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">хладу</origin>
+                <origin lang="turkic">јасмина,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">С</origin>
+                <origin lang="">кондиром</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="">руци</origin>
+                <origin lang="slavic">стојаше</origin>
+                <origin lang="turkic">Емнина.</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ја,</origin>
+                <origin lang="slavic">каква</origin>
+                <origin lang="slavic">је,</origin>
+                <origin lang="">пуста,</origin>
+                <origin lang="slavic">тако</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="">амана,</origin>
+            </l>
+            <l>
+                <origin lang="">Стид</origin>
+                <origin lang="">је</origin>
+                <origin lang="">не</origin>
+                <origin lang="">би</origin>
+                <origin lang="">било</origin>
+                <origin lang="">да</origin>
+                <origin lang="">је</origin>
+                <origin lang="">код</origin>
+                <origin lang="">Султана!</origin>
+            </l>
+            <l>
+                <origin lang="">Та,</origin>
+                <origin lang="">када</origin>
+                <origin lang="">би</origin>
+                <origin lang="">Султан</origin>
+                <origin lang="">за</origin>
+                <origin lang="">Еминну</origin>
+                <origin lang="">знао,</origin>
+            </l>
+            <l>
+                <origin lang="">Би,</origin>
+                <origin lang="">валахи,</origin>
+                <origin lang="">за</origin>
+                <origin lang="">њу</origin>
+                <origin lang="">сто</origin>
+                <origin lang="">робиња</origin>
+                <origin lang="">дао!</origin>
+            </l>
+            <l>
+                <origin lang="">Та</origin>
+                <origin lang="">љепша</origin>
+                <origin lang="">је,</origin>
+                <origin lang="">бодан,</origin>
+                <origin lang="">од</origin>
+                <origin lang="">свих</origin>
+                <origin lang="">Шамских</origin>
+                <origin lang="">була,</origin>
+            </l>
+            <l>
+                <origin lang="">А</origin>
+                <origin lang="">бјеља</origin>
+                <origin lang="">је,</origin>
+                <origin lang="">беди,</origin>
+                <origin lang="">од</origin>
+                <origin lang="">бијелих</origin>
+                <origin lang="">ђула!</origin>
+            </l>
+            <l>
+                <origin lang="">Па</origin>
+                <origin lang="">још</origin>
+                <origin lang="">када</origin>
+                <origin lang="">шеће</origin>
+                <origin lang="">и</origin>
+                <origin lang="">плећима</origin>
+                <origin lang="">креће.</origin>
+                <origin lang="">...</origin>
+            </l>
+            <l>
+                <origin lang="">-</origin>
+                <origin lang="">Ни</origin>
+                <origin lang="">хоџин</origin>
+                <origin lang="">ми</origin>
+                <origin lang="">запис</origin>
+                <origin lang="">више</origin>
+                <origin lang="">помоћ</origin>
+                <origin lang="">неће!</origin>
+                <origin lang="">...</origin>
+            </l>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">јој</origin>
+                <origin lang="">назвах</origin>
+                <origin lang="">селам,</origin>
+                <origin lang="">ал',</origin>
+                <origin lang="">мога</origin>
+                <origin lang="">ми</origin>
+                <origin lang="">дина,</origin>
+            </l>
+            <l>
+                <origin lang="">Нешће</origin>
+                <origin lang="">ни</origin>
+                <origin lang="">да</origin>
+                <origin lang="">чује</origin>
+                <origin lang="">лијепа</origin>
+                <origin lang="">Емина,</origin>
+            </l>
+            <l>
+                <origin lang="">Но</origin>
+                <origin lang="">у</origin>
+                <origin lang="">златан</origin>
+                <origin lang="">пондир</origin>
+                <origin lang="">ухитила</origin>
+                <origin lang="">воде</origin>
+            </l>
+            <l>
+                <origin lang="">Па</origin>
+                <origin lang="">по</origin>
+                <origin lang="">башти</origin>
+                <origin lang="">шебој</origin>
+                <origin lang="">заљевати</origin>
+                <origin lang="">оде;</origin>
+            </l>
+            <l>
+                <origin lang="">Горњак</origin>
+                <origin lang="">вјетар</origin>
+                <origin lang="">духну</origin>
+                <origin lang="">па</origin>
+                <origin lang="">низ</origin>
+                <origin lang="">плећи</origin>
+                <origin lang="">пусте</origin>
+            </l>
+            <l>
+                <origin lang="">Расплјете</origin>
+                <origin lang="">јој</origin>
+                <origin lang="">оне</origin>
+                <origin lang="">плетинице</origin>
+                <origin lang="">густе,</origin>
+            </l>
+            <l>
+                <origin lang="">Замириса</origin>
+                <origin lang="">коса,</origin>
+                <origin lang="">замириса</origin>
+                <origin lang="">башта,</origin>
+            </l>
+            <l>
+                <origin lang="">А</origin>
+                <origin lang="">је</origin>
+                <origin lang="">се</origin>
+                <origin lang="">од</origin>
+                <origin lang="">дерта</origin>
+                <origin lang="">с</origin>
+                <origin lang="">дуњалуком</origin>
+                <origin lang="">прашта',</origin>
+            </l>
+            <l>
+                <origin lang="">Мало</origin>
+                <origin lang="">не</origin>
+                <origin lang="">посрнух,</origin>
+                <origin lang="">тако</origin>
+                <origin lang="">ми</origin>
+                <origin lang="">мог</origin>
+                <origin lang="">дина,</origin>
+            </l>
+            <l>
+                <origin lang="">Ал'</origin>
+                <origin lang="">мени</origin>
+                <origin lang="">не</origin>
+                <origin lang="">дође</origin>
+                <origin lang="">лијепа</origin>
+                <origin lang="">Емина.</origin>
+            </l>
+            <l>
+                <origin lang="">Само</origin>
+                <origin lang="">ме</origin>
+                <origin lang="">је</origin>
+                <origin lang="">једном</origin>
+                <origin lang="">погледала</origin>
+                <origin lang="">мрко,</origin>
+            </l>
+            <l>
+                <origin lang="">Нити</origin>
+                <origin lang="">хаје,</origin>
+                <origin lang="">алчак,</origin>
+                <origin lang="">што</origin>
+                <origin lang="">за</origin>
+                <origin lang="">њоме</origin>
+                <origin lang="">црко'!</origin>
+                <origin lang="">...</origin>
+            </l>
+        </lg>
+    </body>
+</poem>
