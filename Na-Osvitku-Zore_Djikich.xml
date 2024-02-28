@@ -9,7 +9,7 @@
         </title>
         <author type="poet" lat="Osman Đikić">Осман Ђикић</author>
         <year> </year>
-        <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971.</desc>
+        <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971. Found on page 34.</desc>
         <url>https://archive.org/details/dikic-osman-sabrana-djela-pjesme-i-drame-1971./page/83/mode/2up</url>
     </meta>
     <body>
@@ -111,49 +111,49 @@
                 <origin lang="slavic">твојим,</origin>
             </l>
             <l>
-                <origin lang="">И</origin>
-                <origin lang="">пред</origin>
-                <origin lang="">тобом</origin>
-                <origin lang="">ја</origin>
-                <origin lang="">без</origin>
-                <origin lang="">срца</origin>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">пред</origin>
+                <origin lang="slavic">тобом</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">без</origin>
+                <origin lang="slavic">срца</origin>
             </l>
             <l>
-                <origin lang="">Ево,</origin>
-                <origin lang="">мила,</origin>
-                <origin lang="">сада</origin>
-                <origin lang="">стојим!</origin>
+                <origin lang="turkic">Ево,</origin>
+                <origin lang="slavic">мила,</origin>
+                <origin lang="slavic">сада</origin>
+                <origin lang="slavic">стојим!</origin>
             </l>
         </lg>
 
         <lg>
             <l>
-                <origin lang="">Ох,</origin>
-                <origin lang="">врати</origin>
-                <origin lang="">ми</origin>
-                <origin lang="">срце</origin>
-                <origin lang="">моје,</origin>
+                <origin lang="n/a">Ох,</origin>
+                <origin lang="slavic">врати</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">срце</origin>
+                <origin lang="slavic">моје,</origin>
             </l>
             <l>
-                <origin lang="">Ил'</origin>
-                <origin lang="">му</origin>
+                <origin lang="slavic">Ил'</origin>
+                <origin lang="slavic">му</origin>
                 <origin lang="">гдјегод</origin>
-                <origin lang="">кутак</origin>
-                <origin lang="">пружи</origin>
+                <origin lang="slavic">кутак</origin>
+                <origin lang="slavic">пружи</origin>
             </l>
             <l>
-                <origin lang="">У</origin>
-                <origin lang="">анђелским</origin>
-                <origin lang="">твојим</origin>
-                <origin lang="">груд'ма!</origin>
+                <origin lang="slavic">У</origin>
+                <origin lang="latin">анђелским</origin>
+                <origin lang="slavic">твојим</origin>
+                <origin lang="slavic">груд'ма!</origin>
             </l>
             <l>
                 <origin lang="n/a">-</origin>
-                <origin lang="">Б'једни</origin>
-                <origin lang="">Осман,</origin>
-                <origin lang="">да</origin>
-                <origin lang="">не</origin>
-                <origin lang="">тужи</origin>
+                <origin lang="slavic">Б'једни</origin>
+                <origin lang="turkic">Осман,</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">тужи</origin>
                 <origin lang="n/a">-</origin>
             </l>
         </lg>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="">
+    <meta>
+        <title>
+            <title_bs>Кад ја пођох на Бембашу</title_bs>
+            <title_en>When I departed into Bembaša</title_en>
+        </title>
+        <author type="performer" lat="Himzo Polovina">Химзо Половина</author>
+        <year> </year>
+        <desc>Transcription from recording. Copyright: Jugoton-Croatia Records and Himzo Polovina</desc>
+        <url>https://www.youtube.com/watch?v=HzUE0U57jGc</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="">Кад</origin>
+                <origin lang="">ја</origin>
+                <origin lang="">пођох</origin>
+                <origin lang="">на</origin>
+                <origin lang="">Бембашу,</origin>
+            </l>
+            <l>
+                <origin lang="">На</origin>
+                <origin lang="">Бембашу</origin>
+                <origin lang="">на</origin>
+                <origin lang="">воду,</origin>
+            </l>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">поведох</origin>
+                <origin lang="">бјело</origin>
+                <origin lang="">јање,</origin>
+            </l>
+            <l>
+                <origin lang="">Бјело</origin>
+                <origin lang="">јање</origin>
+                <origin lang="">са</origin>
+                <origin lang="">собом,</origin>
+            </l>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">поведох</origin>
+                <origin lang="">бјело</origin>
+                <origin lang="">јање,</origin>
+            </l>
+            <l>
+                <origin lang="">Бјело</origin>
+                <origin lang="">јање</origin>
+                <origin lang="">са</origin>
+                <origin lang="">собом.</origin>
+            </l>
+        </lg>
+
+
+        <lg>
+            <l>
+                <origin lang="">Све</origin>
+                <origin lang="">дјевојке</origin>
+                <origin lang="">Бембашанке,</origin>
+            </l>
+            <l>
+                <origin lang="">На</origin>
+                <origin lang="">капији</origin>
+                <origin lang="">стајаху,</origin>
+            </l>
+            <l>
+                <origin lang="">Само</origin>
+                <origin lang="">моја</origin>
+                <origin lang="">мила</origin>
+                <origin lang="">драга</origin>
+            </l>
+            <l>
+                <origin lang="">На</origin>
+                <origin lang="">демирли</origin>
+                <origin lang="">пенџеру.</origin>
+            </l>
+            <l>
+                <origin lang="">Само</origin>
+                <origin lang="">моја</origin>
+                <origin lang="">мила</origin>
+                <origin lang="">драга</origin>
+            </l>
+            <l>
+                <origin lang="">На</origin>
+                <origin lang="">демирли</origin>
+                <origin lang="">пенџеру.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">јој</origin>
+                <origin lang="">рек'о</origin>
+                <origin lang="">добра</origin>
+                <origin lang="">вече</origin>
+            </l>
+            <l>
+                <origin lang="">Добра</origin>
+                <origin lang="">вече</origin>
+                <origin lang="">дјевоче</origin>
+            </l>
+            <l>
+                <origin lang="">Она</origin>
+                <origin lang="">мени</origin>
+                <origin lang="">дођ'</origin>
+                <origin lang="">довече,</origin>
+            </l>
+            <l>
+                <origin lang="">Дођ'</origin>
+                <origin lang="">довече</origin>
+                <origin lang="">дилберче,</origin>
+            </l>
+            <l>
+                <origin lang="">Она</origin>
+                <origin lang="">мени</origin>
+                <origin lang="">дођ'</origin>
+                <origin lang="">довече,</origin>
+            </l>
+            <l>
+                <origin lang="">Дођ'</origin>
+                <origin lang="">довече</origin>
+                <origin lang="">дилберче.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="">Ја</origin>
+                <origin lang="">не</origin>
+                <origin lang="">одох</origin>
+                <origin lang="">исто</origin>
+                <origin lang="">вече</origin>
+            </l>
+            <l>
+                <origin lang="">Већ</origin>
+                <origin lang="">ја</origin>
+                <origin lang="">одох</origin>
+                <origin lang="">рудила,</origin>
+            </l>
+            <l>
+                <origin lang="">Другог</origin>
+                <origin lang="">дана,</origin>
+                <origin lang="">моја</origin>
+                <origin lang="">драга,</origin>
+            </l>
+            <l>
+                <origin lang="">За</origin>
+                <origin lang="">другог</origin>
+                <origin lang="">се</origin>
+                <origin lang="">удала,</origin>
+            </l>
+            <l>
+                <origin lang="">Другог</origin>
+                <origin lang="">дана,</origin>
+                <origin lang="">моја</origin>
+                <origin lang="">драга,</origin>
+            </l>
+            <l>
+                <origin lang="">За</origin>
+                <origin lang="">другог</origin>
+                <origin lang="">се</origin>
+                <origin lang="">удала.</origin>
+            </l>
+        </lg>
+    </body>
+</poem>
