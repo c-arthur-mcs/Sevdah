@@ -2,13 +2,13 @@
 
 # General information
 
-### CONTRIBUTORS:
+## CONTRIBUTORS:
 
 Cody McSherry
  Dr. James Pickett
  (if consulted for difficult word origins:) Dr. Ljiljana Đurašković
 
-### INTRODUCTORY INFORMATION
+## INTRODUCTORY INFORMATION
 
 This project will examine the influence of Turkish language, especially Ottoman Turkish, on Bosnian literature by examining the song and poetry culture Sevdah, which refers to a genre characterized by the feeling of longing, especially of lost or impossible love.
 
@@ -20,7 +20,7 @@ The "texts" page gives the option to view the texts in either Cyrillic or Latin 
 
 The line between poetry and song is not the same in the Balkans as it is in the rest of the European context. The word for both poetry and song is actually the same in Bosnian, just as in Croatia, Serbian, Montegrin, and likely other Balkan languages, _pjesma_. Because of this overlap, these may be referred to as "songs" or "poems" in English, but truly they all encompass both. For the purposes of examining them in this project, the musical element must be removed so that the text can be examined, placing it within the European conception of "poetry," while its Balkan genre has not changed.
 
-# Plans for website
+## Plans for website
 
 - Pages
   - Home
@@ -45,52 +45,17 @@ The line between poetry and song is not the same in the Balkans as it is in the 
       - Most common words from Turkic roots?
       - Percentages per text?
       - Percentages overall?
-    - Words which are not examined
-      - Categorized – with explanations why
-        - Pronouns
-        - Prepositions
-        - _Biti_ or _ići_
-        - Grammatical particles particles
-          - da, li, pa etc.
-          - Generally words that serve a grammatical purpose and less of a textual purpose, thus NOT _baš, ama_
   - Conclusion
     - Summary of data gathered
     - Sources
+    
+## Next steps
 
-# General concerns
-
-- Words with similar character strings, but from different origins:
-  - _oko_ (eye – Slavic Root) V. _oka_ (coin, currency used in Ottoman Empire – Turkic Root)
-
-# Questions before project
-
-- What words to ignore
-  - Personal pronouns
-    - Clitic forms – YES
-    - Full forms – YES
-  - Interrogative pronouns
-    - _što, šta, ko_ –
-    - _kuda, gdje, kad, kada_ –
-    - _kako, Zašto_ –
-    - Negative compounds: _nigdje, nitko, ništa_ –
-    - Indefinite compounds: _negdje, netko, nešto_ –
-  - Forms of _biti_
-    - Clitic forms – YES
-    - Full forms – YES
-    - Negative forms – YES
-    - Possible full negative forms – YES
-  - Forms of _ići_
-    - Forms of impf. _ići_ –
-    - Forms of perf. _ići_ –
-    - Forms with -laz- –
-  - Prepositions
-  - Grammatical particles
-    - _li_ –
-    - _da_ –
-    - _pa_ (when used as filler, or non-prepositionally) –
-  - Conjunctions
-    - _i, ali, ili, a_ –
-  - Prepositions
-    - Directional: _u, na_ –
-    - Positional: _u, na, iznad_ –
-    - Relational: _pro, o_ –
+- Javascript for showing lang=bs and lang=en
+- More poems
+- Basic biographical information of text author
+    - place of origin
+    - timeline
+        - within empires
+        - general years
+    - performer / vocalist takes precedence over poet, since they are the most recent
