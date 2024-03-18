@@ -8,7 +8,8 @@
 | Emina | Aleksa Šantić | | questions | |
 | Emini | Osman Đikić | | questions | |
 | Kad ja pođoh na Bembašu | | Himzo Polovina | questions | |
-| Na osvitku zore | Osma Đikić | | questions | |
+| Na osvitku zore | Osman Đikić | | questions | |
+| Mladost | Aleksa Šantić | | questions | | 
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
