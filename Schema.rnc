@@ -15,7 +15,7 @@ meta = element meta {title, author+, year, desc, url?}
     year = element year {xsd:int}
     desc = element desc {text}
     # This element must contain which alphabet the work was written in, if any, and how the transcription was performed.
-    url = element url {text}
+    url = element url xt}
 
 body = element body {lg+}
     lg = element lg {l+}
