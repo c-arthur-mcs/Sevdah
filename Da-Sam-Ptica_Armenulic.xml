@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
-<poem uid="">
+<poem uid="mmsa001">
     <meta>
         <title>
             <title_bs>Da sam ptica</title_bs>
