@@ -10,7 +10,8 @@
 | Kad ja pođoh na Bembašu | | Himzo Polovina | questions | ..hp005 |
 | Na osvitku zore | Osman Đikić | | questions | od..005 |
 | Mladost | Aleksa Šantić | | questions | as..006 | 
-|U sevdahu | Musa Ćazim Ćatić | | in progress| mc..007 | 
+|U sevdahu | Musa Ćazim Ćatić | | questions | mc..007 | 
+|U zimskoj noći | Musa Ćazim Ćatić | | questions | mc..008 | 
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 

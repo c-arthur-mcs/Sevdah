@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="mc..008">
+    <meta>
+        <title>
+            <title_bs>U зимској ноћи</title_bs>
+            <title_en>In a winter's night</title_en>
+        </title>
+        <author type="poet" lat="Musa Ćazim Ćatić">Муса Ћазим Ћатић</author>
+        <year> </year>
+        <desc>Text originally written in Bosnian latin. Published in M. Ćazim Ćatić: Pjesme od
+            godine 1900. do 1908. (Prva knjiga) - 1914, pg. 91-2.</desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Глухо</origin>
+                <origin lang="slavic">доба.</origin>
+                <origin lang="slavic">Са</origin>
+                <origin lang="slavic">висине</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Владарица</origin>
+                <origin lang="slavic">тешке</origin>
+                <origin lang="slavic">тмине</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Распустила</origin>
+                <origin lang="slavic">црне</origin>
+                <origin lang="slavic">косе</origin>
+                <origin lang="n/a">–</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">кроз</origin>
+                <origin lang="slavic">њене</origin>
+                <origin lang="slavic">бурне</origin>
+                <origin lang="slavic">вале</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Вихори</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">биесни</origin>
+                <origin lang="slavic">шале</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">крилу</origin>
+                <origin lang="slavic">снијег</origin>
+                <origin lang="slavic">носе.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Лед</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">хвата</origin>
+                <origin lang="slavic">попут</origin>
+                <origin lang="slavic">стакла,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Природу</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">самрт</origin>
+                <origin lang="slavic">такла</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Хладним</origin>
+                <origin lang="slavic">дахом</origin>
+                <origin lang="slavic">усне</origin>
+                <origin lang="slavic">своје</origin>
+                <origin lang="n/a">-</origin>
+            </l>
+            <l>
+                <origin lang="slavic">А</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">ступам</origin>
+                <origin lang="slavic">посред</origin>
+                <origin lang="slavic">тмине,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Жељан</origin>
+                <origin lang="slavic">сунца</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">топлине,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Жељан</origin>
+                <origin lang="slavic">тебе,</origin>
+                <origin lang="slavic">милије</origin>
+                <origin lang="slavic">моје.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Испод</origin>
+                <origin lang="slavic">голих</origin>
+                <origin lang="slavic">мртвих</origin>
+                <origin lang="slavic">грана</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Твога</origin>
+                <origin lang="slavic">пустог</origin>
+                <origin lang="">гјулистана</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Теби</origin>
+                <origin lang="slavic">идем</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">пенџере;</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Газим</origin>
+                <origin lang="slavic">ногом</origin>
+                <origin lang="slavic">лишће</origin>
+                <origin lang="">свехло,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Мраз</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">љути</origin>
+                <origin lang="slavic">љуби</origin>
+                <origin lang="slavic">чело</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">по</origin>
+                <origin lang="slavic">коси</origin>
+                <origin lang="slavic">иње</origin>
+                <origin lang="">стере.</origin>
+                <origin lang="n/a">–</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="n/a">Аој</origin>
+                <origin lang="slavic">зимска</origin>
+                <origin lang="slavic">хладна</origin>
+                <origin lang="slavic">ноћи!</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Шири</origin>
+                <origin lang="slavic">царство</origin>
+                <origin lang="slavic">своје</origin>
+                <origin lang="slavic">моћи,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Шири</origin>
+                <origin lang="slavic">црне</origin>
+                <origin lang="slavic">мреже</origin>
+                <origin lang="slavic">своје!</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Не</origin>
+                <origin lang="slavic">плашим</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">твога</origin>
+                <origin lang="slavic">мраза,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Јер</origin>
+                <origin lang="slavic">с</origin>
+                <origin lang="slavic">драгиних</origin>
+                <origin lang="">гјул-образа</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сад</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="slavic">гранут</origin>
+                <origin lang="slavic">сунце</origin>
+                <origin lang="slavic">моје.</origin>
+            </l>
+        </lg>
+
+    </body>
+</poem>
