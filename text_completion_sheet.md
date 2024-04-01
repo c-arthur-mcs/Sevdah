@@ -10,8 +10,9 @@
 | Kad ja pođoh na Bembašu | | Himzo Polovina | questions | ..hp005 |
 | Na osvitku zore | Osman Đikić | | questions | od..005 |
 | Mladost | Aleksa Šantić | | questions | as..006 | 
-|U sevdahu | Musa Ćazim Ćatić | | questions | mc..007 | 
-|U zimskoj noći | Musa Ćazim Ćatić | | questions | mc..008 | 
+| U sevdahu | Musa Ćazim Ćatić | | questions | mc..007 | 
+| U zimskoj noći | Musa Ćazim Ćatić | | questions | mc..008 | 
+| Djevojka i cviječe | Safet-beg Bašagić | | in progress | sb..009 |
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
@@ -19,7 +20,7 @@
 whose origins I am generally unsure of. In these cases, I should be gathering enough
 poems to reach out to Dr. Đurašković, around 10 per meeting should be good.
 - "_completion_" refers to the stage where the poem is completed with respect to word origins,
-as in all questions have been answered as of this  time.
+as in all questions have been answered as of this time.
 
 ## UID Specifications:
 - The UID consists of two two-character components and one three-character component. All of these are done in Latin ignoring all crowns.
@@ -35,3 +36,4 @@ as in all questions have been answered as of this  time.
 | Mustafa Mujezinović | mm |
 | Himzo Polovina | hp |
 | Aleksa Šantič | as |
+| Safet-beg Bašagić | sb |

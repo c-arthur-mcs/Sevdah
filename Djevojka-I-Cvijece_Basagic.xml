@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="sb..009">
+    <meta>
+        <title>
+            <title_bs>Дјевојка и Цвијеће</title_bs>
+            <title_en>A Girl and a Flower</title_en>
+        </title>
+        <author type="poet" lat="Safet-beg Bašagić">Сафет-бег Башагић</author>
+        <year/>
+        <desc>Text originally written in Bosnian Latin. Published in Odabrana Pjesme, Izdanje
+            Glavnog Pododbora Matice Hrvatske, Sarajevo 1944, page 42.</desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="turkic">Дилбер</origin>
+                <origin lang="slavic">цура</origin>
+                <origin lang="slavic">бере</origin>
+                <origin lang="slavic">цвиеће</origin>
+            </l>
+            <l>
+                <origin lang="slavic">А</origin>
+                <origin lang="slavic">око</origin>
+                <origin lang="slavic">ње</origin>
+                <origin lang="italian">паун</origin>
+                <origin lang="slavic">шеће;</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">који</origin>
+                <origin lang="slavic">цвиет</origin>
+                <origin lang="slavic">кити,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Почне</origin>
+                <origin lang="slavic">њему</origin>
+                <origin lang="slavic">бесједити:</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Румен-</origin>
+                <origin lang="latin">ружо,</origin>
+                <origin lang="turkic">Мују</origin>
+                <origin lang="slavic">кажи,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">га</origin>
+                <origin lang="slavic">драга</origin>
+                <origin lang="slavic">вазда</origin>
+                <origin lang="slavic">тражи,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="turkic">чаршију</origin>
+                <origin lang="slavic">када</origin>
+                <origin lang="slavic">пође,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Нек</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">пенџер</origin>
+                <origin lang="slavic">мени</origin>
+                <origin lang="slavic">дође.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="turkic">Алкатмере,</origin>
+                <origin lang="slavic">цвиете</origin>
+                <origin lang="slavic">красни,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ти</origin>
+                <origin lang="slavic">га</origin>
+                <origin lang="greek">гони</origin>
+                <origin lang="slavic">нек</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">касни.</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Реци,</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">га</origin>
+                <origin lang="slavic">чекам</origin>
+                <origin lang="slavic">млада</origin>
+                <origin lang="n/a">-</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="">хас-</origin>
+                <origin lang="turkic">башћи</origin>
+                <origin lang="n/a">–</origin>
+                <origin lang="slavic">пуна</origin>
+                <origin lang="slavic">нада.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Мој</origin>
+                <origin lang="turkic">шебоје,</origin>
+                <origin lang="slavic">цвиете</origin>
+                <origin lang="slavic">мили,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ако</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="slavic">ти</origin>
+                <origin lang="slavic">га</origin>
+                <origin lang="slavic">сили,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Доведи</origin>
+                <origin lang="slavic">га</origin>
+                <origin lang="slavic">мени</origin>
+                <origin lang="slavic">амо,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">једном</origin>
+                <origin lang="slavic">погледамо;</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чини</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">се,</origin>
+                <origin lang="slavic">цвиеће</origin>
+                <origin lang="slavic">мило,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Одмах</origin>
+                <origin lang="slavic">би</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">лакше</origin>
+                <origin lang="slavic">било!</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Не</origin>
+                <origin lang="slavic">грли</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="n/a">–</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">љуби</origin>
+                <origin lang="slavic">ме,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Не</origin>
+                <origin lang="slavic">збори</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">страшних</origin>
+                <origin lang="slavic">риечи!</origin>
+            </l>
+            <l>
+                <origin lang="slavic">До</origin>
+                <origin lang="">врхнуца</origin>
+                <origin lang="slavic">среће</origin>
+                <origin lang="slavic">доћи</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Све</origin>
+                <origin lang="slavic">нас</origin>
+                <origin lang="slavic">приечи,</origin>
+                <origin lang="slavic">све</origin>
+                <origin lang="slavic">нас</origin>
+                <origin lang="slavic">приечи</origin>
+                <origin lang="n/a">...</origin>
+            </l>
+        </lg>
+    </body>
+</poem>
