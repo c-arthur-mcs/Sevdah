@@ -110,8 +110,8 @@
             </text>
         <!-- LANGUAGE SPECIFIC -->
             <!-- TURKIC -->
-            <rect fill="lightblue" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic)}" width="{$bar-width}" height="{4*($pc-turkic*100)}"/>
-            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic)}">
+            <rect fill="lightblue" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)}" width="{$bar-width}" height="{4*($pc-turkic*100)}"/>
+            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}">
                 <xsl:text>Turkic </xsl:text>
                 <xsl:value-of select="round($pc-turkic * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -119,7 +119,7 @@
             
             <!-- SLAVIC -->
             <rect fill="lightblue" x="{50+$bar-spacing+($bar-width+$bar-spacing)}" y="{450-(4*($pc-slavic*100))}" width="{$bar-width}" height="{4*($pc-slavic*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+($bar-width+$bar-spacing)}" y="{450-(4*($pc-slavic*100))}">
+            <text fill="white" x="{50+$bar-spacing+($bar-width+$bar-spacing)}" y="{450-(4*($pc-slavic*100))-10}">
                 <xsl:text>Slavic </xsl:text>
                 <xsl:value-of select="round($pc-slavic * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -127,7 +127,7 @@
             
             <!-- LATIN -->
             <rect fill="lightblue" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}" y="{450-(4*($pc-latin*100))}" width="{$bar-width}" height="{4*($pc-latin*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}" y="{450-(4*($pc-latin*100))}">
+            <text fill="white" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}" y="{450-(4*($pc-latin*100))-10}">
                 <xsl:text>Latin </xsl:text>
                 <xsl:value-of select="round($pc-latin * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -135,7 +135,7 @@
             
             <!-- GREEK -->
             <rect fill="lightblue" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}" y="{450-(4*($pc-greek*100))}" width="{$bar-width}" height="{4*($pc-greek*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}" y="{450-(4*($pc-greek*100))}">
+            <text fill="white" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}" y="{450-(4*($pc-greek*100))-10}">
                 <xsl:text>Greek </xsl:text>
                 <xsl:value-of select="round($pc-greek * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -143,7 +143,7 @@
             
             <!-- HUNGARIAN -->
             <rect fill="lightblue" x="{50+$bar-spacing+(4*($bar-width+$bar-spacing))}" y="{450-(4*($pc-hungarian*100))}" width="{$bar-width}" height="{4*($pc-hungarian*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+(4*($bar-width+$bar-spacing))}" y="{450-(4*($pc-hungarian*100))}">
+            <text fill="white" x="{50+$bar-spacing+(4*($bar-width+$bar-spacing))}" y="{450-(4*($pc-hungarian*100))-10}">
                 <xsl:text>Hungarian </xsl:text>
                 <xsl:value-of select="round($pc-hungarian * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -151,7 +151,7 @@
             
             <!-- GERMANIC -->
             <rect fill="lightblue" x="{50+$bar-spacing+(5*($bar-width+$bar-spacing))}" y="{450-(4*($pc-germanic*100))}" width="{$bar-width}" height="{4*($pc-germanic*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+(5*($bar-width+$bar-spacing))}" y="{450-(4*($pc-germanic*100))}">
+            <text fill="white" x="{50+$bar-spacing+(5*($bar-width+$bar-spacing))}" y="{450-(4*($pc-germanic*100))-10}">
                 <xsl:text>Germanic </xsl:text>
                 <xsl:value-of select="round($pc-germanic * 100,1)"/>
                 <xsl:text>%</xsl:text>
@@ -159,7 +159,7 @@
             
             <!-- ITALIAN -->
             <rect fill="lightblue" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}" y="{450-(4*($pc-italian*100))}" width="{$bar-width}" height="{4*($pc-italian*100)}"/>
-            <text fill="white" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}" y="{450-(4*($pc-italian*100))}">
+            <text fill="white" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}" y="{450-(4*($pc-italian*100))-10}">
                 <xsl:text>Italian </xsl:text>
                 <xsl:value-of select="round($pc-italian * 100,1)"/>
                 <xsl:text>%</xsl:text>
