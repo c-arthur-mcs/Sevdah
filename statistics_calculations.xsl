@@ -14,7 +14,7 @@
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <title>Sevdah - Textual Analysis</title>
-                <link rel="stylesheet" type="text/css" href="index-style.css"/>
+                <link rel="stylesheet" type="text/css" href="../index-style.css"/>
             </head>
             <body>
                 <nav class="navigation">
@@ -57,7 +57,7 @@
                 <hr/>
                 <section>
                     <h2>Percentages of Word Origins</h2>
-                    <div>
+                    <div class="info">
                         <xsl:apply-templates mode="heading"/>
                         <br/>
                         <xsl:apply-templates mode="graph"/>
@@ -72,7 +72,7 @@
     <xsl:template match="title" mode="heading">
         <h3>
             <xsl:apply-templates mode="heading" select="title_bs"/>
-            <xsl:text>-</xsl:text>
+            <xsl:text> - </xsl:text>
             <xsl:apply-templates mode="heading" select="title_en"/>
         </h3>
     </xsl:template>
