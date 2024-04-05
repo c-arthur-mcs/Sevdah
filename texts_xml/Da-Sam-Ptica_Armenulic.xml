@@ -4,11 +4,11 @@
 <poem uid="mmsa001">
     <meta>
         <title>
-            <title_bs>Da sam ptica</title_bs>
+            <title_bs>Да сам птица</title_bs>
             <title_en>If I Were a Bird</title_en>
         </title>
-        <author type="performer" lat="Silvana Armenulić">Silvana Armenulić</author>
-        <author type="poet" lat="Mustafa Mujezinović">Mustafa Mujezinović</author>
+        <author type="performer" lat="Silvana Armenulić">Силвана Арменулић</author>
+        <author type="poet" lat="Mustafa Mujezinović">Мустафа Мујезиновић</author>
         <year>1975</year>
         <desc>Transcribed from Recording released in 1975, copyright Jugoton-Croatia Records.
             Composer: Jovica Petković</desc>
@@ -17,149 +17,149 @@
     <body>
         <lg>
             <l>
-                <origin lang="slavic">Da</origin>
-                <origin lang="slavic">sam</origin>
-                <origin lang="slavic">ptica</origin>
-                <origin lang="slavic">i</origin>
-                <origin lang="slavic">da</origin>
-                <origin lang="slavic">imam</origin>
-                <origin lang="slavic">krila</origin>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">птица</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">имам</origin>
+                <origin lang="slavic">крила</origin>
             </l>
             <l>
-                <origin lang="slavic">Ja</origin>
-                <origin lang="slavic">bih</origin>
-                <origin lang="slavic">cijelu</origin>
-                <origin lang="slavic">Bosnu</origin>
-                <origin lang="slavic">preletila</origin>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">цијелу</origin>
+                <origin lang="slavic">Босну</origin>
+                <origin lang="slavic">прелетила</origin>
             </l>
             <l>
-                <origin lang="slavic">Letila</origin>
-                <origin lang="slavic">bih,</origin>
-                <origin lang="slavic">nikad</origin>
-                <origin lang="slavic">ne</origin>
-                <origin lang="slavic">bih</origin>
-                <origin lang="slavic">stala</origin>
+                <origin lang="slavic">Летила</origin>
+                <origin lang="slavic">бих,</origin>
+                <origin lang="slavic">никад</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">стала</origin>
             </l>
             <l>
-                <origin lang="slavic">Dok</origin>
-                <origin lang="slavic">se</origin>
-                <origin lang="slavic">Bosne</origin>
-                <origin lang="slavic">ne</origin>
-                <origin lang="slavic">bih</origin>
-                <origin lang="slavic">nagledala</origin>
+                <origin lang="slavic">Док</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">Босне</origin>
+                <origin lang="slavic">бе</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">нагледала</origin>
             </l>
             <l>
-                <origin lang="slavic">Letila</origin>
-                <origin lang="slavic">bih,</origin>
-                <origin lang="slavic">nikad</origin>
-                <origin lang="slavic">ne</origin>
-                <origin lang="slavic">bih</origin>
-                <origin lang="slavic">stala</origin>
+                <origin lang="slavic">Летила</origin>
+                <origin lang="slavic">бих,</origin>
+                <origin lang="slavic">никад</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">стала</origin>
             </l>
             <l>
-                <origin lang="slavic">Dok</origin>
-                <origin lang="slavic">se</origin>
-                <origin lang="slavic">Bosne</origin>
-                <origin lang="slavic">ne</origin>
-                <origin lang="slavic">bih</origin>
-                <origin lang="slavic">nagledala</origin>
-            </l>
-        </lg>
-
-        <lg>
-            <l>
-                <origin lang="slavic">Nad</origin>
-                <origin lang="slavic">Bosnom</origin>
-                <origin lang="slavic">se</origin>
-                <origin lang="slavic">planine</origin>
-                <origin lang="slavic">izvile</origin>
-            </l>
-            <l>
-                <origin lang="slavic">Zelenilom</origin>
-                <origin lang="slavic">svu</origin>
-                <origin lang="slavic">je</origin>
-                <origin lang="slavic">otkitile</origin>
-            </l>
-            <l>
-                <origin lang="slavic">Cvjetaj</origin>
-                <origin lang="slavic">Bosno,</origin>
-                <origin lang="slavic">u</origin>
-                <origin lang="greek">mirisu</origin>
-                <origin lang="">rudi</origin>
-            </l>
-            <l>
-                <origin lang="slavic">Iz</origin>
-                <origin lang="slavic">tebi</origin>
-                <origin lang="slavic">ja</origin>
-                <origin lang="slavic">da</origin>
-                <origin lang="slavic">napajam</origin>
-                <origin lang="slavic">grudi</origin>
-            </l>
-            <l>
-                <origin lang="slavic">Cvjetaj</origin>
-                <origin lang="slavic">Bosno,</origin>
-                <origin lang="slavic">u</origin>
-                <origin lang="greek">mirisu</origin>
-                <origin lang="">rudi</origin>
-            </l>
-            <l>
-                <origin lang="slavic">Iz</origin>
-                <origin lang="slavic">tebi</origin>
-                <origin lang="slavic">ja</origin>
-                <origin lang="slavic">da</origin>
-                <origin lang="slavic">napajam</origin>
-                <origin lang="slavic">grudi</origin>
+                <origin lang="slavic">Док</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">Босне</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">нагледала</origin>
             </l>
         </lg>
 
         <lg>
             <l>
-                <origin lang="slavic">Uvijek</origin>
-                <origin lang="slavic">si</origin>
-                <origin lang="slavic">mi</origin>
-                <origin lang="slavic">kao</origin>
-                <origin lang="slavic">što</origin>
-                <origin lang="slavic">si</origin>
-                <origin lang="slavic">bila</origin>
+                <origin lang="slavic">Над</origin>
+                <origin lang="slavic">Босном</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">планине</origin>
+                <origin lang="slavic">извиле</origin>
             </l>
             <l>
-                <origin lang="slavic">Sva</origin>
-                <origin lang="slavic">zelena,</origin>
-                <origin lang="slavic">vesela</origin>
-                <origin lang="slavic">i</origin>
-                <origin lang="slavic">mila</origin>
+                <origin lang="slavic">Зеленилом</origin>
+                <origin lang="slavic">сву</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">откитиле</origin>
             </l>
             <l>
-                <origin lang="slavic">Tvoja</origin>
-                <origin lang="slavic">pjesma</origin>
-                <origin lang="slavic">nek'</origin>
-                <origin lang="slavic">te</origin>
-                <origin lang="slavic">uvijek</origin>
-                <origin lang="slavic">krasi</origin>
+                <origin lang="slavic">Цвјетај</origin>
+                <origin lang="slavic">Босно,</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="greek">мирису</origin>
+                <origin lang="">руди</origin>
             </l>
             <l>
-                <origin lang="slavic">Zdravo</origin>
-                <origin lang="slavic">Bosno,</origin>
-                <origin lang="slavic">uvijek</origin>
-                <origin lang="slavic">zdravo</origin>
-                <origin lang="slavic">da</origin>
-                <origin lang="slavic">si</origin>
+                <origin lang="slavic">Из</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">напајам</origin>
+                <origin lang="slavic">груди</origin>
             </l>
             <l>
-                <origin lang="slavic">Tvoja</origin>
-                <origin lang="slavic">pjesma</origin>
-                <origin lang="slavic">nek'</origin>
-                <origin lang="slavic">te</origin>
-                <origin lang="slavic">uvijek</origin>
-                <origin lang="slavic">krasi</origin>
+                <origin lang="slavic">Цвјетај</origin>
+                <origin lang="slavic">Босно,</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="greek">мирису</origin>
+                <origin lang="">руди</origin>
             </l>
             <l>
-                <origin lang="slavic">Zdravo</origin>
-                <origin lang="slavic">Bosno,</origin>
-                <origin lang="slavic">uvijek</origin>
-                <origin lang="slavic">zdravo</origin>
-                <origin lang="slavic">da</origin>
-                <origin lang="slavic">si</origin>
+                <origin lang="slavic">Из</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">напајам</origin>
+                <origin lang="slavic">груди</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Увијек</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">као</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">била</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сва</origin>
+                <origin lang="slavic">зелена,</origin>
+                <origin lang="slavic">весела</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">мила</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Твоја</origin>
+                <origin lang="slavic">пјесма</origin>
+                <origin lang="slavic">нек'</origin>
+                <origin lang="slavic">те</origin>
+                <origin lang="slavic">uувијек</origin>
+                <origin lang="slavic">краси</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Здараво</origin>
+                <origin lang="slavic">Босно,</origin>
+                <origin lang="slavic">увијек</origin>
+                <origin lang="slavic">здраво</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">си</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Твоја</origin>
+                <origin lang="slavic">пјесма</origin>
+                <origin lang="slavic">нек'</origin>
+                <origin lang="slavic">т</origin>
+                <origin lang="slavic">увијек</origin>
+                <origin lang="slavic">краси</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Здраво</origin>
+                <origin lang="slavic">Босно,</origin>
+                <origin lang="slavic">увијек</origin>
+                <origin lang="slavic">здраво</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">си</origin>
             </l>
         </lg>
     </body>
