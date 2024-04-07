@@ -27,7 +27,7 @@
   <!-- ================================================================== -->
   <!-- Templates                                                          -->
   <!-- ================================================================== -->
-  <xsl:template name="xsl:initial-template">
+  <xsl:template name="xsl:initial-template" match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>Sevdah - Textual Analysis</title>
@@ -91,7 +91,7 @@
               </td>
               <td>
                 <xsl:value-of
-                  select="(100 * $lang-instance-count div $total-lang-instance-count) => round(2)"/>
+                  select="(100 * $lang-instance-count div $total-lang-instance-count) => round(2)"/> <xsl:text>%</xsl:text>
               </td>
             </tr>
           </xsl:for-each>

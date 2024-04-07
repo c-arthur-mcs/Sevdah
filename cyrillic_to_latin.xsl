@@ -14,13 +14,13 @@
     
     <xsl:function name="cam:cyr-to-lat">
         <xsl:param name="input" as="xs:string"/>
-        <xsl:variable name="apply-lj" as="xs:string+" select="$input => replace('љ','lj')"/>
-        <xsl:variable name="apply-nj" as="xs:string+" select="$apply-lj => replace('њ','nj')"/>
-        <xsl:variable name="apply-dzh" as="xs:string+" select="$apply-nj => replace('џ','dž')"/>
-        <xsl:variable name="apply-cap-lj" as="xs:string+" select="$apply-dzh => replace('Љ','Lj')"/>
-        <xsl:variable name="apply-cap-nj" as="xs:string+" select="$apply-cap-lj => replace('Њ','Nj')"/>
-        <xsl:variable name="apply-cap-dzh" as="xs:string+" select="$apply-cap-nj => replace('Џ','Dž')"/>
-        <xsl:variable name="one-to-one" as="xs:string+" select="$apply-cap-dzh => translate('абвгдђежзијклмнопрстћуфхцчшАБВГДЂЕЖЗИЈКЛМНОПРСТЋУФЦЧЏШ','abvgdđežzijklmnoprstćufhcčšABVGDĐEŽZIJKLMNOPRSTĆUFCČŠ')"/>
+        <xsl:variable name="apply-lj" as="xs:string" select="$input => replace('љ','lj')"/>
+        <xsl:variable name="apply-nj" as="xs:string" select="$apply-lj => replace('њ','nj')"/>
+        <xsl:variable name="apply-dzh" as="xs:string" select="$apply-nj => replace('џ','dž')"/>
+        <xsl:variable name="apply-cap-lj" as="xs:string" select="$apply-dzh => replace('Љ','Lj')"/>
+        <xsl:variable name="apply-cap-nj" as="xs:string" select="$apply-cap-lj => replace('Њ','Nj')"/>
+        <xsl:variable name="apply-cap-dzh" as="xs:string" select="$apply-cap-nj => replace('Џ','Dž')"/>
+        <xsl:variable name="one-to-one" as="xs:string" select="$apply-cap-dzh => translate('абвгдђежзијклмнопрстћуфхцчшАБВГДЂЕЖЗИЈКЛМНОПРСТЋУФЦЧШ','abvgdđežzijklmnoprstćufhcčšABVGDĐEŽZIJKLMNOPRSTĆUFCČŠ')"/>
         <xsl:value-of select="$one-to-one"/>
     </xsl:function>
     

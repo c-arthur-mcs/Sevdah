@@ -1,29 +1,65 @@
-
-var buttons = document.getElementsByTagName("button");
+function init(){
+    var buttons = document.getElementsByTagName("button")
+    var EnButton = buttons[0]
+    EnButton.addEventListener('click',English)
+    var BsCyButton = buttons[1]
+    BsCyButton.addEventListener('click',Bosnian_Cyrillic)
+    var BsLaButton = buttons[2]
+    BsLatButton.addEventListener('click',Bosnian_Latin)
+}
 
 function English() {
-    var x = document.getElementByElement("bs-cy");
-    x.style.display = "none";
-    var y = document.getElementByElement("bs-la");
-    y.style.display = "none";
-    var z = document.getElementByElement("en");
-    z.style.display = "block";
+    var x = document.getElementsByClassName("bs-cy");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.display = "none"
+        };  
+    var y = document.getElementsByClassName("bs-la");
+    for(let i = 0; i < y.length; i++)
+        {
+        y[i].style.display = "none"
+        };  
+    var z = document.getElementsByClassName("en");
+    for(let i = 0; i < z.length; i++)
+        {
+        z[i].style.display = "block"
+        };  
 }
 
 function Bosnian_Cyrillic() {
-    var x = document.getElementByElement("en");
-    x.style.display = "none";
-    var y = document.getElementByElement("bs-la");
-    y.style.display = "none";
-    var z = document.getElementByElement("bs-cy");
-    z.style.display = "block";
+    var x = document.getElementsByClassName("en");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.display = "none"
+        };  
+    var y = document.getElementsByClassName("bs-la");
+    for(let i = 0; i < y.length; i++)
+        {
+        y[i].style.display = "none"
+        };  
+    var z = document.getElementsByClassName("bs-cy");
+    for(let i = 0; i < z.length; i++)
+        {
+        z[i].style.display = "block"
+        };  
 }
 
 function Bosnian_Latin() {
-    var x = document.getElementByElement("en");
-    x.style.display = "none";
-    var y = document.getElementByElement("bs-cy");
-    y.style.display = "none";
-    var z = document.getElementByElement("bs-la");
-    z.style.display = "block";
+    var x = document.getElementsByClassName("en");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.display = "none"
+        };  
+    var y = document.getElementsByClassName("bs-cy");
+    for(let i = 0; i < y.length; i++)
+        {
+        y[i].style.display = "none"
+        };  
+    var z = document.getElementsByClassName("bs-la");
+    for(let i = 0; i < z.length; i++)
+        {
+        z[i].style.display = "block"
+        };  
 }
+
+window.onload = init;
