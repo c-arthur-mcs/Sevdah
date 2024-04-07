@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\Qall_xhtml.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="all_xhtml.xpr">
+        <folder path="."/>
+        <file name="testing_xslt_transform/aggregate-counts.xhtml"/>
+        <file name="bibliography.xhtml"/>
+        <file name="contributors.xhtml"/>
+        <file name="index.html"/>
+        <file name="methodology.xhtml"/>
+        <file name="sample_text_page.xhtml"/>
+        <file name="testing_xslt_transform/statistics_calculations.xhtml"/>
+        <file name="text_directory.xhtml"/>
+        <file name="textual_analysis.xhtml"/>
+        <file name="textual_analysis_with_statistics_caluclations.xhtml"/>
+    </projectTree>
+</project>
