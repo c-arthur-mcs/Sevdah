@@ -55,13 +55,9 @@ a.nav_link {
 
 div.languages {
     display: flex;
-}
-
-ul.languages {
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 85%;
     list-style-type: none;
     padding: 10px;
     margin: 10px;
@@ -70,16 +66,14 @@ ul.languages {
     background-color: #0C356A;
 }
 
-li.languages {
+button.languages {
     padding: 5px;
-}
-
-li.languages:hover {
     background-color: #0174BE;
+    color: #FFC436;
 }
 
-a.languages {
-    text-decoration: none;
+button.languages:hover {
+    background-color: #0174BE;
 }
 
 section {

@@ -4,6 +4,7 @@
     <head>
         <title>Sevdah - Contributors</title>
         <link rel="stylesheet" type="text/css" href="index-style.css" />
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"/>
     </head>
     <body>
         <nav class="navigation">
@@ -23,30 +24,48 @@
                         >Bibliography</a></li>
             </ul>
             <div class="languages">
-                <ul class="languages">
-                    <li class="languages"><a class="languages" href="">English</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-                </ul>
+                <button class="languages"><span onclick="English()">English</span></button>
+                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </div>
         </nav>
-        <h1 class="main_title">Contributors</h1>
+        <h1 class="main_title en" style="display:block">Contributors</h1>
+        <h1 class="main_title bs-cy" style="display:none">Сурадници</h1>
+        <h1 class="main_title bs-la" style="display:none">Suradnici</h1>
         <hr />
         <section>
             <div class="info">
-                <h2>Cody McSherry</h2>
-                <p class="subtitle">Project Lead</p>
-                <p>Student [...]</p>
+                <h2 class="en" style="display:block">Cody McSherry</h2>
+                <h2 class="bs-cy" style="display:none">Коди МикШери</h2>
+                <h2 class="bs-la" style="display:none">Cody McSherry</h2>
+                <p class="subtitle en" style="display:block">Project Lead</p>
+                <p class="subtitle bs-cy" style="display:none">Вођа пројекта</p>
+                <p class="subtitle bs-la" style="display:none">Vođa projekta</p>
+                <p class="en" style="display:block">Student at the University of Pittsburgh, studying Classical languages, French, and Slavic Studies</p>
+                <p class="bs-cy" style="display:none">Студент у Универзитету у Питсбургу, научећи класичне језике, француски језик, и славенске језике</p>
+                <p class="bs-la" style="display:none">Student u Univerzitetu u Pitsburgu, naučeći klasične jezike, francuski jezik i slavenske jezike</p>
             </div>
             <div class="info">
-                <h2>Dr. James Pickett</h2>
-                <p class="subtitle">Project Advisor</p>
-                <p>Professor [...]</p>
+                <h2 class="en" style="display:block">James Pickett, Ph.D.</h2>
+                <h2 class="bs-cy" style="display:none">Џејмс Пикет, доктор знаности</h2>
+                <h2 class="bs-la" style="display:none">James Pickett, doktor znanosti</h2>
+                <p class="subtitle en" style="display:block">Project Advisor</p>
+                <p class="subtitle bs-cy" style="display:none">Савјетник пројекта, професор часа "SLAV1050"</p>
+                <p class="subtitle bs-la" style="display:none">Savjetnik projekta, profesor časa "SLAV1050"</p>
+                <p class="en" style="display:block">Professor of History at the University of Pittsburgh, specializing in the history of Islam and empire as entangled sources of authority</p>
+                <p class="bs-cy" style="display:none">Професор историје у Универзитету у Питсбургу, специфично професор историје ислама и цасртва као комплекс васти</p>
+                <p class="bs-la" style="display:none">Profesor istorije u Univerzitetu u Pitsburgu, specifično profesor istorije islama i carstva kao kompleks vasti</p>
             </div>
             <div class="info">
-                <h2>Dr. Ljiljana Đurašković</h2>
-                <p class="subtitle">Bosnian/Croatian/Serbian/Montenegrin Language Advisor</p>
-                <p>Professor [...]</p>
+                <h2 class="en" style="display:block">Ljiljana Đurašković, Ph.D.</h2>
+                <h2 class="bs-cy" style="display:none">Љиљана Ђурашковић, докторка знаности</h2>
+                <h2 class="bs-la" style="display:none">Ljiljana Đurašković, doktorka znanosti</h2>
+                <p class="subtitle en" style="display:block">Linguistic and Subject Matter Advisor</p>
+                <p class="subtitle bs-cy" style="display:none">Савјетница пројекта о језицима и садржају</p>
+                <p class="subtitle bs-la" style="display:none">Savjetnik projekta o jezicima i sadržaju</p>
+                <p class="en" style="display:block">Professor of Slavic Studies at the University of Pittsburgh, teaching Bosnian / Croatian / Serbian / Montenegrin Language and Balkan culture</p>
+                <p class="bs-cy" style="display:none">Професор славистике у Универзитету у Питсбургу, професорка Босанског / Хрватског / Српског / Црногорског језика и балканске културе и историје</p>
+                <p class="bs-la" style="display:none">Profesor slavistike u Univerzitetu u Pitsburgu, profesorka Bosanskog / Hrvatskog / Srpskog / Crnogorksog jezika i balkanske kulture i istorije</p>
             </div>
         </section>
     </body>
