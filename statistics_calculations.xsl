@@ -40,23 +40,18 @@
                         </li>
                     </ul>
                     <div class="languages">
-                        <ul class="languages">
-                            <li class="languages">
-                                <a class="languages" href="">English</a>
-                            </li>
-                            <li class="languages">
-                                <a class="languages" href="">Bos-Lat</a>
-                            </li>
-                            <li class="languages">
-                                <a class="languages" href="">Bos-Cyr</a>
-                            </li>
-                        </ul>
+                        <button class="languages"><span onclick="English()">English</span></button>
+                        <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                        <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
                     </div>
                 </nav>
-                <h1 class="main_title">Textual Analysis</h1>
+                <h1 class="main_title en" style="display:block">Textual Analysis</h1>
+                <h1 class="main_title bs-cy" style="display:none">Анализа текстова</h1>
+                <h1 class="main_title bs-la" style="display:none">Analiza tekstova</h1>
                 <hr/>
                 <section>
                     <h2>Percentages of Word Origins</h2>
+                    
                     <div class="info">
                         <xsl:apply-templates mode="heading"/>
                         <br/>
@@ -142,8 +137,18 @@
             <!-- TURKIC -->
             <rect fill="#FFC436" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)}"
                 width="{$bar-width}" height="{4*($pc-turkic*100)}"/>
-            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}">
+            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}" class="en" style="display:block">
                 <xsl:text>Turkic </xsl:text>
+                <xsl:value-of select="round($pc-turkic * 100, 1)"/>
+                <xsl:text>%</xsl:text>
+            </text>
+            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}" class="bs-cy" style="display:none">
+                <xsl:text>Турски </xsl:text>
+                <xsl:value-of select="round($pc-turkic * 100, 1)"/>
+                <xsl:text>%</xsl:text>
+            </text>
+            <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}" class="bs-la" style="display:none">
+                <xsl:text>Turski </xsl:text>
                 <xsl:value-of select="round($pc-turkic * 100, 1)"/>
                 <xsl:text>%</xsl:text>
             </text>

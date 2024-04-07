@@ -14,15 +14,11 @@
             <li class="nav_button"><a href="contributors.xhtml" class="nav_link">Contributors</a></li>
             <li class="nav_button"><a href="bibliography.xhtml" class="nav_link">Bibliography</a></li>
          </ul>
-         <div class="languages">
-            <ul class="languages">
-               <li class="languages"><a class="languages" href="">English</a></li>
-               <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-               <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-            </ul>
-         </div>
+         <div class="languages"><button class="languages"><span onclick="English()">English</span></button><button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button><button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button></div>
       </nav>
-      <h1 class="main_title">Textual Analysis</h1>
+      <h1 class="main_title en" style="display:block">Textual Analysis</h1>
+      <h1 class="main_title bs-cy" style="display:none">Анализа текстова</h1>
+      <h1 class="main_title bs-la" style="display:none">Analiza tekstova</h1>
       <hr/>
       <section>
          <h2>Percentages of Word Origins</h2>
@@ -52,7 +48,9 @@
                <text x="25" y="250" fill="white">%</text>
                <text x="50" y="475" fill="white">Language of Origin  - Total words: 103</text>
                <rect fill="#FFC436" x="75" y="450" width="100" height="0"></rect>
-               <text fill="white" x="75" y="440">Turkic 0%</text>
+               <text fill="white" x="75" y="440" class="en" style="display:block">Turkic 0%</text>
+               <text fill="white" x="75" y="440" class="bs-cy" style="display:none">Турски 0%</text>
+               <text fill="white" x="75" y="440" class="bs-la" style="display:none">Turski 0%</text>
                <rect fill="#FFC436" x="200" y="65.53398058252424" width="100" height="384.46601941747576"></rect>
                <text fill="white" x="200" y="55.53398058252424">Slavic 96.1%</text>
                <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>

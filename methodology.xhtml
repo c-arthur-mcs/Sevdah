@@ -4,6 +4,7 @@
     <head>
         <title>Sevdah - Methodology</title>
         <link rel="stylesheet" type="text/css" href="index-style.css" />
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"/>
     </head>
     <body>
         <nav class="navigation">
@@ -21,14 +22,14 @@
                     >Bibliography</a></li>
             </ul>
             <div class="languages">
-                <ul class="languages">
-                    <li class="languages"><a class="languages" href="">English</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-                </ul>
+                <button class="languages"><span onclick="English()">English</span></button>
+                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </div>
         </nav>
-        <h1 class="main_title">Methodology</h1>
+        <h1 class="main_title en" style="display:block">Methodology</h1>
+        <h1 class="main_title bs-cy" style="display:none">Начин истраживања</h1>
+        <h1 class="main_title bs-lat" style="display:none">Način istraživanja</h1>
         <hr />
         <section> </section>
     </body>

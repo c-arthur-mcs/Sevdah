@@ -4,6 +4,7 @@
     <head>
         <title>Sevdah - About Page</title>
         <link rel="stylesheet" type="text/css" href="index-style.css" />
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"/>
     </head>
     <body>
         <nav class="navigation">
@@ -23,19 +24,20 @@
                         >Bibliography</a></li>
             </ul>
             <div class="languages">
-                <ul class="languages">
-                    <li class="languages"><a class="languages" href="">English</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-                </ul>
+                <button class="languages"><span onclick="English()">English</span></button>
+                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </div>
         </nav>
-        <h1 class="main_title">About the Project</h1>
+        <h1 class="main_title en" style="display:block">About the Project</h1>
+        <h1 class="main_title bs-cy" style="display:none">О овом пројекту</h1>
+        <h1 class="main_title bs-la" style="display:none">O ovom projektu</h1>
+        
         <hr />
         <section>
             <div class="info">
-                <h2>Abstract</h2>
-                <p>This project will examine the influence of Turkish language, especially Ottoman
+                <h2 class="en" style="display:block">Abstract</h2>
+                <p class="en" style="display:block">This project will examine the influence of Turkish language, especially Ottoman
                     Turkish, on Bosnian literature by examining the song and poetry culture Sevdah,
                     which refers to a genre characterized by the feeling of longing, especially of
                     lost or impossible love. The methodology will consist of examining the origin of
@@ -44,8 +46,8 @@
                     representation of Bosnian cultural language.</p>
             </div>
             <div class="info">
-                <h2>Using the Site</h2>
-                <p> The "<a href="mcsherry_12-02_html-1.xhtml">texts</a>" page gives the option to
+                <h2 class="en" style="display:block">Using the Site</h2>
+                <p class="en" style="display:block"> The "<a href="mcsherry_12-02_html-1.xhtml">texts</a>" page gives the option to
                     view the texts in either Cyrillic or Latin letters. Both of these alphabets are
                     used for Bosnian, Croatian, Serbian, and Montenegrin. At the present time,
                     Croatia tends to use Latin primarily, and Serbia tends to use Cyrillic
@@ -53,8 +55,8 @@
                     pockets in both of these countries which use the other.</p>
             </div>
             <div class="info">
-                <h2>Bosnian as a Language or a Dialect</h2>
-                <p> Many people consider the languages Bosnian, Croatian, Serbian, and Montenegrin
+                <h2 class="en" style="display:block">Bosnian as a Language or a Dialect</h2>
+                <p class="en" style="display:block"> Many people consider the languages Bosnian, Croatian, Serbian, and Montenegrin
                     to be dialects of one language, Serbo-Croatian; however, the people of these
                     respective countries have, since the time of Yugoslavia, denounced this name of
                     their language in order to preserve the differences between the languages and
@@ -68,8 +70,8 @@
                     experience of Bosnian specific poetry.</p>
             </div>
             <div class="info">
-                <h2>Poem or Song</h2>
-                <p> The line between poetry and song is not the same in the Balkans as it is in the
+                <h2 class="en" style="display:block">Poem or Song</h2>
+                <p class="en" style="display:block"> The line between poetry and song is not the same in the Balkans as it is in the
                     rest of the European context. The word for both poetry and song is actually the
                     same in Bosnian, just as in Croatia, Serbian, Montegrin, and likely other Balkan
                     languages, <em>pjesma</em>. Because of this overlap, these may be referred to as
