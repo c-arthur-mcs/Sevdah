@@ -6,9 +6,8 @@
   xmlns="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all" version="3.0">
   <xsl:output method="xhtml" html-version="5" omit-xml-declaration="no" include-content-type="no"
     indent="yes"/>
-  <!-- ================================================================== -->
-  <!-- Stylesheet variables                                               -->
-  <!-- ================================================================== -->
+  
+  <!-- GLOBAL VARIABLES -->
   <xsl:variable name="bar-width" as="xs:double" select="100"/>
   <xsl:variable name="bar-spacing" as="xs:double" select="$bar-width div 4"/>
   <xsl:variable name="all-docs" as="document-node()+"
@@ -17,21 +16,20 @@
   <xsl:variable name="all-lang-names" as="xs:string+"
     select="$all-lang-instances => distinct-values() => sort()"/>
   <xsl:variable name="total-lang-instance-count" as="xs:integer" select="count($all-lang-instances)"/>
-  <!-- ================================================================== -->
-  <!-- Functions                                                          -->
-  <!-- ================================================================== -->
+  
+  <!-- FUNCTIONS -->
   <xsl:function name="cam:initial-cap" as="xs:string">
     <xsl:param name="input" as="xs:string"/>
     <xsl:value-of select="substring($input, 1, 1) ! upper-case(.) || substring($input, 2)"/>
   </xsl:function>
-  <!-- ================================================================== -->
-  <!-- Templates                                                          -->
-  <!-- ================================================================== -->
+  
+  <!-- TEMPLATES -->
   <xsl:template name="xsl:initial-template" match="/">
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>Sevdah - Textual Analysis</title>
         <link rel="stylesheet" type="text/css" href="index-style.css"/>
+        <script type="text/javascript" src="../show-hide_en_bs-cy_bs-la.js"/>
       </head>
       <body>
         <nav class="navigation">
@@ -58,15 +56,9 @@
           </ul>
           <div class="languages">
             <ul class="languages">
-              <li class="languages">
-                <a class="languages" href="">English</a>
-              </li>
-              <li class="languages">
-                <a class="languages" href="">Bos-Lat</a>
-              </li>
-              <li class="languages">
-                <a class="languages" href="">Bos-Cyr</a>
-              </li>
+            <button class="languages"><span onclick="English()">English</span></button>
+            <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+            <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </ul>
           </div>
         </nav>
@@ -97,35 +89,35 @@
           </xsl:for-each>
         </table>
         <h1>Aggregated Charts</h1>
-        <xsl:apply-templates/>
+        <xsl:apply-templates mode="chart"/>
       </body>
     </html>
   </xsl:template>
   
-  <xsl:template match="$all-docs">
+  <xsl:template match="$all-docs" mode="chart">
     <xsl:variable name="total-words" as="xs:integer"
-      select='count(//origin[not(@lang = "n/a")])'/>
+      select='count($all-docs//origin[not(@lang = "n/a")])'/>
     
-    <xsl:variable name="n-turkic" as="xs:integer" select='count(//origin[@lang = "turkic"])'/>
+    <xsl:variable name="n-turkic" as="xs:integer" select='count($all-docs//origin[@lang = "turkic"])'/>
     <xsl:variable name="pc-turkic" as="xs:double" select="$n-turkic div $total-words"/>
     
-    <xsl:variable name="n-slavic" as="xs:integer" select='count(//origin[@lang = "slavic"])'/>
+    <xsl:variable name="n-slavic" as="xs:integer" select='count($all-docs//origin[@lang = "slavic"])'/>
     <xsl:variable name="pc-slavic" as="xs:double" select="$n-slavic div $total-words"/>
     
-    <xsl:variable name="n-latin" as="xs:integer" select='count(//origin[@lang = "latin"])'/>
+    <xsl:variable name="n-latin" as="xs:integer" select='count($all-docs//origin[@lang = "latin"])'/>
     <xsl:variable name="pc-latin" as="xs:double" select="$n-latin div $total-words"/>
     
-    <xsl:variable name="n-greek" as="xs:integer" select='count(//origin[@lang = "greek"])'/>
+    <xsl:variable name="n-greek" as="xs:integer" select='count($all-docs//origin[@lang = "greek"])'/>
     <xsl:variable name="pc-greek" as="xs:double" select="$n-greek div $total-words"/>
     
     <xsl:variable name="n-hungarian" as="xs:integer"
-      select='count(//origin[@lang = "hungarian"])'/>
+      select='count($all-docs//origin[@lang = "hungarian"])'/>
     <xsl:variable name="pc-hungarian" as="xs:double" select="$n-hungarian div $total-words"/>
     
-    <xsl:variable name="n-germanic" as="xs:integer" select='count(//origin[@lang = "germanic"])'/>
+    <xsl:variable name="n-germanic" as="xs:integer" select='count($all-docs//origin[@lang = "germanic"])'/>
     <xsl:variable name="pc-germanic" as="xs:double" select="$n-germanic div $total-words"/>
     
-    <xsl:variable name="n-italian" as="xs:integer" select='count(//origin[@lang = "italian"])'/>
+    <xsl:variable name="n-italian" as="xs:integer" select='count($all-docs//origin[@lang = "italian"])'/>
     <xsl:variable name="pc-italian" as="xs:double" select="$n-italian div $total-words"/>
     
     <svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
@@ -149,8 +141,9 @@
       <!-- TURKIC -->
       <rect fill="#FFC436" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)}"
         width="{$bar-width}" height="{4*($pc-turkic*100)}"/>
-      <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}">
-        <xsl:text>Turkic </xsl:text>
+      <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}"
+        transform="rotate(270 {50+$bar-spacing - 1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Turkic / Turski / Турски </xsl:text>
         <xsl:value-of select="round($pc-turkic * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -159,8 +152,9 @@
       <rect fill="#FFC436" x="{50+$bar-spacing+($bar-width+$bar-spacing)}"
         y="{450-(4*($pc-slavic*100))}" width="{$bar-width}" height="{4*($pc-slavic*100)}"/>
       <text fill="white" x="{50+$bar-spacing+($bar-width+$bar-spacing)}"
-        y="{450-(4*($pc-slavic*100))-10}">
-        <xsl:text>Slavic </xsl:text>
+        y="{450-(4*$pc-turkic*100)-10}"
+        transform="rotate(270 {50+$bar-spacing+($bar-width+$bar-spacing)-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Slavic / Slavenski / Славенски </xsl:text>
         <xsl:value-of select="round($pc-slavic * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -169,8 +163,9 @@
       <rect fill="#FFC436" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-latin*100))}" width="{$bar-width}" height="{4*($pc-latin*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}"
-        y="{450-(4*($pc-latin*100))-10}">
-        <xsl:text>Latin </xsl:text>
+        y="{450-(4*($pc-latin*100))-10}"
+        transform="rotate(270 {50+$bar-spacing+(2*($bar-width+$bar-spacing))-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Latin / Latinski / Латински </xsl:text>
         <xsl:value-of select="round($pc-latin * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -179,8 +174,9 @@
       <rect fill="#FFC436" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-greek*100))}" width="{$bar-width}" height="{4*($pc-greek*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}"
-        y="{450-(4*($pc-greek*100))-10}">
-        <xsl:text>Greek </xsl:text>
+        y="{450-(4*($pc-greek*100))-10}"
+        transform="rotate(270 {50+$bar-spacing+(3*($bar-width+$bar-spacing))-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Greek / Grčki / Грчки </xsl:text>
         <xsl:value-of select="round($pc-greek * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -190,8 +186,9 @@
         y="{450-(4*($pc-hungarian*100))}" width="{$bar-width}"
         height="{4*($pc-hungarian*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(4*($bar-width+$bar-spacing))}"
-        y="{450-(4*($pc-hungarian*100))-10}">
-        <xsl:text>Hungarian </xsl:text>
+        y="{450-(4*($pc-hungarian*100))-10}"
+        transform="rotate(270 {50+$bar-spacing+(4*($bar-width+$bar-spacing))-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Hungarian / Mađarski / Мађарски </xsl:text>
         <xsl:value-of select="round($pc-hungarian * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -201,8 +198,9 @@
         y="{450-(4*($pc-germanic*100))}" width="{$bar-width}"
         height="{4*($pc-germanic*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(5*($bar-width+$bar-spacing))}"
-        y="{450-(4*($pc-germanic*100))-10}">
-        <xsl:text>Germanic </xsl:text>
+        y="{450-(4*($pc-germanic*100))-10}"
+        transform="rotate(270 {50+$bar-spacing+(5*($bar-width+$bar-spacing))-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Germanic / Njemački / Њемачки </xsl:text>
         <xsl:value-of select="round($pc-germanic * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
@@ -211,8 +209,9 @@
       <rect fill="#FFC436" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-italian*100))}" width="{$bar-width}" height="{4*($pc-italian*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}"
-        y="{450-(4*($pc-italian*100))-10}">
-        <xsl:text>Italian </xsl:text>
+        y="{450-(4*($pc-italian*100))-10}"
+        transform="rotate(270 {50+$bar-spacing+(6*($bar-width+$bar-spacing))-1},{450-(4*$pc-turkic*100)-10})">
+        <xsl:text>Italian / Talijanski / Талијански </xsl:text>
         <xsl:value-of select="round($pc-italian * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
