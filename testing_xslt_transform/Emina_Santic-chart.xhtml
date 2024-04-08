@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <title>Sevdah - Textual Analysis</title>
-      <link rel="stylesheet" type="text/css" href="../index-style.css"/>
-   </head>
+      <link rel="stylesheet" type="text/css" href="../index-style.css"/><script type="text/javascript" src="../show-hide_en_bs-cy_bs-la.js"></script></head>
    <body>
       <nav class="navigation">
          <h1 class="website_title">SEVDAH</h1>
@@ -14,15 +13,11 @@
             <li class="nav_button"><a href="contributors.xhtml" class="nav_link">Contributors</a></li>
             <li class="nav_button"><a href="bibliography.xhtml" class="nav_link">Bibliography</a></li>
          </ul>
-         <div class="languages">
-            <ul class="languages">
-               <li class="languages"><a class="languages" href="">English</a></li>
-               <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-               <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-            </ul>
-         </div>
+         <div class="languages"><button class="languages"><span onclick="English()">English</span></button><button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button><button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button></div>
       </nav>
-      <h1 class="main_title">Textual Analysis</h1>
+      <h1 class="main_title en" style="display:block">Textual Analysis</h1>
+      <h1 class="main_title bs-cy" style="display:none">Анализа текстова</h1>
+      <h1 class="main_title bs-la" style="display:none">Analiza tekstova</h1>
       <hr/>
       <section>
          <h2>Percentages of Word Origins</h2>
@@ -50,19 +45,82 @@
                <text x="25" y="250" fill="white">%</text>
                <text x="50" y="475" fill="white">Language of Origin  - Total words: 173</text>
                <rect fill="#FFC436" x="75" y="387.57225433526014" width="100" height="62.42774566473989"></rect>
-               <text fill="white" x="75" y="377.57225433526014">Turkic 15.6%</text>
+               <text fill="white" x="75" y="377.57225433526014" transform="rotate(270 74,377.57225433526014)">Turkic / Turski / Турски 15.6%</text>
                <rect fill="#FFC436" x="200" y="142.485549132948" width="100" height="307.514450867052"></rect>
-               <text fill="white" x="200" y="132.485549132948">Slavic 76.9%</text>
+               <text fill="white" x="200" y="377.57225433526014" transform="rotate(270 199,377.57225433526014)">Slavic / Slavenski / Славенски 76.9%</text>
                <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
-               <text fill="white" x="325" y="440">Latin 0%</text>
+               <text fill="white" x="325" y="440" transform="rotate(270 324,377.57225433526014)">Latin / Latinski / Латински 0%</text>
                <rect fill="#FFC436" x="450" y="440.7514450867052" width="100" height="9.248554913294797"></rect>
-               <text fill="white" x="450" y="430.7514450867052">Greek 2.3%</text>
+               <text fill="white" x="450" y="430.7514450867052" transform="rotate(270 449,377.57225433526014)">Greek / Grčki / Грчки 2.3%</text>
                <rect fill="#FFC436" x="575" y="447.6878612716763" width="100" height="2.3121387283236996"></rect>
-               <text fill="white" x="575" y="437.6878612716763">Hungarian 0.6%</text>
+               <text fill="white" x="575" y="437.6878612716763" transform="rotate(270 574,377.57225433526014)">Hungarian / Mađarski / Мађарски 0.6%</text>
                <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
-               <text fill="white" x="700" y="440">Germanic 0%</text>
+               <text fill="white" x="700" y="440" transform="rotate(270 699,377.57225433526014)">Germanic / Njemački / Њемачки 0%</text>
                <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
-               <text fill="white" x="825" y="440">Italian 0%</text></svg>
+               <text fill="white" x="825" y="440" transform="rotate(270 824,377.57225433526014)">Italian / Talijanski / Талијански 0%</text></svg>
+            </div>
+         <h2>Total Number of Word Origins</h2>
+         <div class="info">
+            
+            
+            <table>
+               <tr>
+                  <th class="en" style="display:block">Language</th>
+                  <th class="en" style="display:block">Number</th>
+                  <th class="bs-cy" style="display:none">Језик</th>
+                  <th class="bs-cy" style="display:none">Број</th>
+                  <th class="bs-la" style="display:none">Jezik</th>
+                  <th class="bs-la" style="display:none">Broj</th>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Turkic</td>
+                  <td class="bs-cy" style="display:none">Туркси</td>
+                  <td class="bs-la" style="display:none">Turksi</td>
+                  <td>27</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Slavic</td>
+                  <td class="bs-cy" style="display:none">Славенски</td>
+                  <td class="bs-la" style="display:none">Slavenski</td>
+                  <td>133</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Latin</td>
+                  <td class="bs-cy" style="display:none">Латински</td>
+                  <td class="bs-la" style="display:none">Latinski</td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Greek</td>
+                  <td class="bs-cy" style="display:none">Γрчки</td>
+                  <td class="bs-la" style="display:none">Grčki</td>
+                  <td>4</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Hungarian</td>
+                  <td class="bs-cy" style="display:none">Мађарски</td>
+                  <td class="bs-la" style="display:none">Mađarski</td>
+                  <td>1</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Germanic</td>
+                  <td class="bs-cy" style="display:none">Њемачки</td>
+                  <td class="bs-la" style="display:none">Njemački</td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">Italian</td>
+                  <td class="bs-cy" style="display:none">Талијански</td>
+                  <td class="bs-la" style="display:none">Talijanski</td>
+                  <td>0</td>
+               </tr>
+               <tr>
+                  <td class="en" style="display:block">N/a</td>
+                  <td class="bs-cy" style="display:none">Није словo</td>
+                  <td class="bs-la" style="display:none">Nije slovo</td>
+                  <td>4</td>
+               </tr>
+            </table>
             </div>
       </section>
    </body>
