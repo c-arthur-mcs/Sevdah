@@ -57,7 +57,7 @@
           <div class="languages">
             <ul class="languages">
             <button class="languages"><span onclick="English()">English</span></button>
-            <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+            <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Ћир</span></button>
             <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </ul>
           </div>
