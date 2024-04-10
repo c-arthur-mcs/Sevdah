@@ -22,22 +22,22 @@
                     <h1 class="website_title">SEVDAH</h1>
                     <ul class="navig">
                         <li class="nav_button">
-                            <a href="index.html" class="nav_link">About the Project</a>
+                            <a href="../index.html" class="nav_link">About the Project</a>
                         </li>
                         <li class="nav_button">
-                            <a href="methodology.xhtml" class="nav_link">Methodology</a>
+                            <a href="../methodology.xhtml" class="nav_link">Methodology</a>
                         </li>
                         <li class="nav_button">
-                            <a href="text_directory.xhtml" class="nav_link">Text Directory</a>
+                            <a href="../text_directory.xhtml" class="nav_link">Text Directory</a>
                         </li>
                         <li class="nav_button">
-                            <a href="textual_analysis.xhtml" class="nav_link">Textual Analysis</a>
+                            <a href="../textual_analysis.xhtml" class="nav_link">Textual Analysis</a>
                         </li>
                         <li class="nav_button">
-                            <a href="contributors.xhtml" class="nav_link">Contributors</a>
+                            <a href="../contributors.xhtml" class="nav_link">Contributors</a>
                         </li>
                         <li class="nav_button">
-                            <a href="bibliography.xhtml" class="nav_link">Bibliography</a>
+                            <a href="../bibliography.xhtml" class="nav_link">Bibliography</a>
                         </li>
                     </ul>
                     <div class="languages">
