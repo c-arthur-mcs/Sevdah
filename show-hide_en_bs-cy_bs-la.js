@@ -5,7 +5,7 @@ function init(){
     var BsCyButton = buttons[1]
     BsCyButton.addEventListener('click',Bosnian_Cyrillic)
     var BsLaButton = buttons[2]
-    BsLatButton.addEventListener('click',Bosnian_Latin)
+    BsLaButton.addEventListener('click',Bosnian_Latin)
 }
 
 function English() {

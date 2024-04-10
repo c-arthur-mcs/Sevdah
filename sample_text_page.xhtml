@@ -4,6 +4,8 @@
     <head>
         <title>Sevdah - Text Directory</title>
         <link rel="stylesheet" type="text/css" href="index-style.css" />
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"></script>
+        <script type="text/javascript" src="text-transformations.js"></script>
     </head>
     <body>
         <nav class="navigation">
@@ -23,11 +25,9 @@
                         >Bibliography</a></li>
             </ul>
             <div class="languages">
-                <ul class="languages">
-                    <li class="languages"><a class="languages" href="">English</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Lat</a></li>
-                    <li class="languages"><a class="languages" href="">Bos-Cyr</a></li>
-                </ul>
+                <button class="languages"><span onclick="English()">English</span></button>
+                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </div>
         </nav>
         <h1 class="main_title">Title of Text Here</h1>
@@ -37,35 +37,35 @@
             <section class="options">
                 <h3 class="options">Slavic-Origin</h3>
                 <ul class="options">
-                    <li class="options">Italics</li>
-                    <li class="options">Bold</li>
-                    <li class="options">Underline</li>
+                    <li class="options"><button><span onclick="Slav_Italic()">Italics</span></button></li>
+                    <li class="options"><button><span onclick="Slav_Bold()">Bold</span></button></li>
+                    <li class="options"><button><span onclick="Slav_Under()">Underline</span></button></li>
                 </ul>
             </section>
-            <hr/>
+            <hr />
             <section class="options">
                 <h3 class="options">Turkic-Origin</h3>
                 <ul class="options">
-                    <li class="options">Italics</li>
-                    <li class="options">Bold</li>
-                    <li class="options">Underline</li>
+                    <li class="options"><button><span onclick="Turk_Italic()">Italics</span></button></li>
+                    <li class="options"><button><span onclick="Turk_Bold()">Bold</span></button></li>
+                    <li class="options"><button><span onclick="Turk_Under()">Underline</span></button></li>
                 </ul>
             </section>
-            <hr/>
+            <hr />
             <section class="options">
                 <h3 class="options">Other-Origin</h3>
                 <ul class="options">
-                    <li class="options">Italics</li>
-                    <li class="options">Bold</li>
-                    <li class="options">Underline</li>
+                    <li class="options"><button><span onclick="Other_Italic()">Italics</span></button></li>
+                    <li class="options"><button><span onclick="Other_Bold()">Bold</span></button></li>
+                    <li class="options"><button><span onclick="Other_Under()">Underline</span></button></li>
                 </ul>
             </section>
-            <hr/>
+            <hr />
             <section class="options">
                 <h3 class="options">Alphabet</h3>
                 <ul class="options">
-                    <li class="options">Cyrillic</li>
-                    <li class="options">Latin</li>
+                    <li class="options"><button><span>Cyrillic</span></button></li>
+                    <li class="options"><button><span>Latin</span></button></li>
                 </ul>
             </section>
         </div>
@@ -73,60 +73,27 @@
         <section class="text_window">
             <h1 class="poem_title">This is the Title of the Poem</h1>
             <ul class="poem">
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li class="space_line">.</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
-                <li>this is a line of the poem</li>
+                <li>
+                    <span class="slavic">Slavic</span>
+                    <span class="turkic">Turkic</span>
+                    <span class="germanic">Germanic</span>
+                    <span class="hungarian">Hungarian</span>
+                    <span class="n/a">n/a</span>
+                </li>
+                <li>
+                    <span class="slavic">Slavic</span>
+                    <span class="turkic">Turkic</span>
+                    <span class="germanic">Germanic</span>
+                    <span class="hungarian">Hungarian</span>
+                    <span class="n/a">n/a</span>
+                </li>
+                <li>
+                    <span class="slavic">Slavic</span>
+                    <span class="turkic">Turkic</span>
+                    <span class="germanic">Germanic</span>
+                    <span class="hungarian">Hungarian</span>
+                    <span class="n/a">n/a</span>
+                </li>
             </ul>
         </section>
     </body>
