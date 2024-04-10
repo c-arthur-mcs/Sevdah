@@ -2,13 +2,22 @@
 /* GLOBAL VARIABLES */
 var slavic
 var turkic
-var other
+var germanic
+var greek
+var hungarian
+var italian
+var latin
 
+/* INITIALIZION */
 function init() {
     var buttons = document.getElementsByTagName("button")
     slavic = document.getElementsByClassName("slavic")
     turkic = document.getElementsByClassName("turkic")
-    other = document.getElementsByClassName("germanic greek hungarian italian latin")
+    germanic = document.getElementsByClassName("germanic")
+    greek = document.getElementsByClassName("greek")
+    hungarian = document.getElementsByClassName("hungarian")
+    italian = document.getElementsByClassName("italian")
+    latin = document.getElementsByClassName("latin")
     /* SLAVIC ORIGIN BUTTONS */
     var SlavItalicButton = buttons[3]
     SlavItalicButton.addEventListener('click', Italic(slavic))
@@ -29,7 +38,7 @@ function init() {
     TurkClearButton.addEventListener('click', Turk_Clear)
     /* OTHER ORIGIN BUTTONS */
     var OtherItalicButton = buttons[11]
-    OtherItalicButton.addEventListener('click', Italic(other))
+    OtherItalicButton.addEventListener('click', OtherItalic)
     var OtherBoldButton = buttons[12]
     OtherBoldButton.addEventListener('click', Other_Bold)
     var OtherUnderButton = buttons[13]
@@ -41,6 +50,14 @@ function init() {
     LatinButton.addEventListener('click', Latin)
     var CyrillicButton = buttons[16]
     CyrillicButton.addEventListener('click', Cyrillic_Bold)
+}
+
+function OtherItalic() {
+    Italic(germanic)
+    Italic(greek)
+    Italic(hungarian)
+    Italic(italian)
+    Italic(latin)
 }
 
 function Italic(input) {
