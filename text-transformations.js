@@ -7,24 +7,30 @@ function init(){
     SlavBoldButton.addEventListener('click',Slav_Bold)
     var SlavUnderButton = buttons[5]
     SlavUnderButton.addEventListener('click',Slav_Under)
+    var SlavClearButton = buttons[6]
+    SlavClearButton.addEventListener('click',Slav_Clear)
     /* TURKIC ORIGIN BUTTONS */
-    var TurkItalicButton = buttons[6]
+    var TurkItalicButton = buttons[7]
     TurkItalicButton.addEventListener('click',Turk_Italic)
-    var TurkBoldButton = buttons[7]
+    var TurkBoldButton = buttons[8]
     TurkBoldButton.addEventListener('click',Turk_Bold)
-    var TurkUnderButton = buttons[8]
+    var TurkUnderButton = buttons[9]
     TurkUnderButton.addEventListener('click',Turk_Under)
+    var TurkClearButton = buttons[10]
+    TurkClearButton.addEventListener('click',Turk_Clear)
     /* OTHER ORIGIN BUTTONS */
-    var OtherItalicButton = buttons[6]
+    var OtherItalicButton = buttons[11]
     OtherItalicButton.addEventListener('click',Other_Italic)
-    var OtherBoldButton = buttons[7]
+    var OtherBoldButton = buttons[12]
     OtherBoldButton.addEventListener('click',Other_Bold)
-    var OtherUnderButton = buttons[8]
+    var OtherUnderButton = buttons[13]
     OtherUnderButton.addEventListener('click',Other_Under)
+    var OtherClearButton = buttons[14]
+    OtherClearButton.addEventListener('click',Other_Clear)
     /* ALPHABET BUTTONS */
-    var LatinButton = buttons[6]
+    var LatinButton = buttons[15]
     LatinButton.addEventListener('click',Latin)
-    var CyrillicButton = buttons[7]
+    var CyrillicButton = buttons[16]
     CyrillicButton.addEventListener('click',Cyrillic_Bold)
 }
 
@@ -53,6 +59,16 @@ function Slav_Under() {
         };  
 }
 
+function Slav_Clear() {
+    var x = document.getElementsByClassName ("slavic");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.textDecoration = "none"
+        x[i].style.fontWeight = "normal"
+        x[i].style.fontStyle = "none"
+        };  
+}
+
 /* TURKIC FUNCTIONS */
 function Turk_Italic() {
     var x = document.getElementsByClassName ("turkic");
@@ -78,6 +94,16 @@ function Turk_Under() {
         };  
 }
 
+function Turk_Clear() {
+    var x = document.getElementsByClassName ("turkic");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.textDecoration = "none"
+        x[i].style.fontWeight = "normal"
+        x[i].style.fontStyle = "none"
+        };  
+}
+
 /* OTHER FUNCTIONS */
 function Other_Italic() {
     var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
@@ -100,5 +126,15 @@ function Other_Under() {
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.textDecoration = "underline"
+        };  
+}
+
+function Other_Clear() {
+    var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.textDecoration = "none"
+        x[i].style.fontWeight = "normal"
+        x[i].style.fontStyle = "none"
         };  
 }
