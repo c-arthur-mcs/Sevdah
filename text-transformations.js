@@ -65,7 +65,7 @@ function Slav_Clear() {
         {
         x[i].style.textDecoration = "none"
         x[i].style.fontWeight = "normal"
-        x[i].style.fontStyle = "none"
+        x[i].style.fontStyle = "normal"
         };  
 }
 
@@ -100,7 +100,7 @@ function Turk_Clear() {
         {
         x[i].style.textDecoration = "none"
         x[i].style.fontWeight = "normal"
-        x[i].style.fontStyle = "none"
+        x[i].style.fontStyle = "normal"
         };  
 }
 
@@ -135,6 +135,6 @@ function Other_Clear() {
         {
         x[i].style.textDecoration = "none"
         x[i].style.fontWeight = "normal"
-        x[i].style.fontStyle = "none"
+        x[i].style.fontStyle = "normal"
         };  
 }
