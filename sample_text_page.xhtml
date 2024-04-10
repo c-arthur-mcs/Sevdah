@@ -26,49 +26,149 @@
             </ul>
             <div class="languages">
                 <button class="languages"><span onclick="English()">English</span></button>
-                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Чир</span></button>
+                <button class="languages"><span onclick="Bosnian_Cyrillic()">Бос-Ћир</span></button>
                 <button class="languages"><span onclick="Bosnian_Latin()">Bos-Lat</span></button>
             </div>
         </nav>
-        <h1 class="main_title">Title of Text Here</h1>
-        <p class="text_desc">This is where the origin of the text would be written, along with all
-            of the important transcription based information.</p>
+        <h1 class="main_title en" style="display:block">Title of Text Here</h1>
+        <h1 class="main_title bs-cy" style="display:none">Има текста овдје</h1>
+        <h1 class="main_title bs-la" style="display:none">Ima teksta ovdje</h1>
         <div class="options">
             <section class="options">
-                <h3 class="options">Slavic-Origin</h3>
+                <h3 class="options en" style="display:block">Slavic Origin</h3>
+                <h3 class="options bs-cy" style="display:none">Из Славенског</h3>
+                <h3 class="options bs-la" style="display:none">Iz Slavenskog</h3>
                 <ul class="options">
-                    <li class="options"><button class="options"><span onclick="Slav_Italic()">Italics</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Slav_Bold()">Bold</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Slav_Under()">Underline</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Slav_Clear()">Clear</span></button></li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Slav_Italic()">Italics</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Slav_Italic()">Курзивно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Slav_Italic()">Kurzivno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span onclick="Slav_Bold()"
+                                >Bold</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Slav_Bold()">Масно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Slav_Bold()">Masno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Slav_Under()">Underline</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Slav_Under()">Подвучено</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Slav_Under()">Podvučeno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Slav_Clear()">Clear</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Slav_Clear()">Без стила</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Slav_Clear()">Bez stila</span></button>
+                    </li>
                 </ul>
             </section>
             <hr />
             <section class="options">
-                <h3 class="options">Turkic-Origin</h3>
+                <h3 class="options en" style="display:block">Turkic Origin</h3>
+                <h3 class="options bs-cy" style="display:none">Из Турског</h3>
+                <h3 class="options bs-la" style="display:none">Iz Turskog</h3>
                 <ul class="options">
-                    <li class="options"><button class="options"><span onclick="Turk_Italic()">Italics</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Turk_Bold()">Bold</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Turk_Under()">Underline</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Turk_Clear()">Clear</span></button></li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Turk_Italic()">Italics</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Turk_Italic()">Курзивно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Turk_Italic()">Kurzivno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span onclick="Turk_Bold()"
+                                >Bold</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Turk_Bold()">Масно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Turk_Bold()">Masno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Turk_Under()">Underline</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Turk_Under()">Подвучено</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Turk_Under()">Podvučeno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Turk_Clear()">Clear</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Turk_Clear()">Без стила</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Turk_Clear()">Bez stila</span></button>
+                    </li>
                 </ul>
             </section>
             <hr />
             <section class="options">
-                <h3 class="options">Other-Origin</h3>
+                <h3 class="options en" style="display:block">Other Origins</h3>
+                <h3 class="options bs-cy" style="display:none">Из других језика</h3>
+                <h3 class="options bs-la" style="display:none">Iz drugih jezika</h3>
                 <ul class="options">
-                    <li class="options"><button class="options"><span onclick="Other_Italic()">Italics</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Other_Bold()">Bold</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Other_Under()">Underline</span></button></li>
-                    <li class="options"><button class="options"><span onclick="Other_Clear()">Clear</span></button></li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Other_Italic()">Italics</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Other_Italic()">Курзивно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Other_Italic()">Kurzivno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Other_Bold()">Bold</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Other_Bold()">Масно</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Other_Bold()">Masno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Other_Under()">Underline</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Other_Under()">Подвучено</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Other_Under()">Podvučeno</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span
+                                onclick="Other_Clear()">Clear</span></button>
+                        <button class="options bs-cy" style="display:none"><span
+                                onclick="Other_Clear()">Без стила</span></button>
+                        <button class="options bs-la" style="display:none"><span
+                                onclick="Other_Clear()">Bez stila</span></button>
+                    </li>
                 </ul>
             </section>
             <hr />
             <section class="options">
-                <h3 class="options">Alphabet</h3>
+                <h3 class="options en" style="display:block">Alphabet / Azbuka</h3>
+                <h3 class="options bs-cy" style="display:none">Абецеда / Азбука</h3>
+                <h3 class="options bs-la" style="display:none">Abeceda / Azbuka</h3>
                 <ul class="options">
-                    <li class="options"><button class="options"><span>Cyrillic</span></button></li>
-                    <li class="options"><button class="options"><span>Latin</span></button></li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span>Cyrillic</span></button>
+                        <button class="options bs-cy" style="display:none"><span>Ћирилица</span></button>
+                        <button class="options bs-la" style="display:none"><span>Ćirilica</span></button>
+                    </li>
+                    <li class="options">
+                        <button class="options en" style="display:block"><span>Latin</span></button>
+                        <button class="options bs-cy" style="display:none"><span>Латично</span></button>
+                        <button class="options bs-la" style="display:none"><span>Latično</span></button>
+                    </li>
                 </ul>
             </section>
         </div>
