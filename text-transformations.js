@@ -106,7 +106,7 @@ function Turk_Clear() {
 
 /* OTHER FUNCTIONS */
 function Other_Italic() {
-    var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
+    var x = document.getElementsByClassName ("germanic" , "greek" , "hungarian" , "italian" , "latin");
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.fontStyle = "italic"
@@ -114,7 +114,7 @@ function Other_Italic() {
 }
 
 function Other_Bold() {
-    var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
+    var x = document.getElementsByClassName ("germanic" , "greek" , "hungarian" , "italian" , "latin");
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.fontWeight = "bold"
@@ -122,7 +122,7 @@ function Other_Bold() {
 }
 
 function Other_Under() {
-    var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
+    var x = document.getElementsByClassName ("germanic" , "greek" , "hungarian" , "italian" , "latin");
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.textDecoration = "underline"
@@ -130,7 +130,7 @@ function Other_Under() {
 }
 
 function Other_Clear() {
-    var x = document.getElementsByClassName ("germanic","greek","hungarian","italian","latin");
+    var x = document.getElementsByClassName ("germanic" , "greek" , "hungarian" , "italian" , "latin");
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.textDecoration = "none"

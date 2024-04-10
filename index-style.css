@@ -173,10 +173,16 @@ ul.options {
     text-align: center;
 }
 
-li.options {
+button.options {
     display: flex;
     justify-content: center;
     text-align: justify;
+    background-color: #0174BE;
+    color: #FFC436;
+}
+
+button.options:hover {
+    background-color: #0174BE;
 }
 
 section.text_window {
