@@ -19,7 +19,7 @@ function init() {
     hungarian = document.getElementsByClassName("hungarian")
     italian = document.getElementsByClassName("italian")
     latin = document.getElementsByClassName("latin")
-    console.log(buttons)
+    /*console.log(buttons)*/
     /* SLAVIC ORIGIN BUTTONS */
     var SlavItalicButton = buttons[3];
     SlavItalicButton.addEventListener('click', Italic(slavic));
@@ -126,5 +126,5 @@ function Other_Clear() {
         x[i].style.fontStyle = "normal"
     };
 }
-
-window.onload = init();
+/*
+window.onload = init();*/
