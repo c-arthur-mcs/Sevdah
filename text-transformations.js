@@ -96,6 +96,30 @@ function OtherItalic() {
     Italic(latin)
 }
 
+function Latin() {
+    var x = document.getElementsByClassName("cyrillic");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.display = "none"
+        };  
+    var y = document.getElementsByClassName("lat");
+    for(let i = 0; i < y.length; i++)
+        {
+        y[i].style.display = "none"
+        };  
+        
+function Cyrillic() {
+    var x = document.getElementsByClassName("lat");
+    for(let i = 0; i < x.length; i++)
+        {
+        x[i].style.display = "none"
+        };  
+    var y = document.getElementsByClassName("cyr");
+    for(let i = 0; i < y.length; i++)
+        {
+        y[i].style.display = "none"
+        };  
+
 /* OTHER FUNCTIONS */
 function Other_Italic() {
     var x = document.getElementsByClassName ("germanic", "greek", "hungarian", "italian", "latin");

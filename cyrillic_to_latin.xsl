@@ -205,14 +205,18 @@
                         <h3 class="options bs-la" style="display:none">Abeceda / Azbuka</h3>
                         <ul class="options">
                             <li class="options">
-                                <button class="options en" style="display:block"><span>Cyrillic</span></button>
-                                <button class="options bs-cy" style="display:none"><span>Ћирилица</span></button>
-                                <button class="options bs-la" style="display:none"><span>Ćirilica</span></button>
+                                <button class="options" onclick="Cyrillic()">
+                                    <span class="en" style="display:block">Cyrillic</span>
+                                    <span class="bs-cy" style="display:none">Ћирилица</span>
+                                    <span class="bs-la" style="display:none">Ćirilica</span>
+                                </button>
                             </li>
                             <li class="options">
-                                <button class="options en" style="display:block"><span>Latin</span></button>
-                                <button class="options bs-cy" style="display:none"><span>Латично</span></button>
-                                <button class="options bs-la" style="display:none"><span>Latično</span></button>
+                                <button class="options" onclick="Latin()">
+                                    <span class="en" style="display:block">Latin</span>
+                                    <span class="bs-cy" style="display:none">Латично</span>
+                                    <span class="bs-la" style="display:none">Latično</span>
+                                </button>
                             </li>
                         </ul>
                     </section>
@@ -286,7 +290,7 @@
     </xsl:template>
     
     <xsl:template match="origin" mode="latin">
-        <span class="{@lang} latin">
+        <span class="{@lang} lat">
             <xsl:apply-templates select="cam:cyr-to-lat(.)" mode="latin"/>
         </span>
     </xsl:template>
