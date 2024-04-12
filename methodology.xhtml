@@ -4,22 +4,42 @@
     <head>
         <title>Sevdah - Methodology</title>
         <link rel="stylesheet" type="text/css" href="index-style.css" />
-        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"/>
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"></script>
     </head>
     <body>
         <nav class="navigation">
             <h1 class="website_title">SEVDAH</h1>
             <ul class="navig">
-                <li class="nav_button"><a href="index.html" class="nav_link">About the
-                    Project</a></li>
-                <li class="nav_button"><a href="methodology.xhtml" class="nav_link">Methodology</a></li>
-                <li class="nav_button"><a href="text_directory.xhtml" class="nav_link">Text
-                    Directory</a></li>
-                <li class="nav_button"><a href="textual_analysis.xhtml" class="nav_link">Textual Analysis</a></li>
-                <li class="nav_button"><a href="contributors.xhtml" class="nav_link"
-                    >Contributors</a></li>
-                <li class="nav_button"><a href="bibliography.xhtml" class="nav_link"
-                    >Bibliography</a></li>
+                <li class="nav_button">
+                    <a href="index.html" class="nav_link en" style="display:block">About the Project</a>
+                    <a href="index.html" class="nav_link bs-cy" style="display:none">О овом пројекту</a>
+                    <a href="index.html" class="nav_link bs-la" style="display:none">O ovom projetku</a>
+                </li>
+                <li class="nav_button">
+                    <a href="methodology.xhtml" class="nav_link en" style="display:block">Methodology</a>
+                    <a href="methodology.xhtml" class="nav_link bs-cy" style="display:none">Начин истраживања</a>
+                    <a href="methodology.xhtml" class="nav_link bs-la" style="display:none">Način istraživanja</a>
+                </li>
+                <li class="nav_button">
+                    <a href="text_directory.xhtml" class="nav_link en" style="display:block">Text Directory</a>
+                    <a href="text_directory.xhtml" class="nav_link bs-cy" style="display:none">Директориј текстова</a>
+                    <a href="text_directory.xhtml" class="nav_link bs-la" style="display:none">Direktorij tekstova</a>
+                </li>
+                <li class="nav_button">
+                    <a href="textual_analysis.xhtml" class="nav_link en" style="display:block">Textual Analysis</a>
+                    <a href="textual_analysis.xhtml" class="nav_link bs-cy" style="display:none">Анализа текстова</a>
+                    <a href="textual_analysis.xhtml" class="nav_link bs-la" style="display:none">Analiza tekstova</a>
+                </li>
+                <li class="nav_button">
+                    <a href="contributors.xhtml" class="nav_link en" style="display:block">Contributors</a>
+                    <a href="contributors.xhtml" class="nav_link bs-cy" style="display:none">Сурадници</a>
+                    <a href="contributors.xhtml" class="nav_link bs-la" style="display:none">Suradnici</a>
+                </li>
+                <li class="nav_button">
+                    <a href="bibliography.xhtml" class="nav_link en" style="display:block">Bibliography</a>
+                    <a href="bibliography.xhtml" class="nav_link bs-cy" style="display:none">Библиографија</a>
+                    <a href="bibliography.xhtml" class="nav_link bs-la" style="display:none">Bibliografija</a>
+                </li>
             </ul>
             <div class="languages">
                 <button class="languages"><span onclick="English()">English</span></button>
@@ -29,8 +49,57 @@
         </nav>
         <h1 class="main_title en" style="display:block">Methodology</h1>
         <h1 class="main_title bs-cy" style="display:none">Начин истраживања</h1>
-        <h1 class="main_title bs-lat" style="display:none">Način istraživanja</h1>
+        <h1 class="main_title bs-la" style="display:none">Način istraživanja</h1>
         <hr />
-        <section> </section>
+        <section>
+            <div class="info">
+                <h2 class="en">Beginning of Research – Text Gathering and Standardization</h2>
+                <p class="en">Of course, the first part of starting the research for any research
+                    project in literature and language lies in finding the exact texts for study. In
+                    consultation with librarians at the University of Pittsburgh, I found multiple
+                    printed and digital resources for written texts (citations can be found on the
+                    “<a href="bibliography.xhtml">bibliography</a>” page). From there, the texts were written down into an XML
+                    document, which was then transformed using Regular Expressions (RegEx) in order
+                    to contain every word in an &lt;origin> element, each line in a &lt;l> element,
+                    and each stanza in a &lt;lg> element. For texts from sung resources, I, with
+                    some help from Dr. Ljiljana Đurašković, transcribed the text by ear, and then
+                    underwent the same RegEx based transformation. All of these texts are written
+                    into the XML document in Bosnian Cyrillic, in order to make the XSLT
+                    transformation to Latin easier. Cyrillic to Latin is always one to one or one to
+                    two, but Latin to Cyrillic, being one or two to one, is more complex.</p>
+                <p class="en">From there, each word was researched to find its linguistic origin,
+                    and then given an attribute value (@lang=””) according to this linguistic
+                    origin, as well as the general information about the text being written in a
+                    &lt;meta> element before the &lt;body> which contains the text of the poem. This
+                    XML document is then validated with the use of a Relax NG schema, in order to
+                    standardize each XML document.</p>
+            </div>
+            <div class="info">
+                <h2 class="en">Creating the Website</h2>
+                <p class="en">A major part of the digital humanities discipline lies in the use of
+                    digital tools, not just to examine a text, but to make the text more accessible
+                    using digital tools. This, in this case, is the usage of a website, hosted and
+                    created through github. There were multiple elements of this website which make
+                    the functioning more complex but make the user experience better. The first of
+                    these is the use of XSLT to make each part of the text written in Cyrillic also
+                    usable in Latin letters.</p>
+                <p class="en">Often, the Western-European-centricity of research fields leads to
+                    texts being studied and examined by English speakers, or French speakers, or
+                    German speakers and then that research is presented in those languages, rather
+                    than the language of the texts examined, or the language of the culture from
+                    which the texts come. I want to avoid this problem by writing all of the
+                    examination of the texts and the analysis bilingually. This way, someone could
+                    use the entire website in Bosnian, and either in Latin or Cyrillic letters, or
+                    in English.</p>
+            </div>
+            <div class="info">
+                <h2 class="en">Final Examinations</h2>
+                <p class="en">The final part of the analysis in the texts is the creation of
+                    statistics for each of the poems individually and also aggregate statistics, and
+                    then displaying them as a Scalable Vector Graphic (SVG). These transformations
+                    are done through an XSLT document as a transformation scenario. These graphs are
+                    the final step before writing the analysis of the data. </p>
+            </div>
+        </section>
     </body>
 </html>
