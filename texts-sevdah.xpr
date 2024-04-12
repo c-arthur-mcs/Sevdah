@@ -15,15 +15,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -35,15 +41,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -55,15 +67,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -75,15 +93,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -95,15 +119,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -115,15 +145,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -135,15 +171,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -155,15 +197,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -175,15 +223,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>
@@ -195,15 +249,21 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Statistics_calculations_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XSL</String>
+                                        <String>XSL</String>
+                                        <String>XSL</String>
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
                                     <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
                                         <Byte>2</Byte>
                                     </list>
                                 </field>

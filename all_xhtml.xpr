@@ -9,21 +9,31 @@
         <file name="bibliography.xhtml"/>
         <file name="contributors.xhtml"/>
         <file name="testing_xslt_transform/Da-Sam-Ptica_Armenulic-chart.xhtml"/>
+        <file name="texts_xhtml/Da-Sam-Ptica_Armenulic.xhtml"/>
         <file name="testing_xslt_transform/Djevojka-I-Cvijece_Basagic-chart.xhtml"/>
+        <file name="texts_xhtml/Djevojka-I-Cvijece_Basagic.xhtml"/>
         <file name="testing_xslt_transform/Emina_Polovina-chart.xhtml"/>
+        <file name="texts_xhtml/Emina_Polovina.xhtml"/>
         <file name="testing_xslt_transform/Emina_Santic-chart.xhtml"/>
+        <file name="texts_xhtml/Emina_Santic.xhtml"/>
         <file name="testing_xslt_transform/Emini_Dikic-chart.xhtml"/>
+        <file name="texts_xhtml/Emini_Dikic.xhtml"/>
         <file name="index.html"/>
         <file name="testing_xslt_transform/Kad-Ja-Podoh-Na-Bembasu_Polovina-chart.xhtml"/>
+        <file name="texts_xhtml/Kad-Ja-Podoh-Na-Bembasu_Polovina.xhtml"/>
         <file name="methodology.xhtml"/>
         <file name="testing_xslt_transform/Mladost_Santic-chart.xhtml"/>
+        <file name="texts_xhtml/Mladost_Santic.xhtml"/>
         <file name="testing_xslt_transform/Na-Osvitku-Zore_Dikic-chart.xhtml"/>
+        <file name="texts_xhtml/Na-Osvitku-Zore_Dikic.xhtml"/>
         <file name="sample_text_page.xhtml"/>
         <file name="testing_xslt_transform/statistics_calculations.xhtml"/>
         <file name="text_directory.xhtml"/>
         <file name="textual_analysis.xhtml"/>
         <file name="textual_analysis_with_statistics_caluclations.xhtml"/>
         <file name="testing_xslt_transform/U-sevdahu_Catic-chart.xhtml"/>
+        <file name="texts_xhtml/U-sevdahu_Catic.xhtml"/>
         <file name="testing_xslt_transform/U-zimskoj-noci_Catic.xhtml"/>
+        <file name="texts_xhtml/U-zimskoj-noci_Catic.xhtml"/>
     </projectTree>
 </project>

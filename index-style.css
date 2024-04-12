@@ -204,3 +204,7 @@ ul.poem {
 li.space_line {
     color: #0C356A;
 }
+
+li.citations {
+    padding: 5px;
+}
