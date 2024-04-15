@@ -91,40 +91,32 @@
                         <h3 class="options bs-la" style="display:none">Iz Slavenskog</h3>
                         <ul class="options">
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Italics</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Курзивно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Kurzivno</span></button>
+                                <button class="options languageToggle" data-language="slavic"
+                                    data-style="italic">
+                                    <span class="en" style="display:block">Italics</span>
+                                    <span class="bs-cy" style="display:none">Курзивно</span>
+                                    <span class="bs-la" style="display:none">Kurzivno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Bold</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Масно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Masno</span></button>
+                                <button class="options languageToggle" data-language="slavic"
+                                    data-style="bold">
+                                    <span class="en" style="display:block">Bold</span>
+                                    <span class="bs-cy" style="display:none">Масно</span>
+                                    <span class="bs-la" style="display:none">Masno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Underline</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Подучено</span>
-                                    <span
-                                        class="bs-la" style="display:none">Podučeno</span></button>
+                                <button class="options languageToggle" data-language="slavic"
+                                    data-style="under">
+                                    <span class="en" style="display:block">Underline</span>
+                                    <span class="bs-cy" style="display:none">Подучено</span>
+                                    <span class="bs-la" style="display:none">Podučeno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Clear</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Без стила</span>
-                                    <span
-                                        class="bs-la" style="display:none">Bez stila</span></button>
+                                <button class="options languageToggle" data-language="slavic"
+                                    data-style="clear">
+                                    <span class="en" style="display:block">Clear</span>
+                                    <span class="bs-cy" style="display:none">Без стила</span>
+                                    <span class="bs-la" style="display:none">Bez stila</span></button>
                             </li>
                         </ul>
                     </section>
@@ -135,40 +127,32 @@
                         <h3 class="options bs-la" style="display:none">Iz Turskog</h3>
                         <ul class="options">
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Italics</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Курзивно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Kurzivno</span></button>
+                                <button class="options languageToggle" data-language="turkic"
+                                    data-style="italic">
+                                    <span class="en" style="display:block">Italics</span>
+                                    <span class="bs-cy" style="display:none">Курзивно</span>
+                                    <span class="bs-la" style="display:none">Kurzivno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Bold</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Масно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Masno</span></button>
+                                <button class="options languageToggle" data-language="turkic"
+                                    data-style="bold">
+                                    <span class="en" style="display:block">Bold</span>
+                                    <span class="bs-cy" style="display:none">Масно</span>
+                                    <span class="bs-la" style="display:none">Masno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Underline</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Подучено</span>
-                                    <span
-                                        class="bs-la" style="display:none">Podučeno</span></button>
+                                <button class="options languageToggle" data-language="turkic"
+                                    data-style="under">
+                                    <span class="en" style="display:block">Underline</span>
+                                    <span class="bs-cy" style="display:none">Подучено</span>
+                                    <span class="bs-la" style="display:none">Podučeno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Clear</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Без стила</span>
-                                    <span
-                                        class="bs-la" style="display:none">Bez stila</span></button>
+                                <button class="options languageToggle" data-language="turkic"
+                                    data-style="clear">
+                                    <span class="en" style="display:block">Clear</span>
+                                    <span class="bs-cy" style="display:none">Без стила</span>
+                                    <span class="bs-la" style="display:none">Bez stila</span></button>
                             </li>
                         </ul>
                     </section>
@@ -179,40 +163,32 @@
                         <h3 class="options bs-la" style="display:none">Iz drugih jezika</h3>
                         <ul class="options">
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Italics</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Курзивно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Kurzivno</span></button>
+                                <button class="options languageToggle" data-language="other"
+                                    data-style="italic">
+                                    <span class="en" style="display:block">Italics</span>
+                                    <span class="bs-cy" style="display:none">Курзивно</span>
+                                    <span class="bs-la" style="display:none">Kurzivno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Bold</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Масно</span>
-                                    <span
-                                        class="bs-la" style="display:none">Masno</span></button>
+                                <button class="options languageToggle" data-language="other"
+                                    data-style="bold">
+                                    <span class="en" style="display:block">Bold</span>
+                                    <span class="bs-cy" style="display:none">Масно</span>
+                                    <span class="bs-la" style="display:none">Masno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Underline</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Подучено</span>
-                                    <span
-                                        class="bs-la" style="display:none">Podučeno</span></button>
+                                <button class="options languageToggle" data-language="other"
+                                    data-style="under">
+                                    <span class="en" style="display:block">Underline</span>
+                                    <span class="bs-cy" style="display:none">Подучено</span>
+                                    <span class="bs-la" style="display:none">Podučeno</span></button>
                             </li>
                             <li class="options">
-                                <button class="options">
-                                    <span
-                                        class="en" style="display:block">Clear</span>
-                                    <span
-                                        class="bs-cy" style="display:none">Без стила</span>
-                                    <span
-                                        class="bs-la" style="display:none">Bez stila</span></button>
+                                <button class="options languageToggle" data-language="other"
+                                    data-style="clear">
+                                    <span class="en" style="display:block">Clear</span>
+                                    <span class="bs-cy" style="display:none">Без стила</span>
+                                    <span class="bs-la" style="display:none">Bez stila</span></button>
                             </li>
                         </ul>
                     </section>
@@ -223,28 +199,28 @@
                         <h3 class="options bs-la" style="display:none">Abeceda / Azbuka</h3>
                         <ul class="options">
                             <li class="options">
-                                <button class="options" onclick="Cyrillic()">
+                                <button class="options" style="display:block" onclick="Cyrillic()">
                                     <span class="en" style="display:block">Cyrillic</span>
                                     <span class="bs-cy" style="display:none">Ћирилица</span>
                                     <span class="bs-la" style="display:none">Ćirilica</span>
                                 </button>
                             </li>
                             <li class="options">
-                                <button class="options" onclick="Latin()">
+                                <button class="options" style="display:block" onclick="Latin()">
                                     <span class="en" style="display:block">Latin</span>
-                                    <span class="bs-cy" style="display:none">Латично</span>
-                                    <span class="bs-la" style="display:none">Latično</span>
+                                    <span class="bs-cy" style="display:none">Латински</span>
+                                    <span class="bs-la" style="display:none">Latinski</span>
                                 </button>
                             </li>
                         </ul>
                     </section>
                 </div>
                 <hr />
-                <section class="text_window latin" style="display:block">
+                <section class="text_window cyrillic" style="display:block">
                     <xsl:apply-templates select="//title_bs" mode="cyr_tit"/>
                     <xsl:apply-templates select="//body" mode="cyrillic"/>
                 </section>
-                <section class="text_window cyrillic" style="display:none">
+                <section class="text_window latin" style="display:none">
                     <xsl:apply-templates select="//title_bs" mode="lat_tit"/>
                     <xsl:apply-templates select="//body" mode="latin"/>
                 </section>
@@ -290,7 +266,7 @@
     </xsl:template>
     
     <xsl:template match="origin" mode="cyrillic">
-        <span class="{@lang} cyrillic">
+        <span class="{@lang} cyr">
             <xsl:apply-templates mode="cyrillic"/>
         </span>
     </xsl:template>
