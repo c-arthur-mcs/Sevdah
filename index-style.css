@@ -208,3 +208,21 @@ li.space_line {
 li.citations {
     padding: 5px;
 }
+
+/* Styles for language highlighting */
+
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: bold;
+}
+.under {
+  text-decoration: underline;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
