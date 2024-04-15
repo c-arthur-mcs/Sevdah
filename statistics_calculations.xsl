@@ -22,34 +22,34 @@
                     <h1 class="website_title">SEVDAH</h1>
                     <ul class="navig">
                         <li class="nav_button">
-                            <a href="index.html" class="nav_link en" style="display:block">About the Project</a>
-                            <a href="index.html" class="nav_link bs-cy" style="display:none">О овом пројекту</a>
-                            <a href="index.html" class="nav_link bs-la" style="display:none">O ovom projetku</a>
+                            <a href="../index.html" class="nav_link en" style="display:block">About the Project</a>
+                            <a href="../index.html" class="nav_link bs-cy" style="display:none">О овом пројекту</a>
+                            <a href="../index.html" class="nav_link bs-la" style="display:none">O ovom projetku</a>
                         </li>
                         <li class="nav_button">
-                            <a href="methodology.xhtml" class="nav_link en" style="display:block">Methodology</a>
-                            <a href="methodology.xhtml" class="nav_link bs-cy" style="display:none">Начин истраживања</a>
-                            <a href="methodology.xhtml" class="nav_link bs-la" style="display:none">Način istraživanja</a>
+                            <a href="../methodology.xhtml" class="nav_link en" style="display:block">Methodology</a>
+                            <a href="../methodology.xhtml" class="nav_link bs-cy" style="display:none">Начин истраживања</a>
+                            <a href="../methodology.xhtml" class="nav_link bs-la" style="display:none">Način istraživanja</a>
                         </li>
                         <li class="nav_button">
-                            <a href="text_directory.xhtml" class="nav_link en" style="display:block">Text Directory</a>
-                            <a href="text_directory.xhtml" class="nav_link bs-cy" style="display:none">Директориј текстова</a>
-                            <a href="text_directory.xhtml" class="nav_link bs-la" style="display:none">Direktorij tekstova</a>
+                            <a href="../text_directory.xhtml" class="nav_link en" style="display:block">Text Directory</a>
+                            <a href="../text_directory.xhtml" class="nav_link bs-cy" style="display:none">Директориј текстова</a>
+                            <a href="../text_directory.xhtml" class="nav_link bs-la" style="display:none">Direktorij tekstova</a>
                         </li>
                         <li class="nav_button">
-                            <a href="textual_analysis.xhtml" class="nav_link en" style="display:block">Textual Analysis</a>
-                            <a href="textual_analysis.xhtml" class="nav_link bs-cy" style="display:none">Анализа текстова</a>
-                            <a href="textual_analysis.xhtml" class="nav_link bs-la" style="display:none">Analiza tekstova</a>
+                            <a href="../textual_analysis.xhtml" class="nav_link en" style="display:block">Textual Analysis</a>
+                            <a href="../textual_analysis.xhtml" class="nav_link bs-cy" style="display:none">Анализа текстова</a>
+                            <a href="../textual_analysis.xhtml" class="nav_link bs-la" style="display:none">Analiza tekstova</a>
                         </li>
                         <li class="nav_button">
-                            <a href="contributors.xhtml" class="nav_link en" style="display:block">Contributors</a>
-                            <a href="contributors.xhtml" class="nav_link bs-cy" style="display:none">Сурадници</a>
-                            <a href="contributors.xhtml" class="nav_link bs-la" style="display:none">Suradnici</a>
+                            <a href="../contributors.xhtml" class="nav_link en" style="display:block">Contributors</a>
+                            <a href="../contributors.xhtml" class="nav_link bs-cy" style="display:none">Сурадници</a>
+                            <a href="../contributors.xhtml" class="nav_link bs-la" style="display:none">Suradnici</a>
                         </li>
                         <li class="nav_button">
-                            <a href="bibliography.xhtml" class="nav_link en" style="display:block">Bibliography</a>
-                            <a href="bibliography.xhtml" class="nav_link bs-cy" style="display:none">Библиографија</a>
-                            <a href="bibliography.xhtml" class="nav_link bs-la" style="display:none">Bibliografija</a>
+                            <a href="../bibliography.xhtml" class="nav_link en" style="display:block">Bibliography</a>
+                            <a href="../bibliography.xhtml" class="nav_link bs-cy" style="display:none">Библиографија</a>
+                            <a href="../bibliography.xhtml" class="nav_link bs-la" style="display:none">Bibliografija</a>
                         </li>
                     </ul>
                     <div class="languages">
