@@ -220,7 +220,7 @@
                     <xsl:apply-templates select="//title_bs" mode="cyr_tit"/>
                     <xsl:apply-templates select="//body" mode="cyrillic"/>
                 </section>
-                <section class="text_window latin" style="display:none">
+                <section class="text_window latin_alp" style="display:none">
                     <xsl:apply-templates select="//title_bs" mode="lat_tit"/>
                     <xsl:apply-templates select="//body" mode="latin"/>
                 </section>

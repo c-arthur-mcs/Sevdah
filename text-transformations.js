@@ -33,7 +33,7 @@ function Latin() {
         {
         x[i].style.display = "none"
         };  
-    var y = document.getElementsByClassName("latin");
+    var y = document.getElementsByClassName("latin_alp");
     for(let i = 0; i < y.length; i++)
         {
         y[i].style.display = "block"
@@ -41,7 +41,7 @@ function Latin() {
 }
 
 function Cyrillic() {
-    var x = document.getElementsByClassName("latin");
+    var x = document.getElementsByClassName("latin_alp");
     for(let i = 0; i < x.length; i++)
         {
         x[i].style.display = "none"
