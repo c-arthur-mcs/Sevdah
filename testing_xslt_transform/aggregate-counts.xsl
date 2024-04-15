@@ -99,13 +99,20 @@
           </xsl:for-each>
         </table>
         <h1>Aggregated Charts</h1>
-        <xsl:apply-templates mode="chart"/>
+        <xsl:for-each select="$all-lang-names">
+          <xsl:variable name="lang-instance-count" as="xs:integer"
+            select="count($all-lang-instances[. eq current()])"/>
+          <xsl:variable name="{string($all-lang-instances[. eq current()])}" as="xs:integer+" select="count($all-lang-instances[. eq current()])"/>
+          <xsl:value-of select="$lang-instance-count"/>
+        </xsl:for-each>
+        <!--<xsl:apply-templates mode="chart"/>-->
       </body>
     </html>
   </xsl:template>
   
-  <xsl:template match="$all-docs" mode="chart">
-    <xsl:variable name="total-words" as="xs:integer"
+<!--  <xsl:template match="" mode="chart">
+    <xsl:value-of select=""/>-->
+    <!--<xsl:variable name="total-words" as="xs:integer"
       select='count($all-docs//origin[not(@lang = "n/a")])'/>
     
     <xsl:variable name="n-turkic" as="xs:integer" select='count($all-docs//origin[@lang = "turkic"])'/>
@@ -132,7 +139,7 @@
     
     <svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
       
-      <!-- BACKGROUND ITEMS -->
+      <!-\- BACKGROUND ITEMS -\->
       <rect height="500" width="1000" fill="#0174BE" stroke="white"/>
       <line x1="50" y1="450" x2="1000" y2="450" stroke="white"/>
       <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"/>
@@ -147,8 +154,8 @@
         <xsl:text>Language of Origin  - Total words: </xsl:text>
         <xsl:value-of select="$total-words"/>
       </text>
-      <!-- LANGUAGE SPECIFIC -->
-      <!-- TURKIC -->
+      <!-\- LANGUAGE SPECIFIC -\->
+      <!-\- TURKIC -\->
       <rect fill="#FFC436" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)}"
         width="{$bar-width}" height="{4*($pc-turkic*100)}"/>
       <text fill="white" x="{50+$bar-spacing}" y="{450-(4*$pc-turkic*100)-10}"
@@ -158,7 +165,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- SLAVIC -->
+      <!-\- SLAVIC -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+($bar-width+$bar-spacing)}"
         y="{450-(4*($pc-slavic*100))}" width="{$bar-width}" height="{4*($pc-slavic*100)}"/>
       <text fill="white" x="{50+$bar-spacing+($bar-width+$bar-spacing)}"
@@ -169,7 +176,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- LATIN -->
+      <!-\- LATIN -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-latin*100))}" width="{$bar-width}" height="{4*($pc-latin*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(2*($bar-width+$bar-spacing))}"
@@ -180,7 +187,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- GREEK -->
+      <!-\- GREEK -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-greek*100))}" width="{$bar-width}" height="{4*($pc-greek*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(3*($bar-width+$bar-spacing))}"
@@ -191,7 +198,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- HUNGARIAN -->
+      <!-\- HUNGARIAN -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+(4*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-hungarian*100))}" width="{$bar-width}"
         height="{4*($pc-hungarian*100)}"/>
@@ -203,7 +210,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- GERMANIC -->
+      <!-\- GERMANIC -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+(5*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-germanic*100))}" width="{$bar-width}"
         height="{4*($pc-germanic*100)}"/>
@@ -215,7 +222,7 @@
         <xsl:text>%</xsl:text>
       </text>
       
-      <!-- ITALIAN -->
+      <!-\- ITALIAN -\->
       <rect fill="#FFC436" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}"
         y="{450-(4*($pc-italian*100))}" width="{$bar-width}" height="{4*($pc-italian*100)}"/>
       <text fill="white" x="{50+$bar-spacing+(6*($bar-width+$bar-spacing))}"
@@ -225,7 +232,7 @@
         <xsl:value-of select="round($pc-italian * 100, 1)"/>
         <xsl:text>%</xsl:text>
       </text>
-    </svg>
-  </xsl:template>
+    </svg>-->
+  <!--</xsl:template>-->
 
 </xsl:stylesheet>
