@@ -249,11 +249,13 @@
                     </section>
                     <hr/>
                     <section class="options">
-                        <button class="options"
-                            href="{document-uri(.) ! replace(., '\.xml', '-chart.xhtml') ! replace(., '^.*/texts_xml/', '../testing_xslt_transform/', 'm')}">
-                            <span class="en" style="display:block">See the graph</span>
-                            <span class="bs-cy" style="display:none">Погледајте граф</span>
-                            <span class="bs-la" style="display:none">Pogledajte graf</span>
+                        <button class="options">
+                            <a
+                                href="{document-uri(.) ! replace(., '\.xml', '-chart.xhtml') ! replace(., '^.*/texts_xml/', '../testing_xslt_transform/', 'm')}">
+                                <span class="en" style="display:block">See the graph</span>
+                                <span class="bs-cy" style="display:none">Погледајте граф</span>
+                                <span class="bs-la" style="display:none">Pogledajte graf</span>
+                            </a>
                         </button>
                     </section>
                 </div>
