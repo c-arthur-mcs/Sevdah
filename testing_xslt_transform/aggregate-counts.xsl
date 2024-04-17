@@ -30,8 +30,8 @@
     <html xmlns="http://www.w3.org/1999/xhtml">
       <head>
         <title>Sevdah - Textual Analysis</title>
-        <link rel="stylesheet" type="text/css" href="../index-style.css"/>
-        <script type="text/javascript" src="../show-hide_en_bs-cy_bs-la.js"/>
+        <link rel="stylesheet" type="text/css" href="index-style.css"/>
+        <script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"/>
       </head>
       <body>
         <nav class="navigation">
@@ -76,7 +76,7 @@
         </nav>
         <h1 class="main_title">Textual Analysis</h1>
         <hr/>
-        <h1>Aggregated Counts</h1>
+        <h2>Aggregated Counts</h2>
         <table>
           <tr>
             <th>Language</th>
@@ -100,7 +100,7 @@
             </tr>
           </xsl:for-each>
         </table>
-        <h1>Aggregated Charts</h1>
+        <h2>Aggregated Chart</h2>
         <xsl:variable name="lang-count-map" as="map(xs:string, xs:integer)">
           <xsl:map>
             <xsl:for-each select="$all-lang-names">

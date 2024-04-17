@@ -317,7 +317,7 @@
                                     <Boolean>false</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/testing_xslt_transform/aggregate-counts.xhtml</String>
+                                    <String>${pd}/aggregate-counts.xhtml</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
