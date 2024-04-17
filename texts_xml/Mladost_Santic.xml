@@ -8,7 +8,7 @@
             <title_en>Youth</title_en>
         </title>
         <author type="poet" lat="Aleksa Šantič">Алекса Шантић</author>
-        <year/>
+        <year>1895</year>
         <desc>Text originally written in Bosnian cyrillic. Published in Pjesme Alekse R. Šantića,
             1895, page 111.</desc>
     </meta>
@@ -57,7 +57,7 @@
             </l>
             <l>
                 <origin lang="slavic">Славио</origin>
-                <origin lang="">шевин</origin>
+                <origin lang="unknown">шевин</origin>
                 <origin lang="slavic">клик.</origin>
             </l>
         </lg>
@@ -152,7 +152,7 @@
                 <origin lang="slavic">Пуна</origin>
                 <origin lang="slavic">је</origin>
                 <origin lang="slavic">дражи</origin>
-                <origin lang="">свију</origin>
+                <origin lang="slavic">свију</origin>
             </l>
             <l>
                 <origin lang="slavic">Небу</origin>
@@ -189,9 +189,9 @@
             </l>
             <l>
                 <origin lang="slavic">А</origin>
-                <origin lang="">око</origin>
+                <origin lang="slavic">око</origin>
                 <origin lang="slavic">страшћу</origin>
-                <origin lang="">стреља.</origin>
+                <origin lang="slavic">стреља.</origin>
             </l>
         </lg>
 
@@ -210,14 +210,14 @@
                 <origin lang="slavic">како</origin>
             </l>
             <l>
-                <origin lang="">Ишчезну</origin>
+                <origin lang="slavic">Ишчезну</origin>
                 <origin lang="slavic">жеље</origin>
                 <origin lang="slavic">свете</origin>
             </l>
             <l>
                 <origin lang="slavic">И</origin>
                 <origin lang="slavic">наде</origin>
-                <origin lang="">мину</origin>
+                <origin lang="slavic">мину</origin>
                 <origin lang="slavic">лако.</origin>
             </l>
         </lg>
@@ -226,7 +226,7 @@
             <l>
                 <origin lang="slavic">Ко</origin>
                 <origin lang="slavic">цвјету</origin>
-                <origin lang="">лисје</origin>
+                <origin lang="slavic">лисје</origin>
                 <origin lang="slavic">бајно</origin>
             </l>
             <l>
@@ -243,7 +243,7 @@
             </l>
             <l>
                 <origin lang="slavic">Ко</origin>
-                <origin lang="">тавни</origin>
+                <origin lang="unknown">тавни</origin>
                 <origin lang="slavic">облак</origin>
                 <origin lang="slavic">плове.</origin>
             </l>

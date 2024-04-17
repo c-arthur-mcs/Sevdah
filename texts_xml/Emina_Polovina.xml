@@ -9,7 +9,7 @@
         </title>
         <author type="performer" lat="Himzo Polovina">Химзо Половниа</author>
         <author type="poet" lat="Aleksa Šantič">Алекса Шантић</author>
-        <year/>
+        <year>1970</year>
         <desc>Transcription from recording. Copyright Jugoton-Croatia Records and Himzo
             Polovina</desc>
         <url>https://www.youtube.com/watch?v=fKdmryzZyTE</url>
@@ -64,7 +64,7 @@
             </l>
             <l>
                 <origin lang="slavic">Не</origin>
-                <origin lang="">шће</origin>
+                <origin lang="slavic">шће</origin>
                 <origin lang="slavic">ни</origin>
                 <origin lang="slavic">да</origin>
                 <origin lang="slavic">чује</origin>
@@ -167,7 +167,7 @@
                 <origin lang="slavic">што</origin>
                 <origin lang="slavic">за</origin>
                 <origin lang="slavic">њоме</origin>
-                <origin lang="">црко'!</origin>
+                <origin lang="slavic">црко'!</origin>
             </l>
             <l>
                 <origin lang="slavic">Нити</origin>
@@ -176,24 +176,24 @@
                 <origin lang="slavic">што</origin>
                 <origin lang="slavic">за</origin>
                 <origin lang="slavic">њоме</origin>
-                <origin lang="">црко'!</origin>
+                <origin lang="slavic">црко'!</origin>
             </l>
         </lg>
         <lg>
             <l>
-                <origin lang="">Ајши,</origin>
-                <origin lang="">ајша</origin>
-                <origin lang="">јабаша</origin>
-                <origin lang="">коња</origin>
-                <origin lang="">јаше</origin>
+                <origin lang="n/a">Ајши,</origin>
+                <origin lang="n/a">ајша</origin>
+                <origin lang="turkic">јабаша</origin>
+                <origin lang="slavic">коња</origin>
+                <origin lang="slavic">јаше</origin>
                 <origin lang="turkic">субаша.</origin>
             </l>
             <l>
-                <origin lang="">Ајши,</origin>
-                <origin lang="">ајша</origin>
-                <origin lang="">јабаша</origin>
-                <origin lang="">коња</origin>
-                <origin lang="">јаше</origin>
+                <origin lang="n/a">Ајши,</origin>
+                <origin lang="n/a">ајша</origin>
+                <origin lang="turkic">набаша</origin>
+                <origin lang="slavic">коња</origin>
+                <origin lang="slavic">јаше</origin>
                 <origin lang="turkic">субаша.</origin>
             </l>
         </lg>
@@ -219,10 +219,10 @@
                 <origin lang="slavic">Ја</origin>
                 <origin lang="slavic">каква</origin>
                 <origin lang="slavic">је</origin>
-                <origin lang="">пуста!</origin>
+                <origin lang="slavic">пуста!</origin>
                 <origin lang="slavic">Таки</origin>
                 <origin lang="slavic">ми</origin>
-                <origin lang="">имана,</origin>
+                <origin lang="turkic">имана,</origin>
             </l>
             <l>
                 <origin lang="slavic">Стид</origin>
@@ -247,11 +247,12 @@
             <l>
                 <origin lang="slavic">Остала</origin>
                 <origin lang="slavic">је</origin>
-                <origin lang="">пуста</origin>
+                <origin lang="slavic">пуста</origin>
                 <origin lang="turkic">башча</origin>
                 <origin lang="slavic">од</origin>
                 <origin lang="turkic">јасмина,</origin>
-            </l>            <l>
+            </l>            
+            <l>
                 <origin lang="slavic">Умро</origin>
                 <origin lang="slavic">стари</origin>
                 <origin lang="slavic">пјесник,</origin>
@@ -261,7 +262,7 @@
             <l>
                 <origin lang="slavic">Остала</origin>
                 <origin lang="slavic">је</origin>
-                <origin lang="">пуста</origin>
+                <origin lang="slavic">пуста</origin>
                 <origin lang="turkic">башча</origin>
                 <origin lang="slavic">од</origin>
                 <origin lang="turkic">јасмина,</origin>

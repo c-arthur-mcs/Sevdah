@@ -8,7 +8,7 @@
             <title_en>Emina</title_en>
         </title>
         <author type="poet" lat="Aleksa Šantič">Алекса Шантић</author>
-        <year/>
+        <year>1901</year>
         <desc>Text originally written in Bosnian Cyrillic. Published in Kolo, 1901.</desc>
         <url>https://archive.org/details/kolo00ivgoog/page/134/mode/2up</url>
     </meta>
@@ -41,7 +41,7 @@
             </l>
             <l>
                 <origin lang="slavic">Гдје</origin>
-                <origin lang="">'но</origin>
+                <origin lang="slavic">'но</origin>
                 <origin lang="turkic">булбул-</origin>
                 <origin lang="slavic">пјесма</origin>
                 <origin lang="slavic">не</origin>
@@ -68,7 +68,7 @@
                 <origin lang="slavic">Ја,</origin>
                 <origin lang="slavic">каква</origin>
                 <origin lang="slavic">је,</origin>
-                <origin lang="">пуста,</origin>
+                <origin lang="slavic">пуста,</origin>
                 <origin lang="slavic">тако</origin>
                 <origin lang="slavic">ми</origin>
                 <origin lang="turkic">амана,</origin>
@@ -106,10 +106,10 @@
                 <origin lang="slavic">Та</origin>
                 <origin lang="slavic">љепша</origin>
                 <origin lang="slavic">је,</origin>
-                <origin lang="">болан,</origin>
+                <origin lang="slavic">болан,</origin>
                 <origin lang="slavic">од</origin>
                 <origin lang="slavic">свих</origin>
-                <origin lang="">Шамских</origin>
+                <origin lang="turkic">Шамских</origin>
                 <origin lang="slavic">була,</origin>
             </l>
             <l>
@@ -153,7 +153,7 @@
                 <origin lang="slavic">дина,</origin>
             </l>
             <l>
-                <origin lang="">Нешће</origin>
+                <origin lang="slavic">Нешће</origin>
                 <origin lang="slavic">ни</origin>
                 <origin lang="slavic">да</origin>
                 <origin lang="slavic">чује</origin>
@@ -164,7 +164,7 @@
                 <origin lang="slavic">Но</origin>
                 <origin lang="slavic">у</origin>
                 <origin lang="slavic">златан</origin>
-                <origin lang="">пондир</origin>
+                <origin lang="turkic">пондир</origin>
                 <origin lang="slavic">ухитила</origin>
                 <origin lang="slavic">воде</origin>
             </l>
@@ -203,7 +203,7 @@
                 <origin lang="slavic">је</origin>
                 <origin lang="slavic">се</origin>
                 <origin lang="slavic">од</origin>
-                <origin lang="">дерта</origin>
+                <origin lang="turkic">дерта</origin>
                 <origin lang="slavic">с</origin>
                 <origin lang="turkic">дуњалуком</origin>
                 <origin lang="slavic">прашта',</origin>
@@ -240,7 +240,7 @@
                 <origin lang="slavic">што</origin>
                 <origin lang="slavic">за</origin>
                 <origin lang="slavic">њоме</origin>
-                <origin lang="">црко'!</origin>
+                <origin lang="slavic">црко'!</origin>
                 <origin lang="n/a">...</origin>
             </l>
         </lg>

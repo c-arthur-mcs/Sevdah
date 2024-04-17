@@ -8,7 +8,7 @@
             <title_en>A Girl and a Flower</title_en>
         </title>
         <author type="poet" lat="Safet-beg Bašagić">Сафет-бег Башагић</author>
-        <year/>
+        <year>1944</year>
         <desc>Text originally written in Bosnian Latin. Published in Odabrana Pjesme, Izdanje
             Glavnog Pododbora Matice Hrvatske, Sarajevo 1944, page 42.</desc>
     </meta>
@@ -90,7 +90,7 @@
             </l>
             <l>
                 <origin lang="slavic">У</origin>
-                <origin lang="">хас-</origin>
+                <origin lang="turkic">хас-</origin>
                 <origin lang="turkic">башћи</origin>
                 <origin lang="n/a">–</origin>
                 <origin lang="slavic">пуна</origin>
@@ -160,7 +160,7 @@
             </l>
             <l>
                 <origin lang="slavic">До</origin>
-                <origin lang="">врхнуца</origin>
+                <origin lang="slavic">врхнуца</origin>
                 <origin lang="slavic">среће</origin>
                 <origin lang="slavic">доћи</origin>
             </l>

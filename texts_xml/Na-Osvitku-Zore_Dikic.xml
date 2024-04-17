@@ -8,7 +8,7 @@
             <title_en>At the Little Sunrise of the Star</title_en>
         </title>
         <author type="poet" lat="Osman Đikić">Осман Ђикић</author>
-        <year> </year>
+        <year>1971</year>
         <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971. Found on page 34.</desc>
         <url>https://archive.org/details/dikic-osman-sabrana-djela-pjesme-i-drame-1971./page/83/mode/2up</url>
     </meta>
@@ -54,7 +54,7 @@
                 <origin lang="slavic">пута</origin>
                 <origin lang="slavic">ја</origin>
                 <origin lang="slavic">бих</origin>
-                <origin lang="">сио</origin>
+                <origin lang="slavic">сио</origin>
             </l>
             <l>
                 <origin lang="slavic">У</origin>
@@ -79,7 +79,7 @@
             </l>
             <l>
                 <origin lang="slavic">Твоје</origin>
-                <origin lang="">гласе,</origin>
+                <origin lang="slavic">гласе,</origin>
                 <origin lang="slavic">чедо</origin>
                 <origin lang="slavic">моје,</origin>
             </l>
@@ -90,7 +90,7 @@
                 <origin lang="slavic">груди</origin>
             </l>
             <l>
-                <origin lang="">Отргло</origin>
+                <origin lang="slavic">Отргло</origin>
                 <origin lang="slavic">се</origin>
                 <origin lang="slavic">срце</origin>
                 <origin lang="slavic">моје.</origin>
@@ -99,7 +99,7 @@
 
         <lg>
             <l>
-                <origin lang="">Отргло</origin>
+                <origin lang="slavic">Отргло</origin>
                 <origin lang="slavic">се</origin>
                 <origin lang="slavic">и</origin>
                 <origin lang="slavic">отишло</origin>
@@ -137,7 +137,7 @@
             <l>
                 <origin lang="slavic">Ил'</origin>
                 <origin lang="slavic">му</origin>
-                <origin lang="">гдјегод</origin>
+                <origin lang="slavic">гдјегод</origin>
                 <origin lang="slavic">кутак</origin>
                 <origin lang="slavic">пружи</origin>
             </l>

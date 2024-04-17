@@ -8,14 +8,14 @@
             <title_en>Emini</title_en>
         </title>
         <author type="poet" lat="Osman Đikić">Осман Ђикић</author>
-        <year> </year>
+        <year>1971</year>
         <desc>Text originally written in Bosnian cyrillic. Published in Sabrana Dela, 1971.</desc>
         <url>https://archive.org/details/dikic-osman-sabrana-djela-pjesme-i-drame-1971./page/77/mode/2up</url>
     </meta>
     <body>
         <lg>
             <l>
-                <origin lang="">Витка</origin>
+                <origin lang="slavic">Витка</origin>
                 <origin lang="slavic">стаса,</origin>
                 <origin lang="slavic">као</origin>
                 <origin lang="slavic">јела</origin>
@@ -86,7 +86,7 @@
                 <origin lang="slavic">Ти</origin>
                 <origin lang="slavic">си</origin>
                 <origin lang="slavic">мени</origin>
-                <origin lang="">Емо</origin>
+                <origin lang="turkic">Емо</origin>
                 <origin lang="slavic">мила,</origin>
             </l>
             <l>
@@ -119,7 +119,7 @@
                 <origin lang="slavic">препадао</origin>
             </l>
             <l>
-                <origin lang="">Најжешћијех</origin>
+                <origin lang="slavic">Најжешћијех</origin>
                 <origin lang="slavic">од</origin>
                 <origin lang="turkic">душмана.</origin>
             </l>
@@ -129,7 +129,7 @@
             <l>
                 <origin lang="n/a">О,</origin>
                 <origin lang="slavic">ја</origin>
-                <origin lang="">задем</origin>
+                <origin lang="slavic">задем</origin>
                 <origin lang="slavic">да</origin>
                 <origin lang="slavic">ти</origin>
                 <origin lang="slavic">срце</origin>
@@ -166,7 +166,7 @@
             <l>
                 <origin lang="slavic">Срећнијега</origin>
                 <origin lang="turkic">Аллах</origin>
-                <origin lang="">роба,</origin>
+                <origin lang="slavic">роба,</origin>
             </l>
             <l>
                 <origin lang="slavic">Од</origin>
@@ -180,7 +180,7 @@
                 <origin lang="slavic">у</origin>
                 <origin lang="slavic">свако</origin>
                 <origin lang="slavic">људи</origin>
-                <origin lang="">доба!</origin>
+                <origin lang="slavic">доба!</origin>
             </l>
         </lg>
     </body>

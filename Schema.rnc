@@ -11,6 +11,7 @@ meta = element meta {title, author+, year, desc, url?}
         lat = attribute lat {text}
         # This is the latinization of the name. This should be written in Bosnian Latin.
     year = element year {xsd:int}
+    # This year is a publishing year in the case of printede works.
     desc = element desc {text}
     # This element must contain which alphabet the work was written in, if any, and how the transcription was performed.
     url = element url {text}
@@ -18,6 +19,6 @@ body = element body {lg+}
     lg = element lg {l+}
         l = element l {origin+}
             origin = element origin {lang, text}
-                lang = attribute lang {"turkic"|"slavic"|"n/a"|"latin"|"greek"|"hungarian"|"germanic"|"italian"}
+                lang = attribute lang {"turkic"|"slavic"|"n/a"|"latin"|"greek"|"hungarian"|"germanic"|"italian"|"unknown"}
                 # "n/a" may reference anything which is not a word, or which does not have a valid word origin Ex."-"
                 # If the word is at all filtered through Old Church Slavonic, it is marked as "slavic", as this is how it entered Bosnian.

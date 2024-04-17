@@ -8,7 +8,7 @@
             <title_en>In sevdah</title_en>
         </title>
         <author type="poet" lat="Musa Ćazim Ćatić">Муса Ћазим Ћатић</author>
-        <year> </year>
+        <year>1914</year>
         <desc>Text originally written in Bosnian latin. Published in M. Ćazim Ćatić: Pjesme od godine 1900. do 1908. (Prva knjiga) - 1914, pg. 87-8.</desc>
     </meta>
     <body>
@@ -42,9 +42,9 @@
             <l>
                 <origin lang="slavic">Хотјела</origin>
                 <origin lang="slavic">би</origin>
-                <origin lang="">амбер-мирис</origin>
-                <!-- PROBLEM: what to do about compound words.
-                amber is from turkic origins, but miris is from greek origins.-->
+                <origin lang="turkic">амбер</origin>
+                <origin lang="n/a">-</origin>
+                <origin lang="greek">мирис</origin>
             </l>
             <l>
                 <origin lang="slavic">С</origin>
@@ -154,7 +154,7 @@
             </l>
             <l>
                 <origin lang="slavic">Сред</origin>
-                <origin lang="">млагјаних</origin>
+                <origin lang="slavic">млагјаних</origin>
                 <origin lang="slavic">твојих</origin>
                 <origin lang="slavic">груди.</origin>
             </l>

@@ -8,7 +8,7 @@
             <title_en>In a winter's night</title_en>
         </title>
         <author type="poet" lat="Musa Ćazim Ćatić">Муса Ћазим Ћатић</author>
-        <year> </year>
+        <year>1914</year>
         <desc>Text originally written in Bosnian latin. Published in M. Ćazim Ćatić: Pjesme od
             godine 1900. do 1908. (Prva knjiga) - 1914, pg. 91-2.</desc>
     </meta>
@@ -105,7 +105,7 @@
             <l>
                 <origin lang="slavic">Твога</origin>
                 <origin lang="slavic">пустог</origin>
-                <origin lang="">гјулистана</origin>
+                <origin lang="turkic">гјулистана</origin>
             </l>
             <l>
                 <origin lang="slavic">Теби</origin>
@@ -117,7 +117,7 @@
                 <origin lang="slavic">Газим</origin>
                 <origin lang="slavic">ногом</origin>
                 <origin lang="slavic">лишће</origin>
-                <origin lang="">свехло,</origin>
+                <origin lang="slavic">свехло,</origin>
             </l>
             <l>
                 <origin lang="slavic">Мраз</origin>
@@ -131,7 +131,7 @@
                 <origin lang="slavic">по</origin>
                 <origin lang="slavic">коси</origin>
                 <origin lang="slavic">иње</origin>
-                <origin lang="">стере.</origin>
+                <origin lang="slavic">стере.</origin>
                 <origin lang="n/a">–</origin>
             </l>
         </lg>
@@ -166,7 +166,9 @@
                 <origin lang="slavic">Јер</origin>
                 <origin lang="slavic">с</origin>
                 <origin lang="slavic">драгиних</origin>
-                <origin lang="">гјул-образа</origin>
+                <origin lang="turkic">гјул</origin>
+                <origin lang="n/a">-</origin>
+                <origin lang="slavic">образа</origin>
             </l>
             <l>
                 <origin lang="slavic">Сад</origin>
