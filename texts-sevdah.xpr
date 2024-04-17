@@ -10,11 +10,31 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>texts_xml/Da-Sam-Ptica_Armenulic.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Cyr-to-lat_text_page_scen</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>texts_xml/U-zimskoj-noci_Catic.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -34,7 +54,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -54,7 +74,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -74,7 +94,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -94,7 +114,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -114,7 +134,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -134,7 +154,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -154,7 +174,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -174,27 +194,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Aggregate_stats_scen</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>texts_xml/Da-Sam-Ptica_Armenulic.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Aggregate_stats_scen</String>
+                                        <String>Statistics_calculations_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
