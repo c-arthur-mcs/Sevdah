@@ -14,7 +14,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -34,7 +34,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -54,7 +54,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -74,7 +74,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -94,7 +94,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -114,7 +114,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -134,7 +134,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -154,7 +154,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -174,7 +174,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -194,7 +194,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Cyr-to-lat_text_page_scen</String>
+                                        <String>Aggregate_stats_scen</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
