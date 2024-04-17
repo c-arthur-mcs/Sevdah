@@ -99,12 +99,13 @@
           </xsl:for-each>
         </table>
         <h1>Aggregated Charts</h1>
-        <xsl:for-each select="$all-lang-names">
-          <xsl:variable name="lang-instance-count" as="xs:integer"
-            select="count($all-lang-instances[. eq current()])"/>
-          <xsl:variable name="{string($all-lang-instances[. eq current()])}" as="xs:integer+" select="count($all-lang-instances[. eq current()])"/>
-          <xsl:value-of select="$lang-instance-count"/>
-        </xsl:for-each>
+        <xsl:variable name="lang-count-map" as="map(xs:string, xs:integer)">
+          <xsl:for-each select="$all-lang-names">
+            <xsl:variable name="count" select="count($all-lang-instances[. eq current()])"/>
+            <xsl:map-entry key="current()" select="$count"/>
+          </xsl:for-each>
+        </xsl:variable>
+        <xsl:value-of select="map:get($lang-count-map, 'Turkish')"/>
         <!--<xsl:apply-templates mode="chart"/>-->
       </body>
     </html>
