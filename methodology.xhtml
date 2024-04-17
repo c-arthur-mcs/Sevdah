@@ -11,34 +11,52 @@
             <h1 class="website_title">SEVDAH</h1>
             <ul class="navig">
                 <li class="nav_button">
-                    <a href="index.html" class="nav_link en" style="display:block">About the Project</a>
-                    <a href="index.html" class="nav_link bs-cy" style="display:none">О овом пројекту</a>
-                    <a href="index.html" class="nav_link bs-la" style="display:none">O ovom projetku</a>
+                    <a href="index.html" class="nav_link en" style="display:block">About the
+                        Project</a>
+                    <a href="index.html" class="nav_link bs-cy" style="display:none">О овом
+                        пројекту</a>
+                    <a href="index.html" class="nav_link bs-la" style="display:none">O ovom
+                        projetku</a>
                 </li>
                 <li class="nav_button">
-                    <a href="methodology.xhtml" class="nav_link en" style="display:block">Methodology</a>
-                    <a href="methodology.xhtml" class="nav_link bs-cy" style="display:none">Начин истраживања</a>
-                    <a href="methodology.xhtml" class="nav_link bs-la" style="display:none">Način istraživanja</a>
+                    <a href="methodology.xhtml" class="nav_link en" style="display:block"
+                        >Methodology</a>
+                    <a href="methodology.xhtml" class="nav_link bs-cy" style="display:none">Начин
+                        истраживања</a>
+                    <a href="methodology.xhtml" class="nav_link bs-la" style="display:none">Način
+                        istraživanja</a>
                 </li>
                 <li class="nav_button">
-                    <a href="text_directory.xhtml" class="nav_link en" style="display:block">Text Directory</a>
-                    <a href="text_directory.xhtml" class="nav_link bs-cy" style="display:none">Директориј текстова</a>
-                    <a href="text_directory.xhtml" class="nav_link bs-la" style="display:none">Direktorij tekstova</a>
+                    <a href="text_directory.xhtml" class="nav_link en" style="display:block">Text
+                        Directory</a>
+                    <a href="text_directory.xhtml" class="nav_link bs-cy" style="display:none"
+                        >Директориј текстова</a>
+                    <a href="text_directory.xhtml" class="nav_link bs-la" style="display:none"
+                        >Direktorij tekstova</a>
                 </li>
                 <li class="nav_button">
-                    <a href="textual_analysis.xhtml" class="nav_link en" style="display:block">Textual Analysis</a>
-                    <a href="textual_analysis.xhtml" class="nav_link bs-cy" style="display:none">Анализа текстова</a>
-                    <a href="textual_analysis.xhtml" class="nav_link bs-la" style="display:none">Analiza tekstova</a>
+                    <a href="textual_analysis.xhtml" class="nav_link en" style="display:block"
+                        >Textual Analysis</a>
+                    <a href="textual_analysis.xhtml" class="nav_link bs-cy" style="display:none"
+                        >Анализа текстова</a>
+                    <a href="textual_analysis.xhtml" class="nav_link bs-la" style="display:none"
+                        >Analiza tekstova</a>
                 </li>
                 <li class="nav_button">
-                    <a href="contributors.xhtml" class="nav_link en" style="display:block">Contributors</a>
-                    <a href="contributors.xhtml" class="nav_link bs-cy" style="display:none">Сурадници</a>
-                    <a href="contributors.xhtml" class="nav_link bs-la" style="display:none">Suradnici</a>
+                    <a href="contributors.xhtml" class="nav_link en" style="display:block"
+                        >Contributors</a>
+                    <a href="contributors.xhtml" class="nav_link bs-cy" style="display:none"
+                        >Сурадници</a>
+                    <a href="contributors.xhtml" class="nav_link bs-la" style="display:none"
+                        >Suradnici</a>
                 </li>
                 <li class="nav_button">
-                    <a href="bibliography.xhtml" class="nav_link en" style="display:block">Bibliography</a>
-                    <a href="bibliography.xhtml" class="nav_link bs-cy" style="display:none">Библиографија</a>
-                    <a href="bibliography.xhtml" class="nav_link bs-la" style="display:none">Bibliografija</a>
+                    <a href="bibliography.xhtml" class="nav_link en" style="display:block"
+                        >Bibliography</a>
+                    <a href="bibliography.xhtml" class="nav_link bs-cy" style="display:none"
+                        >Библиографија</a>
+                    <a href="bibliography.xhtml" class="nav_link bs-la" style="display:none"
+                        >Bibliografija</a>
                 </li>
             </ul>
             <div class="languages">
@@ -53,52 +71,140 @@
         <hr />
         <section>
             <div class="info">
-                <h2 class="en">Beginning of Research – Text Gathering and Standardization</h2>
-                <p class="en">Of course, the first part of starting the research for any research
-                    project in literature and language lies in finding the exact texts for study. In
-                    consultation with librarians at the University of Pittsburgh, I found multiple
-                    printed and digital resources for written texts (citations can be found on the
-                    “<a href="bibliography.xhtml">bibliography</a>” page). From there, the texts were written down into an XML
-                    document, which was then transformed using Regular Expressions (RegEx) in order
-                    to contain every word in an &lt;origin> element, each line in a &lt;l> element,
-                    and each stanza in a &lt;lg> element. For texts from sung resources, I, with
-                    some help from Dr. Ljiljana Đurašković, transcribed the text by ear, and then
-                    underwent the same RegEx based transformation. All of these texts are written
-                    into the XML document in Bosnian Cyrillic, in order to make the XSLT
-                    transformation to Latin easier. Cyrillic to Latin is always one to one or one to
-                    two, but Latin to Cyrillic, being one or two to one, is more complex.</p>
-                <p class="en">From there, each word was researched to find its linguistic origin,
-                    and then given an attribute value (@lang=””) according to this linguistic
-                    origin, as well as the general information about the text being written in a
-                    &lt;meta> element before the &lt;body> which contains the text of the poem. This
-                    XML document is then validated with the use of a Relax NG schema, in order to
-                    standardize each XML document.</p>
+                <h2 class="en" style="display:block">Beginning of Research – Text Gathering and
+                    Standardization</h2>
+                <h2 class="bs-cy" style="display:none">Почетак истраживања – Нађење текстове и их
+                    стандардизирање</h2>
+                <h2 class="bs-la" style="display:none">Početak istraživanja – Nađenje tekstove i ih
+                    standardiziranje</h2>
+                <p class="en" style="display:block">Of course, the first part of starting the
+                    research for any research project in literature and language lies in finding the
+                    exact texts for study. In consultation with librarians at the University of
+                    Pittsburgh, I found multiple printed and digital resources for written texts
+                    (citations can be found on the “<a href="bibliography.xhtml">bibliography</a>”
+                    page). From there, the texts were written down into an XML document, which was
+                    then transformed using Regular Expressions (RegEx) in order to contain every
+                    word in an &lt;origin> element, each line in a &lt;l> element, and each stanza
+                    in a &lt;lg> element. For texts from sung resources, I, with some help from Dr.
+                    Ljiljana Đurašković, transcribed the text by ear, and then underwent the same
+                    RegEx based transformation. All of these texts are written into the XML document
+                    in Bosnian Cyrillic, in order to make the XSLT transformation to Latin easier.
+                    Cyrillic to Latin is always one to one or one to two, but Latin to Cyrillic,
+                    being one or two to one, is more complex.</p>
+                <p class="bs-cy" style="display:none">Наравно први дио истраживања за сваки пројекат
+                    кој истражива литературу и језик је нађење текстове који се истраживују. С
+                    помоћи библиотекарима у Универзитету у Питсбургу, нашао сам неколико написаних
+                    извора (Можете наћи имена ових извора на страници «<a href="bibliography.xhtml"
+                        >библиографија</a>».) Онда текстови су написани у «XML» документу, кој је
+                    трансформисан «Regular Expressions»-има («RegEx»-има), за ставити сваки ријећ у
+                    елементу кој се зове &lt;origin>, сваки стих у елементу кој се зове &lt;l> и
+                    сваку станцу у елементу кој се зове &lt;lg>. Написао сам пјеване текстове, с
+                    помоћи Докторке Љиљане Ђурашковић, слушањем, и посље тога их сам трансформисао
+                    исто «RegEx»-има. Сваки текст, свака пјесма, је написана у «XML» документу на
+                    чирилицом, зато што трансформирање чирлирицом на латинском је лакше од
+                    трансформирања латинском на чирилицом. Свако слово на чирилицом може има једно
+                    или два слова на латинском, али зато што на латинском има једно или два слова за
+                    свако слово чирилицом, је комплексније.</p>
+                <p class="bs-la" style="display:none">Naravno prvi dio istraživanja za svaki
+                    projekat koj istraživa literaturu i jezik je nađenje tekstove koji se
+                    istraživuju. S pomoći bibliotekarima u Univerzitetu u Pitsburgu, našao sam
+                    nekoliko napisanih izvora (Možete naći imena ovih izvora na stranici «<a
+                        href="bibliography.xhtml">bibliografija</a>».) Onda tekstovi su napisani u
+                    «XML» dokumentu, koj je transformisan «Regular Expressions»-ima («RegEx»-ima),
+                    za staviti svaki rijeć u elementu koj se zove &lt;origin&gt;, svaki stih u
+                    elementu koj se zove &lt;l&gt; i svaku stancu u elementu koj se zove &lt;lg&gt;.
+                    Napisao sam pjevane tekstove, s pomoći Doktorke Ljiljane Đurašković, slušanjem,
+                    i poslje toga ih sam transformisao isto «RegEx»-ima. Svaki tekst, svaka pjesma,
+                    je napisana u «XML» dokumentu na čirilicom, zato što transformiranje čirliricom
+                    na latinskom je lakše od transformiranja latinskom na čirilicom. Svako slovo na
+                    čirilicom može ima jedno ili dva slova na latinskom, ali zato što na latinskom
+                    ima jedno ili dva slova za svako slovo čirilicom, je kompleksnije.</p>
+                <p class="en" style="display:block">From there, each word was researched to find its
+                    linguistic origin, and then given an attribute value (@lang=””) according to
+                    this linguistic origin, as well as the general information about the text being
+                    written in a &lt;meta> element before the &lt;body> which contains the text of
+                    the poem. This XML document is then validated with the use of a Relax NG schema,
+                    in order to standardize each XML document.</p>
+                <p class="bs-cy" style="display:none">Затим, истраживао сам одакле је свака ријећ, и
+                    посље тога дао сам имена тога на атрибуту (@lang=””), и написао сам генералну
+                    информацију о пјесми у елементу кој се зове &lt;meta> изнад елемента &lt;body>
+                    кој има текст пјесме. Сваки «XML» документ је потврђен с схемом «Relax NG» за
+                    стандардизирати ове документе.</p>
+                <p class="bs-la" style="display:none">Zatim, istraživao sam odakle je svaka rijeć, i
+                    poslje toga dao sam imena toga na atributu (@lang=””), i napisao sam generalnu
+                    informaciju o pjesmi u elementu koj se zove &lt;meta&gt; iznad elementa
+                    &lt;body&gt; koj ima tekst pjesme. Svaki «XML» dokument je potvrđen s shemom
+                    «Relax NG» za standardizirati ove dokumente.</p>
             </div>
             <div class="info">
-                <h2 class="en">Creating the Website</h2>
-                <p class="en">A major part of the digital humanities discipline lies in the use of
-                    digital tools, not just to examine a text, but to make the text more accessible
-                    using digital tools. This, in this case, is the usage of a website, hosted and
-                    created through github. There were multiple elements of this website which make
-                    the functioning more complex but make the user experience better. The first of
-                    these is the use of XSLT to make each part of the text written in Cyrillic also
-                    usable in Latin letters.</p>
-                <p class="en">Often, the Western-European-centricity of research fields leads to
-                    texts being studied and examined by English speakers, or French speakers, or
-                    German speakers and then that research is presented in those languages, rather
-                    than the language of the texts examined, or the language of the culture from
-                    which the texts come. I want to avoid this problem by writing all of the
-                    examination of the texts and the analysis bilingually. This way, someone could
-                    use the entire website in Bosnian, and either in Latin or Cyrillic letters, or
-                    in English.</p>
+                <h2 class="en" style="display:block">Creating the Website</h2>
+                <h2 class="bs-cy" style="display:none">Написање овај сајт</h2>
+                <h2 class="bs-la" style="display:none">Napisanje ovaj sajt</h2>
+                <p class="en" style="display:block">A major part of the digital humanities
+                    discipline lies in the use of digital tools, not just to examine a text, but to
+                    make the text more accessible using digital tools. This, in this case, is the
+                    usage of a website, hosted and created through github. There were multiple
+                    elements of this website which make the functioning more complex but make the
+                    user experience better. The first of these is the use of XSLT to make each part
+                    of the text written in Cyrillic also usable in Latin letters.</p>
+                <p class="bs-cy" style="display:none">Дисциплина која се зове на англиском «digital
+                    humanities» користи најважније дигиталне алате за истраживати текстове, али јако
+                    је важно такођер користити ове алате за презентирати ове текстове и ову
+                    истраживу. Овдје, овај сајт, прављен на «github», је овај начин презентирања.
+                    Неколико елемената овог сајт-а, које је важно мени, су мало комплексије, али
+                    ради такођер да овај сајт је боље. Прво ових елемената је користење «XSLT» да
+                    раде да све овог сајт-а је на чирилицом и такођер на латинском.</p>
+                <p class="bs-la" style="display:none">Disciplina koja se zove na angliskom «digital
+                    humanities» koristi najvažnije digitalne alate za istraživati tekstove, ali jako
+                    je važno također koristiti ove alate za prezentirati ove tekstove i ovu
+                    istraživu. Ovdje, ovaj sajt, pravljen na «github», je ovaj način prezentiranja.
+                    Nekoliko elemenata ovog sajt-a, koje je važno meni, su malo kompleksije, ali
+                    radi također da ovaj sajt je bolje. Prvo ovih elemenata je koristenje «XSLT» da
+                    rade da sve ovog sajt-a je na čirilicom i također na latinskom.</p>
+                <p class="en" style="display:block">Often, the Western-European-centricity of
+                    research fields leads to texts being studied and examined by English speakers,
+                    or French speakers, or German speakers and then that research is presented in
+                    those languages, rather than the language of the texts examined, or the language
+                    of the culture from which the texts come. I want to avoid this problem by
+                    writing all of the examination of the texts and the analysis bilingually. This
+                    way, someone could use the entire website in Bosnian, and either in Latin or
+                    Cyrillic letters, or in English.</p>
+                <p class="bs-cy" style="display:none">Често, дициплине истраживања има концептуални
+                    центар у западној европи, зато кад говорници енглеског језика, французког језика
+                    или њемачког језика истраживју текстове на другим језицима, скоро увијек
+                    презентују на енглеском, французком или њемачком него језиком текстова или
+                    језиком из културе одакле је текст. Ја хоћу да немам овај проблем написањем
+                    истраживање и анализу билингуално. С ове стране, нетко може користити цијели
+                    сајт на Босанском и такођер или с латинским словима или с чирилицим словима, или
+                    на енглеском.</p>
+                <p class="bs-la" style="display:none">Često, dicipline istraživanja ima konceptualni
+                    centar u zapadnoj evropi, zato kad govornici engleskog jezika, francuzkog jezika
+                    ili njemačkog jezika istraživju tekstove na drugim jezicima, skoro uvijek
+                    prezentuju na engleskom, francuzkom ili njemačkom nego jezikom tekstova ili
+                    jezikom iz kulture odakle je tekst. Ja hoću da nemam ovaj problem napisanjem
+                    istraživanje i analizu bilingualno. S ove strane, netko može koristiti cijeli
+                    sajt na Bosanskom i također ili s latinskim slovima ili s čirilicim slovima, ili
+                    na engleskom.</p>
             </div>
             <div class="info">
-                <h2 class="en">Final Examinations</h2>
-                <p class="en">The final part of the analysis in the texts is the creation of
-                    statistics for each of the poems individually and also aggregate statistics, and
-                    then displaying them as a Scalable Vector Graphic (SVG). These transformations
-                    are done through an XSLT document as a transformation scenario. These graphs are
-                    the final step before writing the analysis of the data. </p>
+                <h2 class="en" style="display:block">Final Examinations</h2>
+                <h2 class="bs-cy" style="display:none">Анаализа на крају</h2>
+                <h2 class="bs-la" style="display:none">Anaaliza na kraju</h2>
+                <p class="en" style="display:block">The final part of the analysis in the texts is
+                    the creation of statistics for each of the poems individually and also aggregate
+                    statistics, and then displaying them as a Scalable Vector Graphic (SVG). These
+                    transformations are done through an XSLT document as a transformation scenario.
+                    These graphs are the final step before writing the analysis of the data. </p>
+                <p class="bs-cy" style="display:none">На крају анализе ових текстова треба радити
+                    статистике за сваки текст самостално и такођер заједно, и посље тога, их
+                    презентовати као «Scalable Vector Graphic» («SVG»). Ове трансформаиције су
+                    рађене «XSLT»-ом документу као трансформацијско сценарио. Ове графике су
+                    завершени дио пројекта прије написања анализу подаца.</p>
+                <p class="bs-la" style="display:none">Na kraju analize ovih tekstova treba raditi
+                    statistike za svaki tekst samostalno i također zajedno, i poslje toga, ih
+                    prezentovati kao «Scalable Vector Graphic» («SVG»). Ove transformaicije su
+                    rađene «XSLT»-om dokumentu kao transformacijsko scenario. Ove grafike su
+                    zaveršeni dio projekta prije napisanja analizu podaca.</p>
             </div>
         </section>
     </body>
