@@ -209,6 +209,12 @@ li.citations {
     padding: 5px;
 }
 
+a.info-link {
+    background-color: #0174BE;
+    color: #FFC436;
+    
+}
+
 /* Styles for language highlighting */
 
 .italic {
