@@ -3,13 +3,16 @@
 
    <p>Sažetak</p>
 
+
    <p>Ovaj projekat se piše o utjecajima turskog jezika, specifično turskog jezika iz Osmanskog
       Carstva, na bosansku literatura ispitivanjem pjesme iz žanra Sevdaha. Vrlo važno ženru Sevdahu
       je osjećanje čežnju i ljubav koja ne može biti. Način istraživanja je nađenje odakle je svaka
       rijeć u tekstu. Ovi tekstovi su dio kulturne spoznaje u Bosni, zato može da se istraživaju ove
       tekstove kao malu reprizentaciju kulturnog jezika Bosne i Bosanaca. </p>
 
+
    <p>Korišćenje ovaj sajt</p>
+
 
    <p>U stranici koja se zove „tekstovi“ može načititi tekstove čirilicom ili latinskom. Ako vi
       hoćete načiti čirilicom, šukaj „Bos-čir,“ ili latinskom „Bos-lat.“ Ovaj sajt je napisan prvo
@@ -17,7 +20,9 @@
       engleskom. Za istraživati proklo rijeći treba da istraživati tekstove na bosanskom, i ne može
       ih naučiti na engleskom. Zato nema prijevode pjesma na engleskom ovdje. </p>
 
+
    <p>Bosanski kao jezik ili dijalekat</p>
+
 
    <p>Puno ljudi msli da bosanski jezik, hrvatski jezik, srpski jezik, i crnogorski jezik su
       dialekti jednog jezika koji se zove srpsko-hrvatski jezik ili hrvatsko-srpski jezik. Ovo ima
@@ -29,7 +34,9 @@
       Sevdah je uvijek misljen kao bosanski žanr, i zbog toga može biti dobar primjer kad se hoće
       istraživati specifično bosansku literaturu i kulturu.</p>
 
+
    <p>Početak istraživanja – Nađenje tekstove i ih standardiziranje</p>
+
 
    <p>Naravno prvi dio istraživanja za svaki projekat koj istraživa literaturu i jezik je nađenje
       tekstove koji se istraživuju. S pomoći bibliotekarima u Univerzitetu u Pitsburgu, našao sam
@@ -43,12 +50,15 @@
       latinskom na čirilicom. Svako slovo na čirilicom može ima jedno ili dva slova na latinskom,
       ali zato što na latinskom ima jedno ili dva slova za svako slovo čirilicom, je kompleksnije. </p>
 
+
    <p>Zatim, istraživao sam odakle je svaka rijeć, i poslje toga dao sam imena toga na atributu
       (@lang=””), i napisao sam generalnu informaciju o pjesmi u elementu koj se zove &lt;meta&gt;
       iznad elementa &lt;body&gt; koj ima tekst pjesme. Svaki «XML» dokument je potvrđen s shemom
       «Relax NG» za standardizirati ove dokumente. </p>
 
+
    <p>Napisanje ovaj sajt</p>
+
 
    <p>Disciplina koja se zove na angliskom «digital humanities» koristi najvažnije digitalne alate
       za istraživati tekstove, ali jako je važno također koristiti ove alate za prezentirati ove
@@ -57,6 +67,7 @@
       ovaj sajt je bolje. Prvo ovih elemenata je koristenje «XSLT» da rade da sve ovog sajt-a je na
       čirilicom i također na latinskom.</p>
 
+
    <p>Često, dicipline istraživanja ima konceptualni centar u zapadnoj evropi, zato kad govornici
       engleskog jezika, francuzkog jezika ili njemačkog jezika istraživju tekstove na drugim
       jezicima, skoro uvijek prezentuju na engleskom, francuzkom ili njemačkom nego jezikom tekstova
@@ -64,10 +75,42 @@
       i analizu bilingualno. S ove strane, netko može koristiti cijeli sajt na Bosanskom i također
       ili s latinskim slovima ili s čirilicim slovima, ili na engleskom.</p>
 
+
    <p>Anaaliza na kraju</p>
+
 
    <p>Na kraju analize ovih tekstova treba raditi statistike za svaki tekst samostalno i također
       zajedno, i poslje toga, ih prezentovati kao «Scalable Vector Graphic» («SVG»). Ove
       transformaicije su rađene «XSLT»-om dokumentu kao transformacijsko scenario. Ove grafike su
       zaveršeni dio projekta prije napisanja analizu podaca.</p>
+
+
+   <p>Generalni sadržaj</p>
+
+
+   <p>Generalon, nešto koje sam očekivao, najviši je broj rijeća iz ovih pjesama koji su iz
+      slavenskih jezika. Mislio sam da to bi bilo zato što Bosanski je slavenski jezik. Druge
+      najviši je broj rijeća iz turskog jezika. Očekivao sam to zbog utjecaja turske kulture na ovom
+      žanru muzike i na Bosanskoj kulturi istovremeno s ne samo početkom ove kulture pjesama ali
+      također veliki dio Bosanskog kulturnog naslijeđa.</p>
+
+
+   <p>Broj rijeća iz drugih jezika je vrlo nisok, kad ga viđete poslje broja iz Turskog i
+      slavenskog, zato što ove rijeće su dolaizle naturalnom karakteristikom jezika. Kad govornici
+      imaju kontakt s govornicima drugog jezika i druge kulture, oni ću pozajmiti rijeće iz ovog
+      novog jezika u svojem jeziku.</p>
+
+
+   <p>Specifično o rijećima</p>
+
+
+   <p>MIRIS : Ovaj koncept treba ovim pjesama, zato što ima ova pjesma puno opisanja cvijeće i bašte
+      koje bi bile vrlo popularne u Bosni kad je kontrol imalo Osmansko carstvo. Ova rijeć dolazi u
+      Bosanskom iz Grčkog jezika, iz staro-grčkog “μύρον“ koj znači neke slatke ulje.</p>
+
+
+   <p>RUŽA : Ova rijeć dolazi iz latinskog jezika, iz “rosa” koja je dolazila u latinskom jeziku iz
+      staro-grčkog “ροδόν.” Za ovaj projekat, napisao sam da ova rijeć je došala samo iz latinskog
+      nego iz njene majke, staro-grčki jezik, zato što orfografija je sličniji latinskom nego
+      staro-grčkom.</p>
 </text>
