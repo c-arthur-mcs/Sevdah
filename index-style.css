@@ -109,7 +109,8 @@ p.subtitle {
 }
 
 p {
-    text-align: justify
+    text-align: justify;
+    font-size: 18px;
 }
 
 a {
