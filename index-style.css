@@ -96,7 +96,7 @@ hr {
 div.info {
     padding: 10px;
     margin: 5px;
-    text-align: justify
+    text-align: justify;
 }
 
 h2 {
@@ -194,7 +194,7 @@ section.text_window {
 }
 
 h1.poem_title {
-    
+
 }
 
 ul.poem {
@@ -209,26 +209,41 @@ li.citations {
     padding: 5px;
 }
 
-a.info-link {
+a.info_link {
+    color: #FFC436;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+span.info_link {
+    justify-content: center;
     background-color: #0174BE;
     color: #FFC436;
-    
+    padding: 5px;
+    font-size: large;
+    max-width: 300px;
+}
+
+span.info_link:hover {
+    background-color: #0C356A;
 }
 
 /* Styles for language highlighting */
 
 .italic {
-  font-style: italic;
+    font-style: italic;
 }
 .bold {
-  font-weight: bold;
+    font-weight: bold;
 }
 .under {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 .hide {
-  display: none;
+    display: none;
 }
 .show {
-  display: block;
+    display: block;
 }
