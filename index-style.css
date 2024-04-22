@@ -231,6 +231,14 @@ span.info_link:hover {
     background-color: #0C356A;
 }
 
+tr {
+    padding:5px;
+}
+
+td {
+    padding:5px;
+}
+
 /* Styles for language highlighting */
 
 .italic {
