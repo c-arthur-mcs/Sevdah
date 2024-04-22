@@ -302,7 +302,9 @@
           </div>
           <!-- COUNTS BY POEM -->
           <div class="info">
-            <h2>Counts by Poem</h2>
+            <h2 class="en" style="display:block">Counts by Poem</h2>
+            <h2 class="bs-cy" style="display:none">Бројеви сваке пјесме</h2>
+            <h2 class="bs-la" style="display:none">Brojevi svake pjesme</h2>
             <table>
               <tr>
                 <th>
