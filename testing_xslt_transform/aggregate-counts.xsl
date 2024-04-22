@@ -102,7 +102,9 @@
             </button>
           </div>
         </nav>
-        <h1 class="main_title">Textual Analysis</h1>
+        <h1 class="main_title en"  style="display:block">Textual Analysis</h1>
+        <h1 class="main_title bs-cy" style="display:none">Анализа текстова</h1>
+        <h1 class="main_title bs-la" style="display:none">Analiza tekstova</h1>
         <hr/>
         <section>
           <!-- CHART -->
