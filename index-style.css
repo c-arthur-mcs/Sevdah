@@ -239,6 +239,26 @@ td {
     padding:5px;
 }
 
+div.author-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+button.author-buttons {
+    padding: 5px;
+    background-color: #0174BE;
+    color: #FFC436;
+    font-family: serif;
+}
+
+button.author-buttons:hover {
+    background-color: #0174BE;
+}
+
 /* Styles for language highlighting */
 
 .italic {
