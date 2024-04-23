@@ -30,7 +30,7 @@
             <xsl:map-entry key="'Safet-beg Bašagić'" select="'sb.....'"/>
         </xsl:map>
     </xsl:variable>
-    <xsl:variable name="regex-author" as="xs:string" select="map:get($author-map, .)"/>
+    <xsl:variable name="regex-author" as="xs:string" select="$all-author ! map:get($author-map, .)"/>
 
     <!-- FUNCTIONS -->
     <xsl:function name="cam:initial-cap" as="xs:string">
