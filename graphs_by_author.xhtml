@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
    <head>
       <title>Sevdah - Textual Analysis</title>
-      <link rel="stylesheet" type="text/css" href="index-style.css"/><script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"></script></head>
+      <link rel="stylesheet" type="text/css" href="index-style.css"/><script type="text/javascript" src="show-hide_en_bs-cy_bs-la.js"></script><script type="text/javascript" src="graphs_by_author_buttons.js"></script></head>
    <body>
       <nav class="navigation">
          <h1 class="website_title">SEVDAH</h1>
@@ -22,184 +22,206 @@
       <h1 class="main_title bs-cy" style="display:none">Анализа текстова</h1>
       <h1 class="main_title bs-la" style="display:none">Analiza tekstova</h1>
       <hr/>
-      <div class="info"><button class="author-buttons"><span class="en" style="display:block">Aleksa Šantič</span><span class="bs-cy" style="display:none">Aleksa Šantič</span><span class="bs-la" style="display:none">Aleksa Šantič</span></button><button class="author-buttons"><span class="en" style="display:block">Himzo Polovina</span><span class="bs-cy" style="display:none">Himzo Polovina</span><span class="bs-la" style="display:none">Himzo Polovina</span></button><button class="author-buttons"><span class="en" style="display:block">Musa Ćazim Ćatić</span><span class="bs-cy" style="display:none">Musa Ćazim Ćatić</span><span class="bs-la" style="display:none">Musa Ćazim Ćatić</span></button><button class="author-buttons"><span class="en" style="display:block">Mustafa Mujezinović</span><span class="bs-cy" style="display:none">Mustafa Mujezinović</span><span class="bs-la" style="display:none">Mustafa Mujezinović</span></button><button class="author-buttons"><span class="en" style="display:block">Osman Đikić</span><span class="bs-cy" style="display:none">Osman Đikić</span><span class="bs-la" style="display:none">Osman Đikić</span></button><button class="author-buttons"><span class="en" style="display:block">Safet-beg Bašagić</span><span class="bs-cy" style="display:none">Safet-beg Bašagić</span><span class="bs-la" style="display:none">Safet-beg Bašagić</span></button><button class="author-buttons"><span class="en" style="display:block">Silvana Armenulić</span><span class="bs-cy" style="display:none">Silvana Armenulić</span><span class="bs-la" style="display:none">Silvana Armenulić</span></button></div>
-      
-      
-      U зимској ноћи
-      In a winter's night
-      
-      Муса Ћазим Ћатић
-      1914
-      Text originally written in Bosnian latin. Published in M. Ćazim Ćatić: Pjesme od
-      godine 1900. do 1908. (Prva knjiga) - 1914, pg. 91-2.
-      
-      
-      
-      
-      Глухо
-      доба.
-      Са
-      висине
-      
-      
-      Владарица
-      тешке
-      тмине
-      
-      
-      Распустила
-      црне
-      косе
-      –
-      
-      
-      И
-      кроз
-      њене
-      бурне
-      вале
-      
-      
-      Вихори
-      се
-      биесни
-      шале
-      
-      
-      И
-      на
-      крилу
-      снијег
-      носе.
-      
-      
-      
-      
-      
-      Лед
-      се
-      хвата
-      попут
-      стакла,
-      
-      
-      Природу
-      је
-      самрт
-      такла
-      
-      
-      Хладним
-      дахом
-      усне
-      своје
-      -
-      
-      
-      А
-      ја
-      ступам
-      посред
-      тмине,
-      
-      
-      Жељан
-      сунца
-      и
-      топлине,
-      
-      
-      Жељан
-      тебе,
-      милије
-      моје.
-      
-      
-      
-      
-      
-      Испод
-      голих
-      мртвих
-      грана
-      
-      
-      Твога
-      пустог
-      гјулистана
-      
-      
-      Теби
-      идем
-      под
-      пенџере;
-      
-      
-      Газим
-      ногом
-      лишће
-      свехло,
-      
-      
-      Мраз
-      ми
-      љути
-      љуби
-      чело
-      
-      
-      И
-      по
-      коси
-      иње
-      стере.
-      –
-      
-      
-      
-      
-      
-      Аој
-      зимска
-      хладна
-      ноћи!
-      
-      
-      Шири
-      царство
-      своје
-      моћи,
-      
-      
-      Шири
-      црне
-      мреже
-      своје!
-      
-      
-      Не
-      плашим
-      се
-      твога
-      мраза,
-      
-      
-      Јер
-      с
-      драгиних
-      гјул
-      -
-      образа
-      
-      
-      Сад
-      ће
-      гранут
-      сунце
-      моје.
-      
-      
-      
-      
-      </body>
+      <div class="info"><button class="author-buttons" onclick="Aleksa_Šantič()"><span class="en" style="display:block">Aleksa Šantič</span><span class="bs-cy" style="display:none">Aleksa Šantič</span><span class="bs-la" style="display:none">Aleksa Šantič</span></button><button class="author-buttons" onclick="Himzo_Polovina()"><span class="en" style="display:block">Himzo Polovina</span><span class="bs-cy" style="display:none">Himzo Polovina</span><span class="bs-la" style="display:none">Himzo Polovina</span></button><button class="author-buttons" onclick="Musa_Ćazim_Ćatić()"><span class="en" style="display:block">Musa Ćazim Ćatić</span><span class="bs-cy" style="display:none">Musa Ćazim Ćatić</span><span class="bs-la" style="display:none">Musa Ćazim Ćatić</span></button><button class="author-buttons" onclick="Mustafa_Mujezinović()"><span class="en" style="display:block">Mustafa Mujezinović</span><span class="bs-cy" style="display:none">Mustafa Mujezinović</span><span class="bs-la" style="display:none">Mustafa Mujezinović</span></button><button class="author-buttons" onclick="Osman_Đikić()"><span class="en" style="display:block">Osman Đikić</span><span class="bs-cy" style="display:none">Osman Đikić</span><span class="bs-la" style="display:none">Osman Đikić</span></button><button class="author-buttons" onclick="Safet-beg_Bašagić()"><span class="en" style="display:block">Safet-beg Bašagić</span><span class="bs-cy" style="display:none">Safet-beg Bašagić</span><span class="bs-la" style="display:none">Safet-beg Bašagić</span></button><button class="author-buttons" onclick="Silvana_Armenulić()"><span class="en" style="display:block">Silvana Armenulić</span><span class="bs-cy" style="display:none">Silvana Armenulić</span><span class="bs-la" style="display:none">Silvana Armenulić</span></button></div>
+      <div class="info">
+         <h2>Силвана Арменулић Мустафа Мујезиновић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginСилвана Арменулић Мустафа Мујезиновић  - Total words: 103</text>
+            <rect fill="#FFC436" x="75" y="450" width="100" height="0"></rect>
+            <text fill="white" x="75" y="440" transform="rotate(270 74,440)">Turkic / Turski / Турски 0%</text>
+            <rect fill="#FFC436" x="200" y="57.76699029126212" width="100" height="392.2330097087379"></rect>
+            <text fill="white" x="200" y="440" transform="rotate(270 199,440)">Slavic / Slavenski / Славенски 98.1%</text>
+            <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
+            <text fill="white" x="325" y="440" transform="rotate(270 324,440)">Latin / Latinski / Латински 0%</text>
+            <rect fill="#FFC436" x="450" y="442.2330097087379" width="100" height="7.766990291262137"></rect>
+            <text fill="white" x="450" y="432.2330097087379" transform="rotate(270 449,440)">Greek / Grčki / Грчки 1.9%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,440)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,440)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,440)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Силвана Арменулић Мустафа Мујезиновић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginСилвана Арменулић Мустафа Мујезиновић  - Total words: 103</text>
+            <rect fill="#FFC436" x="75" y="450" width="100" height="0"></rect>
+            <text fill="white" x="75" y="440" transform="rotate(270 74,440)">Turkic / Turski / Турски 0%</text>
+            <rect fill="#FFC436" x="200" y="57.76699029126212" width="100" height="392.2330097087379"></rect>
+            <text fill="white" x="200" y="440" transform="rotate(270 199,440)">Slavic / Slavenski / Славенски 98.1%</text>
+            <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
+            <text fill="white" x="325" y="440" transform="rotate(270 324,440)">Latin / Latinski / Латински 0%</text>
+            <rect fill="#FFC436" x="450" y="442.2330097087379" width="100" height="7.766990291262137"></rect>
+            <text fill="white" x="450" y="432.2330097087379" transform="rotate(270 449,440)">Greek / Grčki / Грчки 1.9%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,440)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,440)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,440)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Сафет-бег Башагић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginСафет-бег Башагић  - Total words: 102</text>
+            <rect fill="#FFC436" x="75" y="418.62745098039215" width="100" height="31.372549019607842"></rect>
+            <text fill="white" x="75" y="408.62745098039215" transform="rotate(270 74,408.62745098039215)">Turkic / Turski / Турски 7.8%</text>
+            <rect fill="#FFC436" x="200" y="93.13725490196077" width="100" height="356.8627450980392"></rect>
+            <text fill="white" x="200" y="408.62745098039215" transform="rotate(270 199,408.62745098039215)">Slavic / Slavenski / Славенски 89.2%</text>
+            <rect fill="#FFC436" x="325" y="446.078431372549" width="100" height="3.9215686274509802"></rect>
+            <text fill="white" x="325" y="436.078431372549" transform="rotate(270 324,408.62745098039215)">Latin / Latinski / Латински 1%</text>
+            <rect fill="#FFC436" x="450" y="446.078431372549" width="100" height="3.9215686274509802"></rect>
+            <text fill="white" x="450" y="436.078431372549" transform="rotate(270 449,408.62745098039215)">Greek / Grčki / Грчки 1%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,408.62745098039215)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,408.62745098039215)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="446.078431372549" width="100" height="3.9215686274509802"></rect>
+            <text fill="white" x="825" y="436.078431372549" transform="rotate(270 824,408.62745098039215)">Italian / Talijanski / Талијански 1%</text></svg></div>
+      <div class="info">
+         <h2>Химзо Половниа Алекса Шантић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginХимзо Половниа Алекса Шантић  - Total words: 200</text>
+            <rect fill="#FFC436" x="75" y="372" width="100" height="78"></rect>
+            <text fill="white" x="75" y="362" transform="rotate(270 74,362)">Turkic / Turski / Турски 19.5%</text>
+            <rect fill="#FFC436" x="200" y="134" width="100" height="316"></rect>
+            <text fill="white" x="200" y="362" transform="rotate(270 199,362)">Slavic / Slavenski / Славенски 79%</text>
+            <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
+            <text fill="white" x="325" y="440" transform="rotate(270 324,362)">Latin / Latinski / Латински 0%</text>
+            <rect fill="#FFC436" x="450" y="448" width="100" height="2"></rect>
+            <text fill="white" x="450" y="438" transform="rotate(270 449,362)">Greek / Grčki / Грчки 0.5%</text>
+            <rect fill="#FFC436" x="575" y="446" width="100" height="4"></rect>
+            <text fill="white" x="575" y="436" transform="rotate(270 574,362)">Hungarian / Mađarski / Мађарски 1%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,362)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,362)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Химзо Половниа Алекса Шантић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginХимзо Половниа Алекса Шантић  - Total words: 200</text>
+            <rect fill="#FFC436" x="75" y="372" width="100" height="78"></rect>
+            <text fill="white" x="75" y="362" transform="rotate(270 74,362)">Turkic / Turski / Турски 19.5%</text>
+            <rect fill="#FFC436" x="200" y="134" width="100" height="316"></rect>
+            <text fill="white" x="200" y="362" transform="rotate(270 199,362)">Slavic / Slavenski / Славенски 79%</text>
+            <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
+            <text fill="white" x="325" y="440" transform="rotate(270 324,362)">Latin / Latinski / Латински 0%</text>
+            <rect fill="#FFC436" x="450" y="448" width="100" height="2"></rect>
+            <text fill="white" x="450" y="438" transform="rotate(270 449,362)">Greek / Grčki / Грчки 0.5%</text>
+            <rect fill="#FFC436" x="575" y="446" width="100" height="4"></rect>
+            <text fill="white" x="575" y="436" transform="rotate(270 574,362)">Hungarian / Mađarski / Мађарски 1%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,362)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,362)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Осман Ђикић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginОсман Ђикић  - Total words: 103</text>
+            <rect fill="#FFC436" x="75" y="422.81553398058253" width="100" height="27.184466019417474"></rect>
+            <text fill="white" x="75" y="412.81553398058253" transform="rotate(270 74,412.81553398058253)">Turkic / Turski / Турски 6.8%</text>
+            <rect fill="#FFC436" x="200" y="81.06796116504853" width="100" height="368.93203883495147"></rect>
+            <text fill="white" x="200" y="412.81553398058253" transform="rotate(270 199,412.81553398058253)">Slavic / Slavenski / Славенски 92.2%</text>
+            <rect fill="#FFC436" x="325" y="446.11650485436894" width="100" height="3.8834951456310685"></rect>
+            <text fill="white" x="325" y="436.11650485436894" transform="rotate(270 324,412.81553398058253)">Latin / Latinski / Латински 1%</text>
+            <rect fill="#FFC436" x="450" y="450" width="100" height="0"></rect>
+            <text fill="white" x="450" y="440" transform="rotate(270 449,412.81553398058253)">Greek / Grčki / Грчки 0%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,412.81553398058253)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,412.81553398058253)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,412.81553398058253)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Химзо Половина</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginХимзо Половина  - Total words: 92</text>
+            <rect fill="#FFC436" x="75" y="406.52173913043475" width="100" height="43.47826086956522"></rect>
+            <text fill="white" x="75" y="396.52173913043475" transform="rotate(270 74,396.52173913043475)">Turkic / Turski / Турски 10.9%</text>
+            <rect fill="#FFC436" x="200" y="93.47826086956525" width="100" height="356.52173913043475"></rect>
+            <text fill="white" x="200" y="396.52173913043475" transform="rotate(270 199,396.52173913043475)">Slavic / Slavenski / Славенски 89.1%</text>
+            <rect fill="#FFC436" x="325" y="450" width="100" height="0"></rect>
+            <text fill="white" x="325" y="440" transform="rotate(270 324,396.52173913043475)">Latin / Latinski / Латински 0%</text>
+            <rect fill="#FFC436" x="450" y="450" width="100" height="0"></rect>
+            <text fill="white" x="450" y="440" transform="rotate(270 449,396.52173913043475)">Greek / Grčki / Грчки 0%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,396.52173913043475)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="450" width="100" height="0"></rect>
+            <text fill="white" x="700" y="440" transform="rotate(270 699,396.52173913043475)">Germanic / Njemački / Њемачки 0%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,396.52173913043475)">Italian / Talijanski / Талијански 0%</text></svg></div>
+      <div class="info">
+         <h2>Муса Ћазим Ћатић</h2><svg xmlns="http://www.w3.org/2000/svg" height="500" width="1000">
+            <rect height="500" width="1000" fill="#0174BE" stroke="white"></rect>
+            <line x1="50" y1="450" x2="1000" y2="450" stroke="white"></line>
+            <line x1="50" y1="350" x2="1000" y2="350" stroke="#0C356A"></line>
+            <line x1="50" y1="250" x2="1000" y2="250" stroke="#0C356A"></line>
+            <line x1="50" y1="150" x2="1000" y2="150" stroke="#0C356A"></line>
+            <line x1="50" y1="50" x2="1000" y2="50" stroke="#0C356A"></line>
+            <line x1="50" y1="450" x2="50" y2="0" stroke="white"></line>
+            <text x="25" y="250" fill="white">%</text>
+            <text x="50" y="475" fill="white">Language of OriginМуса Ћазим Ћатић  - Total words: 108</text>
+            <rect fill="#FFC436" x="75" y="431.48148148148147" width="100" height="18.51851851851852"></rect>
+            <text fill="white" x="75" y="421.48148148148147" transform="rotate(270 74,421.48148148148147)">Turkic / Turski / Турски 4.6%</text>
+            <rect fill="#FFC436" x="200" y="83.33333333333337" width="100" height="366.66666666666663"></rect>
+            <text fill="white" x="200" y="421.48148148148147" transform="rotate(270 199,421.48148148148147)">Slavic / Slavenski / Славенски 91.7%</text>
+            <rect fill="#FFC436" x="325" y="442.5925925925926" width="100" height="7.4074074074074066"></rect>
+            <text fill="white" x="325" y="432.5925925925926" transform="rotate(270 324,421.48148148148147)">Latin / Latinski / Латински 1.9%</text>
+            <rect fill="#FFC436" x="450" y="446.2962962962963" width="100" height="3.7037037037037033"></rect>
+            <text fill="white" x="450" y="436.2962962962963" transform="rotate(270 449,421.48148148148147)">Greek / Grčki / Грчки 0.9%</text>
+            <rect fill="#FFC436" x="575" y="450" width="100" height="0"></rect>
+            <text fill="white" x="575" y="440" transform="rotate(270 574,421.48148148148147)">Hungarian / Mađarski / Мађарски 0%</text>
+            <rect fill="#FFC436" x="700" y="446.2962962962963" width="100" height="3.7037037037037033"></rect>
+            <text fill="white" x="700" y="436.2962962962963" transform="rotate(270 699,421.48148148148147)">Germanic / Njemački / Њемачки 0.9%</text>
+            <rect fill="#FFC436" x="825" y="450" width="100" height="0"></rect>
+            <text fill="white" x="825" y="440" transform="rotate(270 824,421.48148148148147)">Italian / Talijanski / Талијански 0%</text></svg></div>
+   </body>
 </html>
