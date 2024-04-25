@@ -428,16 +428,16 @@
                                         </span>
                                     </th>
                                     <td>
-                                        <xsl:value-of select="($pc-slavic * 100) => round()"/>
+                                        <xsl:value-of select="($pc-slavic * 100) ! round(.,2)"/>
                                         <xsl:text>%</xsl:text>
                                     </td>
                                     <td>
-                                        <xsl:value-of select="($pc-turkic * 100) => round()"/>
+                                        <xsl:value-of select="($pc-turkic * 100) ! round(.,2)"/>
                                         <xsl:text>%</xsl:text>
                                     </td>
                                     <td>
                                         <xsl:value-of
-                                            select="(($pc-latin + $pc-greek + $pc-germanic + $pc-hungarian + $pc-italian) * 100) => round()"/>
+                                            select="(($pc-latin + $pc-greek + $pc-germanic + $pc-hungarian + $pc-italian) * 100) ! round(.,2)"/>
                                         <xsl:text>%</xsl:text>
                                     </td>
                                 </tr>
