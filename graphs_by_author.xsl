@@ -342,9 +342,9 @@
                         </div>
                     </xsl:for-each-group>
                     <div class="info">
-                        <h2 class="en" style="display:block">Counts by Poet/Performer</h2>
-                        <h2 class="bs-cy" style="display:none">Бројеви по пјеснику/пјевацу</h2>
-                        <h2 class="bs-la" style="display:none">Brojevi po pjesniku/pjevacu</h2>
+                        <h2 class="en" style="display:block">Counts by Poet / Performer</h2>
+                        <h2 class="bs-cy" style="display:none">Бројеви по пјеснику / пјевацу</h2>
+                        <h2 class="bs-la" style="display:none">Brojevi po pjesniku / pjevacu</h2>
                         <table>
                             <tr>
                                 <th>
