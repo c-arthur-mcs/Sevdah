@@ -173,40 +173,40 @@
                             collation="http://www.w3.org/2013/collation/UCA?lang=bs"/>
 
                         <xsl:variable name="total-words" as="xs:integer"
-                            select='count(//origin[not(@lang = "n/a")])'/>
+                            select='count(current-group()//origin[not(@lang = "n/a")])'/>
 
                         <xsl:variable name="n-turkic" as="xs:integer"
-                            select='count(//origin[@lang = "turkic"])'/>
+                            select='count(current-group()//origin[@lang = "turkic"])'/>
                         <xsl:variable name="pc-turkic" as="xs:double"
                             select="$n-turkic div $total-words"/>
 
                         <xsl:variable name="n-slavic" as="xs:integer"
-                            select='count(//origin[@lang = "slavic"])'/>
+                            select='count(current-group()//origin[@lang = "slavic"])'/>
                         <xsl:variable name="pc-slavic" as="xs:double"
                             select="$n-slavic div $total-words"/>
 
                         <xsl:variable name="n-latin" as="xs:integer"
-                            select='count(//origin[@lang = "latin"])'/>
+                            select='count(current-group()//origin[@lang = "latin"])'/>
                         <xsl:variable name="pc-latin" as="xs:double"
                             select="$n-latin div $total-words"/>
 
                         <xsl:variable name="n-greek" as="xs:integer"
-                            select='count(//origin[@lang = "greek"])'/>
+                            select='count(current-group()//origin[@lang = "greek"])'/>
                         <xsl:variable name="pc-greek" as="xs:double"
                             select="$n-greek div $total-words"/>
 
                         <xsl:variable name="n-hungarian" as="xs:integer"
-                            select='count(//origin[@lang = "hungarian"])'/>
+                            select='count(current-group()//origin[@lang = "hungarian"])'/>
                         <xsl:variable name="pc-hungarian" as="xs:double"
                             select="$n-hungarian div $total-words"/>
 
                         <xsl:variable name="n-germanic" as="xs:integer"
-                            select='count(//origin[@lang = "germanic"])'/>
+                            select='count(current-group()//origin[@lang = "germanic"])'/>
                         <xsl:variable name="pc-germanic" as="xs:double"
                             select="$n-germanic div $total-words"/>
 
                         <xsl:variable name="n-italian" as="xs:integer"
-                            select='count(//origin[@lang = "italian"])'/>
+                            select='count(current-group()//origin[@lang = "italian"])'/>
                         <xsl:variable name="pc-italian" as="xs:double"
                             select="$n-italian div $total-words"/>
 
@@ -374,40 +374,40 @@
                                     collation="http://www.w3.org/2013/collation/UCA?lang=bs"/>
 
                                 <xsl:variable name="total-words" as="xs:integer"
-                                    select='count(//origin[not(@lang = "n/a")])'/>
-
+                                    select='count(current-group()//origin[not(@lang = "n/a")])'/>
+                                
                                 <xsl:variable name="n-turkic" as="xs:integer"
-                                    select='count(//origin[@lang = "turkic"])'/>
+                                    select='count(current-group()//origin[@lang = "turkic"])'/>
                                 <xsl:variable name="pc-turkic" as="xs:double"
                                     select="$n-turkic div $total-words"/>
-
+                                
                                 <xsl:variable name="n-slavic" as="xs:integer"
-                                    select='count(//origin[@lang = "slavic"])'/>
+                                    select='count(current-group()//origin[@lang = "slavic"])'/>
                                 <xsl:variable name="pc-slavic" as="xs:double"
                                     select="$n-slavic div $total-words"/>
-
+                                
                                 <xsl:variable name="n-latin" as="xs:integer"
-                                    select='count(//origin[@lang = "latin"])'/>
+                                    select='count(current-group()//origin[@lang = "latin"])'/>
                                 <xsl:variable name="pc-latin" as="xs:double"
                                     select="$n-latin div $total-words"/>
-
+                                
                                 <xsl:variable name="n-greek" as="xs:integer"
-                                    select='count(//origin[@lang = "greek"])'/>
+                                    select='count(current-group()//origin[@lang = "greek"])'/>
                                 <xsl:variable name="pc-greek" as="xs:double"
                                     select="$n-greek div $total-words"/>
-
+                                
                                 <xsl:variable name="n-hungarian" as="xs:integer"
-                                    select='count(//origin[@lang = "hungarian"])'/>
+                                    select='count(current-group()//origin[@lang = "hungarian"])'/>
                                 <xsl:variable name="pc-hungarian" as="xs:double"
                                     select="$n-hungarian div $total-words"/>
-
+                                
                                 <xsl:variable name="n-germanic" as="xs:integer"
-                                    select='count(//origin[@lang = "germanic"])'/>
+                                    select='count(current-group()//origin[@lang = "germanic"])'/>
                                 <xsl:variable name="pc-germanic" as="xs:double"
                                     select="$n-germanic div $total-words"/>
-
+                                
                                 <xsl:variable name="n-italian" as="xs:integer"
-                                    select='count(//origin[@lang = "italian"])'/>
+                                    select='count(current-group()//origin[@lang = "italian"])'/>
                                 <xsl:variable name="pc-italian" as="xs:double"
                                     select="$n-italian div $total-words"/>
 
