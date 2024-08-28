@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="didi010">
+    <meta>
+        <title>
+            <title_bs>Лијепи Мехо</title_bs>
+            <title_en>Lijepi Meho</title_en>
+        </title>
+        <author type="poet" lat="Damir Imamović">Дамир Имамовић</author>
+        <author type="performer" lat="Damir Imamović">Дамир Имамовић</author>
+        <year>2016</year>
+        <desc>Transcription from recording. Album: Dvojka Copyright: Damir Imamović and Glitterbeat
+            Records</desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Мила</origin>
+                <origin lang="slavic">мајко,</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">зови</origin>
+                <origin lang="slavic">то</origin>
+                <origin lang="slavic">гријехом</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Што</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">душа</origin>
+                <origin lang="slavic">изгори</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="turkic">Мехом</origin>
+            </l>
+            <l>
+                <origin lang="slavic">За</origin>
+                <origin lang="slavic">његовим</origin>
+                <origin lang="turkic">бадемли</origin>
+                <origin lang="slavic">очима</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Попусаше</origin>
+                <origin lang="turkic">токе</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">прсима</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Слободоан</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">као</origin>
+                <origin lang="slavic">птица</origin>
+                <origin lang="slavic">сива</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">полетим</origin>
+                <origin lang="slavic">куд'</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">носе</origin>
+                <origin lang="slavic">крила</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Па</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="turkic">Мехи</origin>
+                <origin lang="slavic">слетим</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">срдашце</origin>
+            </l>
+            <l>
+                <origin lang="slavic">На</origin>
+                <origin lang="slavic">њему</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="turkic">баш</origin>
+                <origin lang="slavic">гијездо</origin>
+                <origin lang="slavic">свила</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="turkic">Меха</origin>
+                <origin lang="slavic">мајка</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="latin">ружи</origin>
+                <origin lang="slavic">родила</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Од</origin>
+                <origin lang="slavic">латица</origin>
+                <origin lang="slavic">направила</origin>
+                <origin lang="slavic">крила</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Посула</origin>
+                <origin lang="slavic">му</origin>
+                <origin lang="slavic">трном</origin>
+                <origin lang="slavic">косе</origin>
+                <origin lang="slavic">црне</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">му</origin>
+                <origin lang="slavic">вила</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">би</origin>
+                <origin lang="slavic">наудила</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Слободоан</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">као</origin>
+                <origin lang="slavic">птица</origin>
+                <origin lang="slavic">сива</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">полетим</origin>
+                <origin lang="slavic">куд'</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">носе</origin>
+                <origin lang="slavic">крила</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Па</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="turkic">Мехи</origin>
+                <origin lang="slavic">слетим</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">срдашце</origin>
+            </l>
+            <l>
+                <origin lang="slavic">На</origin>
+                <origin lang="slavic">њему</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="turkic">баш</origin>
+                <origin lang="slavic">гијездо</origin>
+                <origin lang="slavic">свила</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

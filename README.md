@@ -20,42 +20,19 @@ The "texts" page gives the option to view the texts in either Cyrillic or Latin 
 
 The line between poetry and song is not the same in the Balkans as it is in the rest of the European context. The word for both poetry and song is actually the same in Bosnian, just as in Croatia, Serbian, Montegrin, and likely other Balkan languages, _pjesma_. Because of this overlap, these may be referred to as "songs" or "poems" in English, but truly they all encompass both. For the purposes of examining them in this project, the musical element must be removed so that the text can be examined, placing it within the European conception of "poetry," while its Balkan genre has not changed.
 
-## Plans for website
+## HOW TO USE
 
-- Pages
-  - Home
-    - General information about the study
-    - Defining Sevdah
-    - Discussing Bosnian in linguistic context
-  - Texts
-    - Display one or two texts at a time
-    - Links to youtube / spotify songs?
-      - Embed if possible? [CHECK COPYRIGHT PROBLEMS]
-    - Text alterations – toggle switches
-      - **BOLD** words from Turkic origins (could **BOLD** + color)
-      - _ITALICIZE_ words from Slavic origins (could _ITALICIZE_ + color)
-      - S ~~TRIKE THROUGH~~ or GREY OUT words which are not being examined
-      - Cyrillic v. Latin toggle switch?
-        - Should be pretty easy – almost all letters are 1:1 ratio
-        - The problem children dž  џ lj љnj  њ
-  - Analysis
-    - Sheer statistics
-      - How many words used from Turkic roots?
-      - How many words used from Slavic roots?
-      - Most common words from Turkic roots?
-      - Percentages per text?
-      - Percentages overall?
-  - Conclusion
-    - Summary of data gathered
-    - Sources
-    
-## Next steps
+This assumes that .xml editing will be taking place through `<oXygen/>`, and that all of the changes are pushed through `github`.
 
-- Javascript for showing lang=bs and lang=en
-- More poems
-- Basic biographical information of text author
-    - place of origin
-    - timeline
-        - within empires
-        - general years
-    - performer / vocalist takes precedence over poet, since they are the most recent
+The general process is as follows:
+- type out the poem in an .xml document in the texts_xml folder
+- transform the .xml document as explained through `Regex_transformation_guide.md`
+- associate `Schema.rnc`
+- APPLY TRANSFORMATION SCENARIOS IN `texts-sevdah.xpr`
+    - create the .xhtml document from the .xml document using `cyrillic_to_latin.xsl`
+    - save this .xhtml document in the texts_xhtml folder
+    - create the .xhtml document for the chart from the .xml document using `statistics_calculations.xsl`
+    - save this .xhtml document in the testing_xslt_transform folder
+    - create the new .xhtml graphs by author document using `graphs_by_author.xsl`
+    - save this .xhtml document in its original location
+- if the poem is from a new poet/performer, edit the `graphs_by_author_buttons.js` file to add in the new poet/performer
