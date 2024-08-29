@@ -36,3 +36,5 @@ The general process is as follows:
     - create the new .xhtml graphs by author document using `graphs_by_author.xsl`
     - save this .xhtml document in its original location
 - if the poem is from a new poet/performer, edit the `graphs_by_author_buttons.js` file to add in the new poet/performer
+- link the new documents to the page `text_directory.xhtml`
+- update the bibliograhy page to reflect the new text
