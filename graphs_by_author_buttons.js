@@ -75,6 +75,7 @@ function Polovina_Himzo() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* MUSA ĆAZIM ĆATIĆ */
@@ -114,6 +115,7 @@ function Ćatić_MusaĆazim() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* MUSTAFA MUJEZINOVIĆ */
@@ -153,6 +155,7 @@ function Mujezinović_Mustafa() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* DAMIR IMAMOVIĆ PERFORMER */
@@ -192,6 +195,7 @@ function Imamović_Damirpjevac() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* DAMIR IMAMOVIĆ POET */
@@ -231,6 +235,7 @@ function Imamović_Damirpjesnik() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "block"
+        }
 }
 
 /* OSMAN ĐIKIĆ */
@@ -270,6 +275,7 @@ function Đikić_Osman() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* SAFET-BEG BAŠAGIĆ */
@@ -309,6 +315,7 @@ function Bašagić_Safetbeg() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+        }
 }
 
 /* SILVANA ARMENULIĆ */
@@ -348,4 +355,5 @@ function Armenulić_Silvana() {
     var j = document.getElementsByClassName("Imamović_Damirpjesnik");
     for (let i = 0; i < j.length; i++) {
         j[i].style.display = "none"
+    }
 }
