@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="..di011">
+    <meta>
+        <title>
+            <title_bs>Разбоље се лијепа Хајрија</title_bs>
+            <title_en>Razbolje se lijepa Hajrija</title_en>
+        </title>
+        <author type="performer" lat="Damir-performer Imamović">Дамир-пјевац Имамовић</author>
+        <year>2012</year>
+        <desc>Transcription from recording. Album: Sevdah Takht Copyright: Damir Imamović and Lampshade Media
+            </desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Разбоље</origin>
+                <origin lang="slavic">се,</origin>
+                <origin lang="slavic">разбоље</origin>
+                <origin lang="slavic">се</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Лијепа</origin>
+                <origin lang="turkic">Хајрија,</origin>
+                <origin lang="slavic">лијепа</origin>
+                <origin lang="turkic">Хајрија</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Под</origin>
+                <origin lang="slavic">орахом,</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="slavic">орахом</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">јоргованом,</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">јоргованом</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Џанум</origin>
+                <origin lang="turkic">аман,</origin>
+                <origin lang="turkic">џанум</origin>
+                <origin lang="turkic">аман</origin>
+                <origin lang="n/a">оф</origin>
+                <origin lang="turkic">аман</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Об'лази</origin>
+                <origin lang="slavic">је,</origin>
+                <origin lang="slavic">об'лази</origin>
+                <origin lang="slavic">је</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Цјели</origin>
+                <origin lang="slavic">Мостар</origin>
+                <origin lang="slavic">редом,</origin>
+                <origin lang="slavic">цјели</origin>
+                <origin lang="slavic">Мостар</origin>
+                <origin lang="slavic">редом</origin>
+            </l>
+            <l>
+                <origin lang="slavic">А</origin>
+                <origin lang="slavic">највише,</origin>
+                <origin lang="slavic">а</origin>
+                <origin lang="slavic">највише</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Три</origin>
+                <origin lang="turkic">дилбера</origin>
+                <origin lang="slavic">млада,</origin>
+                <origin lang="slavic">три</origin>
+                <origin lang="turkic">дилбера</origin>
+                <origin lang="slavic">млада</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Џанум</origin>
+                <origin lang="turkic">аман,</origin>
+                <origin lang="turkic">џанум</origin>
+                <origin lang="turkic">аман</origin>
+                <origin lang="n/a">оф</origin>
+                <origin lang="turkic">аман</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Први</origin>
+                <origin lang="slavic">вели,</origin>
+                <origin lang="slavic">први</origin>
+                <origin lang="slavic">вели</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Болујеш</origin>
+                <origin lang="slavic">ли</origin>
+                <origin lang="turkic">Хајро,</origin>
+                <origin lang="slavic">болујеш</origin>
+                <origin lang="slavic">ли</origin>
+                <origin lang="turkic">Хајро</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Други</origin>
+                <origin lang="slavic">вели,</origin>
+                <origin lang="slavic">други</origin>
+                <origin lang="slavic">вели</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Болово</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">те,</origin>
+                <origin lang="slavic">болово</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">те</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Трећи</origin>
+                <origin lang="slavic">вели,</origin>
+                <origin lang="slavic">трећи</origin>
+                <origin lang="slavic">вели</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">умро</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">те,</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">умро</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">те</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Џанум</origin>
+                <origin lang="turkic">аман,</origin>
+                <origin lang="turkic">џанум</origin>
+                <origin lang="turkic">аман</origin>
+                <origin lang="n/a">оф</origin>
+                <origin lang="turkic">аман</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Проговара,</origin>
+                <origin lang="slavic">проговара</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Лијепа</origin>
+                <origin lang="turkic">Хајрија,</origin>
+                <origin lang="slavic">лијепа</origin>
+                <origin lang="turkic">Хајрија</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Нити</origin>
+                <origin lang="slavic">болуј,</origin>
+                <origin lang="slavic">нити</origin>
+                <origin lang="slavic">болуј</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Нити</origin>
+                <origin lang="slavic">умри</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">ме,</origin>
+                <origin lang="slavic">нити</origin>
+                <origin lang="slavic">умри</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">ме</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Скин</origin>
+                <origin lang="turkic">доламу,</origin>
+                <origin lang="slavic">скин</origin>
+                <origin lang="turkic">доламу</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Па</origin>
+                <origin lang="slavic">легни</origin>
+                <origin lang="slavic">уза</origin>
+                <origin lang="slavic">ме</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Па</origin>
+                <origin lang="slavic">легни</origin>
+                <origin lang="slavic">уза</origin>
+                <origin lang="slavic">ме</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чини</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">се,</origin>
+                <origin lang="slavic">чини</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">се</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Лакше</origin>
+                <origin lang="slavic">би</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">било,</origin>
+                <origin lang="slavic">лакше</origin>
+                <origin lang="slavic">би</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">било</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Џанум</origin>
+                <origin lang="turkic">аман,</origin>
+                <origin lang="turkic">џанум</origin>
+                <origin lang="turkic">аман</origin>
+                <origin lang="n/a">оф</origin>
+                <origin lang="turkic">аман</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

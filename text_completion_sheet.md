@@ -14,6 +14,7 @@
 | U zimskoj noći | Musa Ćazim Ćatić | | complete | mc..008 | 
 | Djevojka i cviječe | Safet-beg Bašagić | | complete | sb..009 |
 | Lijepi Meho | Damir Imamović | Damir Imamović | complete | didi010 |
+| Razbole se lijepa Hajrija | | Damir Imamović | in progress | ..di011 |
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
