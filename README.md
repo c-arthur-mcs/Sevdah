@@ -1,12 +1,12 @@
-# SLAV 1050 Analysis - Sevdah
+# Sevdah
 
 # General information
 
 ## CONTRIBUTORS:
 
-Cody McSherry
- Dr. James Pickett
- (if consulted for difficult word origins:) Dr. Ljiljana Đurašković
+- Cody McSherry
+- Dr. James Pickett
+- Dr. Ljiljana Đurašković
 
 ## INTRODUCTORY INFORMATION
 
@@ -19,6 +19,8 @@ Many people consider the languages Bosnian, Croatian, Serbian, and Montenegrin t
 The "texts" page gives the option to view the texts in either Cyrillic or Latin letters. Both of these alphabets are used for Bosnian, Croatian, Serbian, and Montenegrin. At the present time, Croatia tends to use Latin primarily, and Serbia tends to use Cyrillic primarily, but this distinction is relatively recent, and there are still pockets in both of these countries which use the other.
 
 The line between poetry and song is not the same in the Balkans as it is in the rest of the European context. The word for both poetry and song is actually the same in Bosnian, just as in Croatia, Serbian, Montegrin, and likely other Balkan languages, _pjesma_. Because of this overlap, these may be referred to as "songs" or "poems" in English, but truly they all encompass both. For the purposes of examining them in this project, the musical element must be removed so that the text can be examined, placing it within the European conception of "poetry," while its Balkan genre has not changed.
+
+This project started as a project for <em>SLAV 1050: Computational Methods in the Humanitites</em>, but has since grown to be more.
 
 ## HOW TO USE
 
