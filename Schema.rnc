@@ -11,7 +11,7 @@ meta = element meta {title, author+, year, desc, url?}
         lat = attribute lat {text}
         # This is the latinization of the name. This should be written in Bosnian Latin.
     year = element year {xsd:int}
-    # This year is a publishing year in the case of printede works.
+    # This year is a publishing year in the case of printed works.
     desc = element desc {text}
     # This element must contain which alphabet the work was written in, if any, and how the transcription was performed.
     url = element url {text}
