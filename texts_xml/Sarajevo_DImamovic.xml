@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="didi013">
+    <meta>
+        <title>
+            <title_bs>Сарајево</title_bs>
+            <title_en>Sarajevo</title_en>
+        </title>
+        <author type="poet" lat="Damir-lyricist Imamović">Дамир-пјесник Имамовић</author>
+        <author type="performer" lat="Damir-performer Imamović">Дамир-пјевац Имамовић</author>
+        <year>2016</year>
+        <desc>Transcription from recording. Album: Dvojka Copyright: Damir Imamović and Glitterbeat
+            Records</desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="turkic">Сарајево,</origin>
+                <origin lang="slavic">подно</origin>
+                <origin lang="slavic">Требавича</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">сиње</origin>
+                <origin lang="slavic">море</origin>
+                <origin lang="slavic">прича</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">разног</origin>
+                <origin lang="slavic">свијета</origin>
+                <origin lang="slavic">било</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Свако</origin>
+                <origin lang="slavic">свога</origin>
+                <origin lang="slavic">трага</origin>
+                <origin lang="slavic">оставио</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Свако</origin>
+                <origin lang="slavic">трага,</origin>
+                <origin lang="slavic">а</origin>
+                <origin lang="slavic">понеко</origin>
+                <origin lang="slavic">врага</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ко</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="slavic">знати</origin>
+                <origin lang="slavic">ко</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">какав</origin>
+                <origin lang="slavic">страга</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ко</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="slavic">знати</origin>
+                <origin lang="slavic">ко</origin>
+                <origin lang="slavic">ј'</origin>
+                <origin lang="slavic">уз</origin>
+                <origin lang="slavic">кога</origin>
+                <origin lang="slavic">био</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ко</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">какве</origin>
+                <origin lang="slavic">ратове</origin>
+                <origin lang="slavic">водио</origin>
+            </l>
+            <l>
+                <origin lang="slavic">А</origin>
+                <origin lang="slavic">коме</origin>
+                <origin lang="slavic">су</origin>
+                <origin lang="slavic">слане</origin>
+                <origin lang="slavic">сузе</origin>
+                <origin lang="turkic">лиле</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Док</origin>
+                <origin lang="slavic">су</origin>
+                <origin lang="slavic">биле</origin>
+                <origin lang="turkic">зурле</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="turkic">борије</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="turkic">Сарајево,</origin>
+                <origin lang="slavic">подно</origin>
+                <origin lang="slavic">Требавица</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">сиње</origin>
+                <origin lang="slavic">море</origin>
+                <origin lang="slavic">прича</origin>
+            </l>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">теби</origin>
+                <origin lang="slavic">су</origin>
+                <origin lang="slavic">многе</origin>
+                <origin lang="slavic">старе</origin>
+                <origin lang="slavic">пјесме</origin>
+            </l>
+            <l>
+                <origin lang="slavic">О</origin>
+                <origin lang="slavic">љубави</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">пјеват'</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">см'је</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Све</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">твоја</origin>
+                <origin lang="slavic">дјеца</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">одшуте</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Тужне</origin>
+                <origin lang="slavic">дане,</origin>
+                <origin lang="turkic">сате</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="latin">минуте</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Учиће</origin>
+                <origin lang="slavic">их</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">мрзе</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">трују</origin>
+            </l>
+            <l>
+                <origin lang="slavic">О</origin>
+                <origin lang="slavic">даљини</origin>
+                <origin lang="slavic">далекој</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">снују</origin>
+            </l>
+            <l>
+                <origin lang="slavic">А</origin>
+                <origin lang="slavic">кући</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="turkic">боје</origin>
+                <origin lang="slavic">свога</origin>
+                <origin lang="slavic">прага</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ко</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="slavic">знати</origin>
+                <origin lang="slavic">ко</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">какав</origin>
+                <origin lang="slavic">страга.</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

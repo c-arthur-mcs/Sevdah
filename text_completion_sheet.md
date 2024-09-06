@@ -15,7 +15,8 @@
 | Djevojka i cviječe | Safet-beg Bašagić | | complete | sb..009 |
 | Lijepi Meho | Damir Imamović | Damir Imamović | complete | didi010 |
 | Razbole se lijepa Hajrija | | Damir Imamović | complete | ..di011 |
-| O lijepa, nevina ženo | Musa Ćazim Ćatić | | in progress | mc..012 |
+| O lijepa, nevina ženo | Musa Ćazim Ćatić | | complete | mc..012 |
+| Sarajevo | Damir Imamović | Damir Imamović | complete | didi013 |
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
