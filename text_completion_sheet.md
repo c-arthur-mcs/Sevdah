@@ -17,6 +17,7 @@
 | Razbole se lijepa Hajrija | | Damir Imamović | complete | ..di011 |
 | O lijepa, nevina ženo | Musa Ćazim Ćatić | | complete | mc..012 |
 | Sarajevo | Damir Imamović | Damir Imamović | complete | didi013 |
+| Pjevat ćemo šta nam srce zna | Damir Imamović | Amira Medunjanin | complete | diam014 | |
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
@@ -41,3 +42,4 @@ as in all questions have been answered as of this time.
 | Aleksa Šantič | as |
 | Safet-beg Bašagić | sb |
 | Damir Imamović | di |
+| Amira Medunjanin | am |
