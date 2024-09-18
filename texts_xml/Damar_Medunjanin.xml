@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
-<poem uid="ashp002">
+<poem uid="..am15">
     <meta>
         <title>
             <title_bs>Дамар</title_bs>
