@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="ashp002">
+    <meta>
+        <title>
+            <title_bs>Дамар</title_bs>
+            <title_en>Damar</title_en>
+        </title>
+        <author type="performer" lat="Amira Medunjanin">Амира Медуњанин</author>
+        <year>2016</year>
+        <desc>Transcription from recording. Album: Damar Copyright: Amira Medunjanin and ARTerija</desc>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="slavic">Живот,</origin>
+                <origin lang="slavic">шта</origin>
+                <origin lang="slavic">ли</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">живот</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Када</origin>
+                <origin lang="slavic">птице</origin>
+                <origin lang="slavic">пјевају</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">латице</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">отворе</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">све</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">опет</origin>
+                <origin lang="slavic">буди</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">очи</origin>
+                <origin lang="slavic">затварам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чезнем</origin>
+                <origin lang="n/a">–</origin>
+                <origin lang="slavic">лице</origin>
+                <origin lang="slavic">твоје</origin>
+                <origin lang="slavic">само</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">сновима</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чујем</origin>
+                <origin lang="slavic">пјесму</origin>
+                <origin lang="slavic">срца</origin>
+                <origin lang="slavic">мог</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Јер</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">чиме</origin>
+                <origin lang="slavic">руке</origin>
+                <origin lang="slavic">пружам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">То</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">могу</origin>
+                <origin lang="slavic">дотаћи</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">сновима</origin>
+                <origin lang="slavic">те</origin>
+                <origin lang="slavic">зовем</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Јер</origin>
+                <origin lang="slavic">све</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">знам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">ти</origin>
+                <origin lang="slavic">будем</origin>
+                <origin lang="slavic">љубав</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Душу</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">ти</origin>
+                <origin lang="slavic">дам</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Све</origin>
+                <origin lang="slavic">пјесме</origin>
+                <origin lang="slavic">срца</origin>
+                <origin lang="slavic">мога</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Моји</origin>
+                <origin lang="slavic">пусти</origin>
+                <origin lang="slavic">сни</origin>
+            </l>
+            <l>
+                <origin lang="slavic">За</origin>
+                <origin lang="turkic">дамар</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">мени</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Само</origin>
+                <origin lang="slavic">требаш</origin>
+                <origin lang="slavic">ти</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">скрињу</origin>
+                <origin lang="slavic">снова</origin>
+                <origin lang="slavic">својих</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Живот</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">тебе</origin>
+                <origin lang="slavic">спремам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Мом</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">срцу</origin>
+                <origin lang="slavic">све</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">желим</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Све</origin>
+                <origin lang="slavic">моје</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">имам</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">немам</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">очи</origin>
+                <origin lang="slavic">затварам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чезнем</origin>
+                <origin lang="n/a">–</origin>
+                <origin lang="slavic">лице</origin>
+                <origin lang="slavic">твоје</origin>
+                <origin lang="slavic">само</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">сновима</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Чујем</origin>
+                <origin lang="slavic">пјесму</origin>
+                <origin lang="slavic">срца</origin>
+                <origin lang="slavic">мог</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Јер</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">чиме</origin>
+                <origin lang="slavic">руке</origin>
+                <origin lang="slavic">пружам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">То</origin>
+                <origin lang="slavic">не</origin>
+                <origin lang="slavic">могу</origin>
+                <origin lang="slavic">дотаћи</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">У</origin>
+                <origin lang="slavic">сновима</origin>
+                <origin lang="slavic">те</origin>
+                <origin lang="slavic">зовем</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Јер</origin>
+                <origin lang="slavic">све</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">што</origin>
+                <origin lang="slavic">ја</origin>
+                <origin lang="slavic">знам</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">ти</origin>
+                <origin lang="slavic">будем</origin>
+                <origin lang="slavic">љубав</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Душу</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">ти</origin>
+                <origin lang="slavic">дам</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Животом</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">те</origin>
+                <origin lang="slavic">волим</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">мој</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">цијели</origin>
+                <origin lang="slavic">свијет</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Дамар</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">пробуди</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Без</origin>
+                <origin lang="slavic">њега</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">мријет</origin>
+            </l>
+        </lg>
+    </body>
+</poem>
