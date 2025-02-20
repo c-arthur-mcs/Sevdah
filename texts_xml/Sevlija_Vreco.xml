@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="bvbv017">
+    <meta>
+        <title>
+            <title_bs>Севлија</title_bs>
+            <title_en>Sevlija</title_en>
+        </title>
+        <author type="poet" lat="Božo Vrećo">Божо Врећо</author>
+        <year>2025</year>
+        <desc>Transcription from recording. Copyright Croatia Records and Božo Vrećo.</desc>
+    </meta>
+    <body>
+
+        <lg>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">звече</origin>
+                <origin lang="italian">дукати,</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">јече</origin>
+                <origin lang="slavic">немири,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ту,</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">мени,</origin>
+                <origin lang="slavic">јер</origin>
+                <origin lang="slavic">тебе</origin>
+                <origin lang="slavic">сада</origin>
+                <origin lang="slavic">други</origin>
+                <origin lang="slavic">жени,</origin>
+            </l>
+            <l>
+                <origin lang="latin">Кандиљи</origin>
+                <origin lang="slavic">пале</origin>
+                <origin lang="slavic">се</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">сузе</origin>
+                <origin lang="slavic">крију</origin>
+                <origin lang="slavic">се,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ту,</origin>
+                <origin lang="slavic">пред</origin>
+                <origin lang="slavic">свима,</origin>
+                <origin lang="slavic">јер</origin>
+                <origin lang="slavic">тебе</origin>
+                <origin lang="slavic">сада</origin>
+                <origin lang="slavic">други</origin>
+                <origin lang="slavic">има.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Боже,</origin>
+                <origin lang="slavic">Створитељу,</origin>
+                <origin lang="slavic">испуни</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">жељу,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">још</origin>
+                <origin lang="slavic">једном</origin>
+                <origin lang="slavic">угледам</origin>
+                <origin lang="slavic">чедном</origin>
+                <origin lang="slavic">крај</origin>
+                <origin lang="turkic">себиља,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Боже,</origin>
+                <origin lang="slavic">Стрворитељу,</origin>
+                <origin lang="slavic">испуни</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">жељу,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">још</origin>
+                <origin lang="slavic">једном</origin>
+                <origin lang="slavic">позовем</origin>
+                <origin lang="slavic">именом</origin>
+                <origin lang="turkic">Севлија,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Моја</origin>
+                <origin lang="turkic">Севлија.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">шуте</origin>
+                <origin lang="turkic">нануле</origin>
+                <origin lang="slavic">за</origin>
+                <origin lang="slavic">р'јечи</origin>
+                <origin lang="unknown">пануле,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ту,</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">мени,</origin>
+                <origin lang="slavic">јер</origin>
+                <origin lang="slavic">тебе</origin>
+                <origin lang="slavic">сада</origin>
+                <origin lang="slavic">други</origin>
+                <origin lang="slavic">жени,</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Езани</origin>
+                <origin lang="slavic">чују</origin>
+                <origin lang="slavic">се,</origin>
+                <origin lang="turkic">сахани</origin>
+                <origin lang="slavic">кују</origin>
+                <origin lang="slavic">се,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ту,</origin>
+                <origin lang="slavic">пред</origin>
+                <origin lang="slavic">свима,</origin>
+                <origin lang="slavic">сагињеш</origin>
+                <origin lang="slavic">главу,</origin>
+                <origin lang="slavic">јер</origin>
+                <origin lang="slavic">он</origin>
+                <origin lang="slavic">те</origin>
+                <origin lang="slavic">има.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Боже,</origin>
+                <origin lang="slavic">Створитељу,</origin>
+                <origin lang="slavic">испуни</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">жељу,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">још</origin>
+                <origin lang="slavic">једном</origin>
+                <origin lang="slavic">угледам</origin>
+                <origin lang="slavic">чедном</origin>
+                <origin lang="slavic">крај</origin>
+                <origin lang="turkic">себиља,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Боже,</origin>
+                <origin lang="slavic">Стрворитељу,</origin>
+                <origin lang="slavic">испуни</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">жељу,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">је</origin>
+                <origin lang="slavic">још</origin>
+                <origin lang="slavic">једном</origin>
+                <origin lang="slavic">позовем</origin>
+                <origin lang="slavic">именом</origin>
+                <origin lang="turkic">Севлија,</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Севлија,</origin>
+                <origin lang="slavic">моја</origin>
+                <origin lang="turkic">Севлија.</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

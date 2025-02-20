@@ -18,7 +18,10 @@
 | O lijepa, nevina ženo | Musa Ćazim Ćatić | | complete | mc..012 |
 | Sarajevo | Damir Imamović | Damir Imamović | complete | didi013 |
 | Pjevat ćemo šta nam srce zna | Damir Imamović | Amira Medunjanin | complete | diam014 |
-| Damar | | Amira Medunjanin | complete | ..am15 |
+| Damar | | Amira Medunjanin | complete | ..am015 |
+| Karanfile, cvijeće moje | | Himzo Polovina | complete | ..hp016 |
+| Sevlija | Božo Vrećo | Božo Vrećo | complete | bvbv017 |
+| Sanjao sam | Božo Vrećo | Božo Vrećo | complete | bvbv018 |
 
 ## Clarification
 - "_in progress_" refers to the stage where there are still words which I have not gone over at all. 
@@ -44,3 +47,4 @@ as in all questions have been answered as of this time.
 | Safet-beg Bašagić | sb |
 | Damir Imamović | di |
 | Amira Medunjanin | am |
+| Božo Vrećo | bv |

@@ -40,6 +40,10 @@ function Šantić_Aleksa() {
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
     };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
+    };
 }
 
 /* HIMZO POLOVINA */
@@ -83,6 +87,10 @@ function Polovina_Himzo() {
     var k = document.getElementsByClassName("Medunjanin_Amira");
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
     };
 }
 
@@ -128,6 +136,10 @@ function Ćatić_MusaĆazim() {
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
     };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
+    };
 }
 
 /* MUSTAFA MUJEZINOVIĆ */
@@ -171,6 +183,10 @@ function Mujezinović_Mustafa() {
     var k = document.getElementsByClassName("Medunjanin_Amira");
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
     };
 }
 
@@ -216,6 +232,10 @@ function Medunjanin_Amira() {
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "block"
     };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
+    };
 }
 
 /* DAMIR IMAMOVIĆ PERFORMER */
@@ -259,6 +279,10 @@ function Imamović_Damirpjevac() {
     var k = document.getElementsByClassName("Medunjanin_Amira");
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
     };
 }
 
@@ -304,6 +328,10 @@ function Imamović_Damirpjesnik() {
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
     };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
+    };
 }
 
 /* OSMAN ĐIKIĆ */
@@ -347,6 +375,10 @@ function Đikić_Osman() {
     var k = document.getElementsByClassName("Medunjanin_Amira");
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
     };
 }
 
@@ -435,5 +467,57 @@ function Armenulić_Silvana() {
     var k = document.getElementsByClassName("Medunjanin_Amira");
     for (let i = 0; i < k.length; i++) {
         k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "none"
+    };
+}
+
+/* BOŽO VREĆO */
+function Vrećo_Božo() {
+    var a = document.getElementsByClassName("Šantić_Aleksa");
+    for (let i = 0; i < a.length; i++) {
+        a[i].style.display = "none"
+    };
+    var b = document.getElementsByClassName("Polovina_Himzo");
+    for (let i = 0; i < b.length; i++) {
+        b[i].style.display = "none"
+    };
+    var c = document.getElementsByClassName("Ćatić_MusaĆazim");
+    for (let i = 0; i < c.length; i++) {
+        c[i].style.display = "none"
+    };
+    var d = document.getElementsByClassName("Mujezinović_Mustafa");
+    for (let i = 0; i < d.length; i++) {
+        d[i].style.display = "none"
+    };
+    var e = document.getElementsByClassName("Đikić_Osman");
+    for (let i = 0; i < e.length; i++) {
+        e[i].style.display = "none"
+    };
+    var f = document.getElementsByClassName("Bašagić_Safetbeg");
+    for (let i = 0; i < f.length; i++) {
+        f[i].style.display = "none"
+    };
+    var g = document.getElementsByClassName("Armenulić_Silvana");
+    for (let i = 0; i < g.length; i++) {
+        g[i].style.display = "none"
+    };
+    var h = document.getElementsByClassName("Imamović_Damirpjevac");
+    for (let i = 0; i < h.length; i++) {
+        h[i].style.display = "none"
+    };
+    var j = document.getElementsByClassName("Imamović_Damirpjesnik");
+    for (let i = 0; i < j.length; i++) {
+        j[i].style.display = "none"
+    };
+    var k = document.getElementsByClassName("Medunjanin_Amira");
+    for (let i = 0; i < k.length; i++) {
+        k[i].style.display = "none"
+    };
+    var l = document.getElementsByClassName("Vrećo_Božo");
+    for (let i = 0; i < l.length; i++) {
+        l[i].style.display = "block"
     };
 }

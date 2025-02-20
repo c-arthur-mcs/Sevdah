@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="..016">
+    <meta>
+        <title>
+            <title_bs>Каранфие, цвијеће моје</title_bs>
+            <title_en>Carnation, my flower</title_en>
+        </title>
+        <author type="performer" lat="Himzo Polovina">Химзо Половина</author>
+        <year>1984</year>
+        <desc>Transcription from recording. Copyright Jugoton-Croatia Records and Himzo
+            Polovina</desc>
+        <url>https://www.youtube.com/watch?app=desktop&amp;v=8oweemZaHHQ</url>
+    </meta>
+    <body>
+        <lg>
+            <l>
+                <origin lang="turkic">Каранфиле,</origin>
+                <origin lang="slavic">цвијеће</origin>
+                <origin lang="slavic">моје,</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Каранфиле,</origin>
+                <origin lang="slavic">цвијеће</origin>
+                <origin lang="slavic">моје,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">Бог</origin>
+                <origin lang="slavic">д'о</origin>
+                <origin lang="slavic">сјеме</origin>
+                <origin lang="slavic">твоје,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">Бог</origin>
+                <origin lang="slavic">д'о</origin>
+                <origin lang="slavic">сјеме</origin>
+                <origin lang="slavic">твоје.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">знао</origin>
+                <origin lang="slavic">гдје</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">цвао,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Ја</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">знао</origin>
+                <origin lang="slavic">гдје</origin>
+                <origin lang="slavic">бих</origin>
+                <origin lang="slavic">цвао,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Мојој</origin>
+                <origin lang="slavic">драгој</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">пенџере,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Мојој</origin>
+                <origin lang="slavic">драгој</origin>
+                <origin lang="slavic">под</origin>
+                <origin lang="turkic">пенџере.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">драга</origin>
+                <origin lang="slavic">иде</origin>
+                <origin lang="slavic">спати,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Кад</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">драга</origin>
+                <origin lang="slavic">иде</origin>
+                <origin lang="slavic">спати,</origin>
+            </l>
+            <l>
+                <origin lang="turkic">Каранфил</origin>
+                <origin lang="slavic">ће</origin>
+                <origin lang="greek">мирисати,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Моја</origin>
+                <origin lang="slavic">драга</origin>
+                <origin lang="slavic">уздисати.</origin>
+            </l>
+        </lg>
+    </body>
+</poem>

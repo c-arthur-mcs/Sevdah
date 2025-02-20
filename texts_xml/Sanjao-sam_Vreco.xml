@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="../Schema.rnc" type="application/relax-ng-compact-syntax"?>
+<poem uid="bvbv018">
+    <meta>
+        <title>
+            <title_bs>Сањао сам</title_bs>
+            <title_en>Sanjao sam</title_en>
+        </title>
+        <author type="poet" lat="Božo Vrećo">Божо Врећо</author>
+        <year>2018</year>
+        <desc>Transcription from recording. Copyright Croatia Records and Božo Vrećo.</desc>
+    </meta>
+    <body>
+
+
+        <lg>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">просјак</origin>
+                <origin lang="slavic">у</origin>
+                <origin lang="slavic">улици</origin>
+                <origin lang="slavic">твојој,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Без</origin>
+                <origin lang="slavic">имена</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="slavic">броја,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">дишеш</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">грудима</origin>
+                <origin lang="slavic">мојим,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">шапућеш</origin>
+                <origin lang="slavic">да</origin>
+                <origin lang="slavic">си</origin>
+                <origin lang="slavic">моја.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">склањаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш</origin>
+                <origin lang="slavic">али</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">скланњаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Да</origin>
+                <origin lang="slavic">сам</origin>
+                <origin lang="slavic">песма</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">уснама</origin>
+                <origin lang="slavic">твојим,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Без</origin>
+                <origin lang="slavic">имена</origin>
+                <origin lang="slavic">и</origin>
+                <origin lang="italian">риме,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">дишеш</origin>
+                <origin lang="slavic">на</origin>
+                <origin lang="slavic">рамену</origin>
+                <origin lang="slavic">моме,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">И</origin>
+                <origin lang="slavic">шапућеш</origin>
+                <origin lang="slavic">ми</origin>
+                <origin lang="slavic">име.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">склањаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш</origin>
+                <origin lang="slavic">али</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">скланњаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш.</origin>
+            </l>
+        </lg>
+
+        <lg>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">склањаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш</origin>
+                <origin lang="slavic">али</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">поглед</origin>
+                <origin lang="slavic">свој</origin>
+                <origin lang="slavic">од</origin>
+                <origin lang="slavic">мене</origin>
+                <origin lang="slavic">скланњаш,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Сањао</origin>
+                <origin lang="slavic">сам,</origin>
+            </l>
+            <l>
+                <origin lang="slavic">Како</origin>
+                <origin lang="slavic">ме</origin>
+                <origin lang="slavic">остављаш.</origin>
+            </l>
+        </lg>
+
+    </body>
+</poem>
